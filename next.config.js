@@ -2,7 +2,7 @@
 const nextConfig = {
     reactStrictMode: true,
     output: "export",
-    distDir: "docs",
+    distDir: "dist",
     assetPrefix: "./",
     basePath: '/news-site-next-static',
     images: {

@@ -7,7 +7,8 @@
     "build": "NODE_ENV=production next build",
     "start": "next start",
     "lint": "next lint",
-    "serve": "http-server ./docs -p 7002 -c-1 --cors"
+    "serve": "http-server ./docs -p 7002 -c-1 --cors",
+    "deploy": "next build && touch out/.nojekyll && git add out/ && git commit -m \"Deploy\" && git subtree push --prefix out origin gh-pages"
   },
   "dependencies": {
     "eslint": "8.39.0",
