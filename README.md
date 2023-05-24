@@ -32,6 +32,8 @@ npm run build
 
 Add, commit and push changes to the working branch.
 
+> **_NOTE:_**  `dist` folder changed to `docs`, to be able to publish to Github pages.
+
 ## Test steps
 
 The Speedometer test consists of navigating between the different pages of the news site. 

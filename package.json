@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "serve": "http-server ./dist -p 7002 -c-1 --cors"
+    "serve": "http-server ./docs -p 7002 -c-1 --cors"
   },
   "dependencies": {
     "eslint": "8.39.0",
