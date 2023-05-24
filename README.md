@@ -1,5 +1,7 @@
 # The Daily Broadcast
 
+preview: https://flashdesignory.github.io/news-site-next-static/
+
 > **_NOTE:_**  This is not a typical use-case for Next.js and we encourage developers to follow the [official documentation](https://vercel.com/docs) for recommended usage of the framework. 
 
 This app is a news-site built with [Next.js](https://nextjs.org/). It utilizes the [News Site Template](https://github.com/flashdesignory/news-site-template) as the basis for styling and functionality. 
