@@ -8,7 +8,7 @@
     "start": "next start",
     "lint": "next lint",
     "serve": "http-server ./docs -p 7002 -c-1 --cors",
-    "deploy": "next build && touch dist/.nojekyll && git add dist/ && git commit -m \"Deploy\" && git subtree push --prefix dist origin gh-pages"
+    "deploy": "npm run build && touch docs/.nojekyll && git add docs/ && git commit -m \"Deploy\" && git push"
   },
   "dependencies": {
     "eslint": "8.39.0",
