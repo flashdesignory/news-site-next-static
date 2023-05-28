@@ -7,7 +7,7 @@
     "build": "NODE_ENV=production next build && touch docs/.nojekyll",
     "start": "next start",
     "lint": "next lint",
-    "serve": "http-server ./docs -p 7002 -c-1 --cors"
+    "serve": "http-server ./docs -p 7002 -c-1 --cors -o"
   },
   "dependencies": {
     "classnames": "^2.3.2",
@@ -15,7 +15,7 @@
     "eslint-config-next": "13.3.4",
     "http-server": "^14.1.1",
     "install": "^0.13.0",
-    "news-site-css": "^1.6.2",
+    "news-site-css": "^1.6.3",
     "next": "13.3.4",
     "npm": "^9.6.7",
     "react": "18.2.0",
