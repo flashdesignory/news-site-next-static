@@ -9,7 +9,7 @@ import SocialIcons from "@/partials/icons/social-icons";
 import navbarStyles from "news-site-css/dist/navbar.module.css"
 import navStyles from "news-site-css/dist/nav.module.css"
 
-export default function Navbar({ openSitemap }) {
+export default function Navbar({ callback }) {
     const location = useLocation();
     const [isOpen, setIsOpen] = useState(false);
 
@@ -56,7 +56,7 @@ export default function Navbar({ openSitemap }) {
                     </span>
                 </div>
             </label>
-            <button className={navStyles["page-navigation-logo"]} id="home-link" onClick={openSitemap}>
+            <button className={navStyles["page-navigation-logo"]} id="home-link" onClick={callback}>
                 <LogoIcon />
             </button>
             <div className={navbarStyles["navbar-active-path"]}>{location.pathname.split("/")[1]}</div>
