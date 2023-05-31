@@ -4,26 +4,26 @@ import TwitterIcon from "@/assets/twitter-icon";
 
 import styles from "news-site-css/dist/icons-group.module.css";
 
-export default function SocialIcons() {
+export default function SocialIcons({ id }) {
     return (
         <div className={styles["icons-group"]}>
             <ul className={styles["icons-group-list"]}>
                 <li className={styles["icons-group-item"]}>
-                    <a href="#" id="footer-link-social-facebook">
+                    <a href="#" id={`${id}-facebook`}>
                         <div className={styles["group-icon"]}>
                             <FacebookIcon />
                         </div>
                     </a>
                 </li>
                 <li className={styles["icons-group-item"]}>
-                    <a href="#" id="footer-link-social-instagram">
+                    <a href="#" id={`${id}-instagram`}>
                         <div className={styles["group-icon"]}>
                             <InstagramIcon />
                         </div>
                     </a>
                 </li>
                 <li className={styles["icons-group-item"]}>
-                    <a href="#" id="footer-link-social-twitter">
+                    <a href="#" id={`${id}-twitter`}>
                         <div className={styles["group-icon"]}>
                             <TwitterIcon />
                         </div>

@@ -63,7 +63,7 @@ export default function Navbar({ callback }) {
             <div className={navbarStyles["navbar-content"]}>
                 <NavList id="navbar-navlist" callback={handleClick} />
                 <div className={navbarStyles["navbar-icons"]}>
-                    <SocialIcons />
+                    <SocialIcons id="navbar-social-icons"/>
                 </div>
             </div>
         </div>

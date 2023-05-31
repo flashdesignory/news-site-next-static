@@ -56,11 +56,11 @@ export default function Footer() {
                 </div>
                 <div className={styles["footer-row"]}>
                     <div className={styles["footer-column-left"]}>
-                        <SocialIcons />
+                        <SocialIcons id="footer-social-icons"/>
                     </div>
                     <div className={styles["footer-column-center"]}>© {new Date().getFullYear()} No Rights Reserved</div>
                     <div className={styles["footer-column-right"]}>
-                        <SettingsIcons onClick={openPortal} />
+                        <SettingsIcons onClick={openPortal} id="footer-settings-icons" />
                     </div>
                 </div>
             </footer>
