@@ -8,7 +8,7 @@ export default function App() {
         <>
             <Head>
                 <title>The Daily Broadcast</title>
-                <meta property="description" content="A news site developed with Next.js." key="description" />
+                <meta name="description" content="A news site developed with Next.js." key="description" />
             </Head>
             <Router>
                 <Routes>
