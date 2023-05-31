@@ -12,11 +12,9 @@ export default function Dialog({ onClose }) {
         setIsChecked(document.body.classList.contains("reduced-motion"));
     }, []);
 
-    function handleClick() {
-        onClose();
-    }
-
     function handleChange(e) {
+        setIsChecked(e.target.checked);
+    
         if (e.target.checked)
             document.body.classList.add("reduced-motion");
         else
@@ -25,7 +23,7 @@ export default function Dialog({ onClose }) {
 
     return (
         <div id="settings" className={classNames( styles.dialog, styles.open )}>
-            <button id="close-dialog-link" className={styles["dialog-close-button"]} onClick={handleClick}>
+            <button id="close-dialog-link" className={styles["dialog-close-button"]} onClick={onClose}>
                 <div className={classNames(
                     styles["dialog-close-button-icon"],
                     "animated-icon",
