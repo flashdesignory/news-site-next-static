@@ -10,7 +10,7 @@ import Footer from "../footer/footer";
 import { content } from "@/data/content";
 import { Message } from "@/components/message/message";
 
-import styles from "news-site-css/dist/layout.module.css"
+import styles from "news-site-css/dist/layout.module.css";
 
 export default function Layout({ children, id }) {
     const [showMessage, setShowMessage] = useState(false);

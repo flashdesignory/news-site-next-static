@@ -82,7 +82,7 @@ export default function ArticleContent({ type, content, display }) {
         return (
             <div className={classNames(
                 layoutStyles["grid-container"],
-                {[layoutStyles[display]] : display}
+                { [layoutStyles[display]]: display }
             )}>
                 {content.map((item) =>
                     <div key={uuidv4()} className={layoutStyles["grid-item"]}>
@@ -103,7 +103,7 @@ export default function ArticleContent({ type, content, display }) {
                 {content.map((item) =>
                     <li key={uuidv4()} className={styles["article-list-item"]}>
                         <ArticleImage imageClass={styles["article-image-container"]} image={item.image} />
-                        <ArticleText  textClass={classNames( styles["article-title"], "truncate-multiline", "truncate-multiline-3")} text={item.title} type="h3"/>
+                        <ArticleText textClass={classNames( styles["article-title"], "truncate-multiline", "truncate-multiline-3")} text={item.title} type="h3"/>
                     </li>
                 )}
             </ul>

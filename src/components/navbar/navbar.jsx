@@ -6,8 +6,8 @@ import NavList from "../navlist/navlist";
 import LogoIcon from "@/assets/logo-icon";
 import SocialIcons from "@/partials/icons/social-icons";
 
-import navbarStyles from "news-site-css/dist/navbar.module.css"
-import navStyles from "news-site-css/dist/nav.module.css"
+import navbarStyles from "news-site-css/dist/navbar.module.css";
+import navStyles from "news-site-css/dist/nav.module.css";
 
 export default function Navbar({ callback }) {
     const location = useLocation();

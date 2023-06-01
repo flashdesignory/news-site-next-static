@@ -1,4 +1,4 @@
-import styles from "news-site-css/dist/layout.module.css"
+import styles from "news-site-css/dist/layout.module.css";
 
 export default function Main({ children }) {
     return (

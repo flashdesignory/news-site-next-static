@@ -2,7 +2,7 @@ import { content } from "@/data/content";
 import Dropdown from "../dropdown/dropdown";
 import NavListItem from "./navlist-item";
 
-import styles from "news-site-css/dist/navbar.module.css"
+import styles from "news-site-css/dist/navbar.module.css";
 
 export default function NavList({ callback, id }) {
     const navItems = [];

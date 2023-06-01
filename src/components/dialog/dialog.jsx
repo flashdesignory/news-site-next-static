@@ -14,7 +14,7 @@ export default function Dialog({ onClose }) {
 
     function handleChange(e) {
         setIsChecked(e.target.checked);
-    
+
         if (e.target.checked)
             document.body.classList.add("reduced-motion");
         else
