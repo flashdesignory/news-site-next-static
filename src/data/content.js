@@ -1,20 +1,20 @@
 export const content = {
     home: {
-        name: "Front Page",
+        name: "الصفحة الأمامية",
         url: "/",
         priority: 0,
         notification: {
             name: "cookies",
-            title: "This website uses cookies 🍪",
-            description: "We use cookies to improve your experience on our site and to show you the most relevant content possible. To find out more, please read our privacy policy and our cookie policy.",
+            title: "هذاالموقعيستخدمالكوكيز 🍪",
+            description: "نحننستخدمملفاتتعريفالارتباطلتحسينتجربتكعلىموقعناوإظهارالمحتوىالأكثرأهميةالممكنةلمعرفةالمزيد ،يرجىقراءةسياسةالخصوصيةالخاصةبناوسياسةملفاتتعريفالارتباطالخاصةبنا",
             actions: [
                 {
-                    name: "Cancel",
+                    name: "يلغي",
                     priority: "secondary",
                     type: "reject"
                 },
                 {
-                    name: "Accept",
+                    name: "يقبل",
                     priority: "primary",
                     type: "accept"
                 }
@@ -23,143 +23,142 @@ export const content = {
         sections: [
             {
                 id: "content-frontpage-breaking-news",
-                name: "Breaking News",
+                name: "أخبار عاجلة",
                 articles: [
                     {
                         class: "columns-3-narrow",
-                        header: "Uncensored",
+                        header: "غير خاضعة للرقابة",
                         url: "#",
                         image: {
                             src: "placeholder_light.jpg",
-                            alt: "Placeholder",
+                            alt: "عنصر نائب",
                             width: "1280",
                             height: "720",
                         },
                         meta: {
-                            captions: "Photo taken by someone.",
+                            captions: "الصورة التي التقطها شخص ما.",
                         },
-                        title: "Nisl nunc mi ipsum faucibus vitae aliquet.",
+                        title: "الاستهداف الآن ، موز الحياة الحلق للغاية.",
                         type: "text",
                         content:
-                            "Velit dignissim sodales ut eu. Sed tempus urna et pharetra. Porttitor rhoncus dolor purus non. Elementum curabitur vitae nunc sed velit dignissim sodales.\n\nPretium fusce id velit ut tortor pretium viverra suspendisse potenti. In nulla posuere sollicitudin aliquam ultrices sagittis orci. Aliquam sem fringilla ut morbi tincidunt augue interdum velit. Nisl nunc mi ipsum faucibus vitae aliquet nec ullamcorper. Nunc mi ipsum faucibus vitae aliquet.",
+                            "الرجاء أعضاء كرة القدم كقوة كرة قدم.لكن الوقت هو جرة وجع.مجموعة غير من الفلفل الحار.عنصر الحياة الآن ولكن أعضاء كرة القدم في الهواء الطلق.في أي رعاية لسهم سريري.آخر ما تريد دعاية مطوري كرة القدم البيئية السلطة في بعض الأحيان.الاستهداف الآن ، موز الحياة الحلق للغاية أو .الآن مسح الحياة في الحلق.\n\nبشكل السفن ما يتم. جدول الإمداد أن جُل, هو دون اتفاقية باستحداث الدولارات. فقد في وشعار الأمريكي. اكتوبر بتطويق ليرتفع الى قد, غير بالرغم أفريقيا إستيلاء في. وحرمان باستخدام و لها, أن يعبأ بمباركة ولم, ان ومضى الجوي تحرّك حول.",
                     },
                     {
                         class: "columns-3-wide",
-                        header: "More top stories",
+                        header: "المزيد من القصص العليا",
                         url: "#",
                         image: {
                             src: "placeholder_light.jpg",
-                            alt: "Placeholder",
+                            alt: "عنصر نائب",
                             width: "1280",
                             height: "720",
                         },
                         meta: {
-                            captions: "Photo taken by someone.",
+                            captions: "الصورة التي التقطها شخص ما.",
                             tag: "breaking",
                         },
-                        title: "Justo eget magna fermentum iaculis eu non diam phasellus vestibulum.",
+                        title: "فقط بحاجة إلى كرة قدم رائعة لأعمال الاحماء ، ولا تتغذى على القطر.",
                         type: "text",
                         content:
-                            "Pulvinar etiam non quam lacus suspendisse faucibus interdum posuere. Arcu bibendum at varius vel pharetra vel turpis nunc. Eget dolor morbi non arcu risus quis varius. Ac odio tempor orci dapibus ultrices in.\n\nAmet tellus cras adipiscing enim eu turpis. Tortor pretium viverra suspendisse potenti nullam. Condimentum vitae sapien pellentesque habitant morbi. Ultrices in iaculis nunc sed augue lacus viverra vitae.",
+                            "لان وتنصيب والفلبين التبرعات إذ. المواد وهولندا، إذ كلّ, دار السيطرة والكساد لم. عدد لم اللا الثالث استعملت, ذات من ويتّفق معاملة. قائمة معارضة قبل ما. قد الجو وهولندا، فقد. أخذ إذ كانتا وبالرغم, يبق هو مرجع ليركز ويكيبيديا،. جُل الفترة الأرواح ثم, بشكل وصغار غير بل, قام عل وباءت المسرح الجنوبي.\n\nتعد وجهان ميناء غينيا مع, و تجهيز وقدّموا فقد. المسرح الأرواح إذ ضرب, و تلك تسمّى وقامت الأهداف. أسر ثم وسمّيت وتتحمّل الانجليزية. بل قدما حالية مكن, الآلاف المتحدة مع به،. فكانت يعادل أن بلا, تكبّد لتقليعة بريطانيا-فرنسا كان قد.",
                     },
                     {
                         class: "columns-3-narrow",
-                        header: "Crime & justice",
+                        header: "الجريمة والعدالة",
                         url: "#",
                         image: {
                             src: "placeholder_light.jpg",
-                            alt: "Placeholder",
+                            alt: "عنصر نائب",
                             width: "1280",
                             height: "720",
                         },
                         meta: {
-                            captions: "Photo taken by someone.",
+                            captions: "الصورة التي التقطها شخص ما.",
                         },
-                        title: "Eu sem integer vitae justo eget magna fermentum iaculis.",
+                        title: "سلطة كرة القدم حياة مجرد عملية الاحماء العظيمة.",
                         type: "text",
-                        content:
-                            "Volutpat commodo sed egestas egestas. Eget lorem dolor sed viverra ipsum nunc aliquet bibendum enim. Felis eget velit aliquet sagittis id consectetur purus. Lorem ipsum dolor sit amet. Ut diam quam nulla porttitor. Id volutpat lacus laoreet non.\n\n Odio morbi quis commodo odio aenean sed adipiscing diam donec. Quis eleifend quam adipiscing vitae proin sagittis nisl. Praesent semper feugiat nibh sed pulvinar proin gravida hendrerit lectus.",
+                        content: "هذا و كانتا مليارات الفرنسي, وبداية وبعدما فعل و. مليون وحرمان مما لم, الا مع تكبّد سبتمبر, جنوب قِبل إجلاء بـ عرض. إبّان مكثّفة واقتصار بعد أن, و ذلك غينيا تكتيكاً. ان أسر أفاق تعداد المسرح, و ببعض لتقليعة لان. في جُل بحشد الدّفاع, بل لهيمنة وتتحمّل بحث. عل وشعار أمدها قتيل، بين, تحت ان أجزاء وقامت المتحدة, دار إختار الأول أي. بـ أدنى وسمّيت الفرنسية شيء.\n\nولم واندونيسيا، تشيكوسلوفاكيا تم, ما ولم إنطلاق العالم الأثنان, وصل عالمية مشاركة الأوروبية، و. أي دأبوا الطريق الأثناء، حين. وانهاء مساعدة ومن ان, قبل و معارضة ألمانيا. به، مئات وباءت الربيع، في, دون اتّجة كُلفة الجنوب تم. أن هذه عليها اكتوبر العالمي. بحشد فبعد الدمج يبق من, ٣٠ أكثر ولاتّساع كان.",
                     },
                 ],
             },
             {
                 id: "content-frontpage-latest-news",
-                name: "Latest News",
+                name: "أحدث الأخبار",
                 articles: [
                     {
                         class: "columns-3-balanced",
-                        header: "Happening Now",
+                        header: "يحدث الآن",
                         type: "articles-list",
                         content: [
                             {
-                                title: "Lorem ipsum dolor sit amet.",
-                                content: "Molestie nunc non blandit massa enim nec. Ornare suspendisse sed nisi lacus sed viverra tellus in. Id consectetur purus ut faucibus. At auctor urna nunc id cursus metus. Eget aliquet nibh praesent tristique magna. Morbi tristique senectus et netus et malesuada fames.",
+                                title: "لوريم الجزر جدا.",
+                                content: "كانتا فرنسية استبدال أم فصل, أخر إذ الأراضي باستحداث. تلك أن استبدال لبلجيكا،, كل لكل وسوء الوزراء, وقام وجهان مساعدة وصل كل. كل فكان سياسة أساسي بعض, حيث أم الأخذ الشمل العسكري, ولم في هناك الآلاف. الا السبب الصفحات أم, لم خلاف ٢٠٠٤ عرض. للمجهود الأوربيين بريطانيا-فرنسا بحث قد, حتى لغزو اليها الإقتصادية إذ, وبغطاء الضروري استبدال إذ لكل. و دول دفّة الحرة للجزر, ضرب غرّة، المبرمة ثم, بالرّد البرية الأعمال ٣٠ حيث.",
                             },
                             {
-                                title: "Consectetur adipiscing elit.",
-                                content: "Sit amet consectetur adipiscing elit ut aliquam purus sit. Consequat nisl vel pretium lectus quam. Sagittis id consectetur purus ut faucibus pulvinar elementum integer enim. Nec sagittis aliquam malesuada bibendum arcu.",
+                                title: "إجراءات المراقبة المحسنة.",
+                                content: "تحت وبداية عالمية مسؤولية بل, بشرية نتيجة البولندي عن به،, ومضى الإنزال أسر بل. والكوري الخارجية ما أخذ, ٣٠ للصين أفريقيا ذلك. لكل تم وحتّى بلديهما. بالعمل بتطويق باستحداث أسر إذ. أضف عل الإثنان والفلبين, لدحر بتحدّي وفنلندا وتم ما, والنفيس العمليات الإكتفاء ثم جعل.",
                             },
                             {
-                                title: "Sed do eiusmod tempor incididunt.",
-                                content: "Pulvinar neque laoreet suspendisse interdum consectetur libero id faucibus nisl. Pulvinar elementum integer enim neque volutpat ac. Lorem donec massa sapien faucibus.",
-                            },
-                        ],
-                    },
-                    {
-                        class: "columns-3-balanced",
-                        header: "Noteworthy",
-                        image: {
-                            src: "placeholder_light.jpg",
-                            alt: "Placeholder",
-                            width: "1280",
-                            height: "720",
-                        },
-                        meta: {
-                            captions: "Photo taken by someone.",
-                        },
-                        title: "Augue neque gravida in fermentum et sollicitudin ac orci.",
-                        type: "list",
-                        content: [
-                            {
-                                content: "Odio morbi quis commodo odio aenean sed adipiscing diam donec.",
-                            },
-                            {
-                                content: "Consequat semper viverra nam libero justo laoreet sit.",
-                            },
-                            {
-                                content: "Risus ultricies tristique nulla aliquet enim tortor at auctor.",
-                            },
-                            {
-                                content: "Diam vulputate ut pharetra sit amet aliquam id diam maecenas.",
+                                title: "لكنني سأكون في.",
+                                content: "ماذا باستخدام لم أما, مع لمّ بقسوة المشتّتون. يكن أن وعُرفت والإتحاد. ولاتّساع الرئيسية ما ذلك. كلا ترتيب لعملة لم, الضغوط محاولات استراليا، هو ضرب. الأسيوي, محاولات الباهضة واندونيسيا، مع جعل. عن بعد فقامت الخاسر التخطيط. يكن بهيئة أسابيع ولاتّساع",
                             },
                         ],
                     },
                     {
                         class: "columns-3-balanced",
-                        header: "Around the Globe",
+                        header: "جدير بالملاحظة",
                         image: {
                             src: "placeholder_light.jpg",
-                            alt: "Placeholder",
+                            alt: "عنصر نائب",
                             width: "1280",
                             height: "720",
                         },
                         meta: {
-                            captions: "Photo taken by someone.",
+                            captions: "الصورة التي التقطها شخص ما.",
                         },
-                        title: "Volutpat est velit egestas dui id ornare arcu.",
+                        title: "الدعاية أو الحامل في الاحماء والرعاية والسريرية.",
                         type: "list",
                         content: [
                             {
-                                content: "Nibh mauris cursus mattis molestie. Varius vel pharetra vel turpis nunc eget lorem dolor.",
+                                content: "معقل الواقعة عن غير, قد ومن صفحة تسمّى الرئيسية.",
                             },
                             {
-                                content: "Turpis egestas maecenas pharetra convallis posuere morbi leo urna molestie.",
+                                content: "هو. بعض بقعة قدما عل, جُل دفّة بتخصيص قد. انه تزامناً لتقليعة ٣٠, إذ أثره، أراضي بالجانب فعل, إذ قام الذود مليون البرية.",
                             },
                             {
-                                content: "Enim blandit volutpat maecenas volutpat blandit aliquam etiam erat.",
+                                content: "عض بقعة قدما عل, جُل دفّة بتخصيص قد. انه تزامناً لتقليعة ٣٠, إذ أثره، أراضي بالجانب فعل, إذ قام الذود مليون",
                             },
                             {
-                                content: "Fermentum dui faucibus in ornare. In hac habitasse platea dictumst vestibulum rhoncus est pellentesque elit.",
+                                content: "وتم و بزمام المتّبعة الدولارات, ان أسابيع الثالث، الثقيلة تلك, دول ٣٠ وجزر مشارف الآلاف. شاسعة النفط ولم ٣٠, مما عل رئيس مسؤولية وقدّموا. أن قائمة",
+                            },
+                        ],
+                    },
+                    {
+                        class: "columns-3-balanced",
+                        header: "حول العالم",
+                        image: {
+                            src: "placeholder_light.jpg",
+                            alt: "عنصر نائب",
+                            width: "1280",
+                            height: "720",
+                        },
+                        meta: {
+                            captions: "الصورة التي التقطها شخص ما.",
+                        },
+                        title: "عطلة نهاية الأسبوع هي فقر معرف DUI يزين الكحول.",
+                        type: "list",
+                        content: [
+                            {
+                                content: "الخاصّة حدى, أم شاسعة غرّة، لها. بل وشعار مواقعها أضف, وشعار فرنسية المسرح حين بـ. الى الوزراء الشّعبين كل. بعض هاربر بتخصيص بمباركة بل, عل جُل وقبل قدما مسارح",
+                            },
+                            {
+                                content: " أراض بالحرب الحيلولة بعض ثم, هو أسيا ضمنها فعل. قتيل، والنفيس غير بـ, هامش شواطيء الإتحاد ثم حدى, أي قبل هناك الأولى.",
+                            },
+                            {
+                                content: "هو الفترة وفرنسا لليابان بحق. الآخر الإنزال ولاتّساع ثم حتى. أخر ما بسبب تصرّف مشاركة, كل حقول بوابة طوكيو ضرب, مرمى وزارة السبب دنو ثم. يعبأ القوى الاندونيسية لم يبق,",
+                            },
+                            {
+                                content: "بـ أخر غينيا بتخصيص, كلا هو إبّان كنقطة  أن. ما بعض يقوم العالمي المنتصر. واُسدل ولكسمبورغ بـ ضرب, تم الا يعبأ السيطرة, بالرّد محاولات جهة أم.",
                             },
                         ],
                     },
@@ -167,7 +166,7 @@ export const content = {
             },
             {
                 id: "content-frontpage-latest-media",
-                name: "Latest Media",
+                name: "أحدث الوسائط",
                 articles: [
                     {
                         class: "columns-1",
@@ -176,7 +175,7 @@ export const content = {
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -187,7 +186,7 @@ export const content = {
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -198,7 +197,7 @@ export const content = {
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -209,7 +208,7 @@ export const content = {
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -223,107 +222,107 @@ export const content = {
             },
             {
                 id: "content-frontpage-highlights",
-                name: "Highlights",
+                name: "يسلط الضوء",
                 articles: [
                     {
                         class: "columns-wrap",
-                        header: "Domestic Highlights",
+                        header: "النقاط البارزة المحلية",
                         type: "excerpt",
                         content: [
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
-                                text: "At urna condimentum mattis pellentesque id nibh tortor id. Urna cursus eget nunc scelerisque viverra mauris in. Pretium vulputate sapien nec sagittis aliquam malesuada bibendum arcu.",
+                                text: "يبق عن قدما حاملات, وفي عن هناك اعتداء والفلبين. كل تزامناً الجنوبي العالمية عدد, أعلنت بالمحور في دار. وبالرغم أفريقيا ان بال. أمام البولندي تشيكوسلوفاكيا ذلك هو. أساسي وصافرات إيو لم. وصل كردة وصافرات ما.",
                             },
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
-                                text: "Enim lobortis scelerisque fermentum dui faucibus in. Vitae semper quis lectus nulla at volutpat. In nisl nisi scelerisque eu ultrices vitae auctor.",
+                                text: "بـ مسارح والفلبين التقليدية وتم, لدحر الشرقية الوزراء عدد ثم. كردة وإيطالي الصفحات بل حيث, بـ بحث بقصف مسرح أخرى. مدن الله وأكثرها ومطالبة بل, زهاء سقوط الأولية قد وصل, يقوم الصفحة مكن ٣٠. جديدة اكتوبر ان لها, تم الا بقصف لكون. قد اوروبا الخارجية عرض. بين كل وترك أمّا وسمّيت.",
                             },
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
-                                text: "Lorem donec massa sapien faucibus et molestie ac feugiat. Quis varius quam quisque id diam vel. Ut tristique et egestas quis ipsum suspendisse. Fermentum posuere urna nec tincidunt praesent semper feugiat.",
+                                text: "لكل كُلفة حادثة كل, ما أراض حادثة التنازلي به،. الدمج الساحة تم مما, بشرية إعادة قد الى, به، جمعت بمباركة ما. وفي في مارد تمهيد, كلا تم حلّت أمام مدينة, جعل و الأرواح واشتدّت. من وعلى الصفحات حيث. فعل وصغار الشرقية المزيفة أن.",
                             },
                         ],
                     },
                     {
                         class: "columns-wrap",
-                        header: "Global Highlights",
+                        header: "النقاط البارزة العالمية",
                         type: "excerpt",
                         content: [
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
-                                text: "Augue eget arcu dictum varius duis at consectetur. Ornare arcu dui vivamus arcu felis bibendum ut. Magna eget est lorem ipsum dolor sit amet. Tincidunt nunc pulvinar sapien et ligula ullamcorper malesuada proin.",
+                                text: "كلّ أمّا الجو الصينية بل. إذ كما جسيمة اليابان، المتساقطة،, حين أملاً يتمكن ثم, لم تحت ميناء بالرغم. عرض للسيطرة لإنعدام من. ان القوى انتباه الإحتفاظ حيث, لان تم احداث الفترة الخاطفة, أوزار اوروبا والديون أضف ان. في منتصف والفلبين جُل, هذا عل الآخر بالحرب, بقعة مارد وسمّيت أضف ثم. مدينة المتاخمة بريطانيا-فرنسا تحت بل, تم كما بالإنزال بالولايات.",
                             },
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
-                                text: "Leo urna molestie at elementum eu facilisis sed. Est lorem ipsum dolor sit amet consectetur adipiscing elit pellentesque.",
+                                text: "كان إحتار اليها السادس و, تم هذا بوابة التقليدية, الحيلولة المتّبعة الولايات ٣٠ دول. يبق جنوب وقرى والحزب أن, ٣٠ الله دأبوا الضروري عدم, وتم رجوعهم وسمّيت المتساقطة، ٣٠. عل لمّ الدول بتحدّي, عجّل أعلنت ابتدعها تم يتم. ما الأخذ المتساقطة، كما. جنوب أكثر انه هو, عل وبعد وسوء يكن.",
                             },
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
-                                text: "Nisi scelerisque eu ultrices vitae auctor. Quis risus sed vulputate odio. Pellentesque sit amet porttitor eget dolor morbi non. Nullam eget felis eget nunc lobortis mattis aliquam.",
+                                text: "فعل أي كثيرة والروسية, عن خطّة إحكام فرنسية وصل. هذه ٣٠ إعمار إبّان الانجليزية. مسرح عملية حول أم, كل قِبل سياسة مدينة لكل. تم يبق حقول تاريخ للجزر. أن كانت الأوروبية، بعض, عل بعض هامش لفشل بشرية, غينيا الأحمر السادس أي حدى. إذ وتم ثانية تجهيز, ٠٨٠٤ بقسوة عالمية حين في, بالحرب بأضرار مع كما.",
                             },
                         ],
                     },
                     {
                         class: "columns-wrap",
-                        header: "Local Highlights",
+                        header: "أبرز الأحداث المحلية",
                         type: "excerpt",
                         content: [
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
-                                text: "Mattis ullamcorper velit sed ullamcorper. Orci ac auctor augue mauris augue neque. Condimentum mattis pellentesque id nibh tortor.",
+                                text: "ان لليابان الحكومة يبق. كل أثره، المضي الأهداف كلّ, أما تم غريمه الشمل. أم أهّل اوروبا شموليةً نفس, للصين ارتكبها بال تم. من كان المسرح يتعلّق, العالمي اتفاقية يكن تم. حيث عملية النفط الحدود لم. وأزيز وتزويده أي فعل, ٣٠ ومن احداث يتبقّ الخطّة. الجو تنفّس المتحدة في قام, حول قد سقوط للسيطرة والنرويج.",
                             },
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
-                                text: "Fermentum odio eu feugiat pretium. Urna nec tincidunt praesent semper feugiat nibh sed. Adipiscing elit ut aliquam purus sit.",
+                                text: "قبل للمجهود بمباركة ٣٠, ثم ولم الذود الساحة إستيلاء. عدد و بالعمل وبالرغم الكونجرس, هذه المحيط استطاعوا التقليدية ان. دار الشهير وفرنسا بالولايات في. ثم كلا كردة فقامت الفرنسي, تم نفس الأمم الأولى الساحل. تكبّد الصينية وقد بل, ثم إحتار إستعمل التخطيط جهة, ذات أن تنفّس فكانت الشتاء،. الوراء الشرقية ماليزيا، قد فقد, يعبأ مشاركة الإنزال أن بعد.",
                             },
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
-                                text: "Vitae tempus quam pellentesque nec nam aliquam sem et. Fringilla urna porttitor rhoncus dolor purus non enim praesent elementum. Congue nisi vitae suscipit tellus mauris a diam maecenas. Quis varius quam quisque id diam.",
+                                text: "جهة التنازلي المتساقطة، ان, به، حقول ويتّفق معارضة إذ. أم كلا الخاطفة الشهيرة الأولية. أوروبا المجتمع وقد مع, تاريخ العالمية المشتّتون ما وتم, فسقط شدّت ان دول. يذكر تكبّد من قام. شمال دأبوا الكونجرس ٣٠ مدن, لكل مع شمال لدحر دأبوا. هذا و تعديل تجهيز الوزراء, ما يذكر لغزو دون.",
                             },
                         ],
                     },
@@ -331,7 +330,7 @@ export const content = {
             },
             {
                 id: "content-frontpage-top-stories",
-                name: "Top Stories",
+                name: "أهم الأخبار",
                 articles: [
                     {
                         class: "columns-1",
@@ -341,66 +340,66 @@ export const content = {
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
                                 meta: {
                                     tag: "new"
                                 },
-                                text: "Ut venenatis tellus in metus vulputate eu scelerisque. In nulla posuere sollicitudin aliquam ultrices sagittis orci a scelerisque. Mattis nunc sed blandit libero volutpat sed cras ornare arcu. Scelerisque eu ultrices vitae auctor eu augue. Libero justo laoreet sit amet cursus sit amet.",
+                                text: "ما عشوائية سنغافورة غير, أي جهة الجنوب ابتدعها, بـ الا بزمام فشكّل يونيو. كل كان أمام وأزيز الحيلولة, دفّة الإمتعاض واندونيسيا، وتم ان. الأرض الحكومة المعاهدات مع أخذ. قد لفشل ابتدعها لان, لم يكن واعتلاء وبلجيكا،. في فعل يطول أسيا وأزيز, ان تعديل وزارة هذه.",
                                 url: "#"
                             },
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
                                 meta: {
                                     tag: "new"
                                 },
-                                text: "Non consectetur a erat nam. Blandit massa enim nec dui nunc mattis enim ut. Tempor orci eu lobortis elementum nibh tellus molestie nunc. Facilisi etiam dignissim diam quis enim lobortis scelerisque fermentum dui.",
+                                text: "عجّل أراض الواقعة عدد في, طوكيو الأراضي التخطيط الا إذ. قبل ان ليركز مقاطعة. عدم اتّجة الأجل معزّزة ثم. نهاية الإتحاد ومن بـ, تحت أم الشرق، الأثنان الإمتعاض. أم مشروط بمعارضة والنرويج بحق, ان المضي بمعارضة حين. و أمام العظمى عدم, عل فصل نقطة حكومة, قامت تطوير الساحلية كل تلك.",
                                 url: "#"
                             },
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
                                 meta: {
                                     tag: "new"
                                 },
-                                text: "Eget est lorem ipsum dolor sit amet. Vivamus at augue eget arcu dictum varius duis at consectetur. Scelerisque fermentum dui faucibus in ornare quam viverra orci sagittis. Vitae sapien pellentesque habitant morbi tristique senectus et.",
+                                text: "تم خلاف الأسيوي أسر, ضرب ووصف علاقة استبدال عل, وترك إعلان ما أما. التكاليف المشتّتون كل هذا, بعد وباءت الضغوط الثالث قد, و شعار وبريطانيا حدى. فصل ما لفشل جديداً, قد أمام استرجاع بحث. عن مدن تُصب ووصف, تلك أي واُسدل ارتكبها تشيكوسلوفاكيا, ذلك الحرة لمحاكم الأهداف تم. ديسمبر الخاصّة الإثنان أسر أم, يبق ألمّ بالمطالبة أن, تشكيل إتفاقية تلك ثم. و عليها ممثّلة مكثّفة أسر.",
                                 url: "#"
                             },
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
                                 meta: {
                                     tag: "new"
                                 },
-                                text: "Diam in arcu cursus euismod quis viverra nibh cras pulvinar. Est velit egestas dui id ornare arcu odio ut sem. A cras semper auctor neque. Ipsum suspendisse ultrices gravida dictum fusce ut.",
+                                text: "عدد لعدم وفرنسا أي, وتزويده الأرضية يتم هو. جورج مسارح يكن ٣٠. نفس أملاً الشرقي بالولايات مع, تصرّف فرنسية مع الى, ثم الا .",
                                 url: "#"
                             },
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
                                 meta: {
                                     tag: "new"
                                 },
-                                text: "Tellus integer feugiat scelerisque varius morbi enim. Diam donec adipiscing tristique risus nec feugiat in fermentum. Volutpat odio facilisis mauris sit amet massa vitae. Tempor orci dapibus ultrices in iaculis nunc sed. Aenean vel elit scelerisque mauris pellentesque pulvinar.",
+                                text: "عجّل الشطر النزاع ثم دنو, ومن عل لفرنسا الباهضة. مئات الأجل واشتدّت بحق كل, غضون وعُرفت نفس أي. انه وحتى أوزار والقرى قد. الخاصّة الأوروبية، من بها, مسرح علاقة الرئيسية ان حين, أن العاصمة ويكيبيديا الا.",
                                 url: "#"
                             },
                         ],
@@ -409,62 +408,62 @@ export const content = {
             },
             {
                 id: "content-frontpage-international",
-                name: "International",
+                name: "دولي",
                 articles: [
                     {
                         class: "columns-3-balanced",
-                        header: "Europe",
+                        header: "أوروبا",
                         type: "articles-list",
                         content: [
                             {
-                                title: "Commodo elit at imperdiet dui accumsan sit amet. Habitasse platea dictumst vestibulum rhoncus.",
-                                content: "Orci ac auctor augue mauris augue neque gravida. Lectus magna fringilla urna porttitor rhoncus dolor purus non enim. Sagittis aliquam malesuada bibendum arcu vitae. Pellentesque habitant morbi tristique senectus et netus. Etiam erat velit scelerisque in dictum non consectetur a.",
+                                title: "يرجى المطور في تمويل الجزر طبقة وثيقة الهوية الوحيدة.أنواع نطاق تصنيع الشارع.",
+                                content: "الا ان يقوم المشترك بالسيطرة, ثم تسبب وإقامة تغييرات هذا. كان أوسع يتبقّ الكونجرس أي, أسر وجزر بهيئة الأولى كل. أم العناد يتعلّق الخاصّة وصل, بقصف هاربر عدد أن. أي لعدم انتهت الاندونيسية وقد, يتم هو وبدون أملاً الخاطفة. يطول المشترك أن كما. كما وحتّى وقدّموا الوزراء مع, بـ النفط للإتحاد ومن.",
                             },
                             {
-                                title: "Netus et malesuada fames ac turpis egestas maecenas pharetra.",
-                                content: "Facilisis leo vel fringilla est. Turpis tincidunt id aliquet risus feugiat in ante metus. Viverra ipsum nunc aliquet bibendum enim facilisis. Tristique et egestas quis ipsum suspendisse ultrices gravida dictum. Tristique senectus et netus et malesuada fames ac turpis egestas.",
+                                title: "هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز",
+                                content: "ببعض الوراء بـ حول. فصل هو الأول مهمّات محاولات. حتى عل إحكام الوراء, أن حول بلاده الشمل المدن, وقام شاسعة واستمرت ٣٠ قبل. بحث بتطويق بمباركة الشتوية ما, عُقر معزّزة أن حيث. مع ضرب حاول جسيمة علاقة. حدى في تعداد الآخر. أسر تم أعلنت القادة, تم لها معاملة الهادي.",
                             },
                             {
-                                title: "Ornare suspendisse sed nisi lacus sed viverra tellus in.",
-                                content: "Dui vivamus arcu felis bibendum. Purus ut faucibus pulvinar elementum integer enim neque volutpat ac. Auctor eu augue ut lectus arcu bibendum. Diam volutpat commodo sed egestas egestas fringilla phasellus.",
+                                title: "ولكن إذا كانت حمامات كرة القدم ، ولكن البحيرة ، ولكن الكاريكاتير في.",
+                                content: "حول عل الجنود الشتاء،, لها عليها بتخصيص الجنرال كل. نتيجة الشمل كل لها. الا بـ وبدون الإنزال بالمطالبة, حول لم هناك الإمداد. تحرّك بالعمل هو بين, عل على وسوء بزمام اليها. ٣٠ جعل تعداد وباءت وقوعها،, نتيجة أعلنت مشاركة بها تم, احداث والديون قام أي.",
                             },
                         ],
                     },
                     {
                         class: "columns-3-balanced",
-                        header: "South America",
+                        header: "أمريكا الجنوبية",
                         type: "articles-list",
                         content: [
                             {
-                                title: "Augue eget arcu dictum varius duis.",
-                                content: "Commodo ullamcorper a lacus vestibulum sed arcu non. Nullam ac tortor vitae purus faucibus ornare suspendisse sed. Id interdum velit laoreet id donec ultrices tincidunt arcu non.",
+                                title: "كانت دعاية الحاجة القوس متنوعة الواجب المنزلي.",
+                                content: "وفي مكّن للسيطرة الإطلاق من. في وصل جسيمة المتحدة التجارية, عن ضرب الإمداد ولكسمبورغ, هو بالفشل والعتاد أضف. فبعد وعُرفت إنطلاق في ومن. وترك وبولندا بعض مع, للسيطرة العسكري الأوروبي مدن أن. بـ الجنود الأثناء، لبولندا، كان, مكن عن تحرّكت استطاعوا.",
                             },
                             {
-                                title: "Fringilla ut morbi tincidunt augue interdum velit euismod in pellentesque.",
-                                content: "Turpis egestas maecenas pharetra convallis posuere morbi leo. Odio pellentesque diam volutpat commodo. Ornare massa eget egestas purus viverra accumsan in nisl nisi. Tellus integer feugiat scelerisque varius morbi enim nunc. Erat velit scelerisque in dictum non consectetur.",
+                                title: "طريقة لوريم إيبسوم لأنها تعطي توزيعاَ طبيعياَ -إلى حد ما- للأحرف عوضاً عن استخدام هنا يوجد",
+                                content: "دون ثم بداية حادثة ويكيبيديا. أما لهيمنة استبدال التكاليف عل, أي تحت جدول وبداية اتفاقية. عرض ما تمهيد مسارح وحلفاؤها, ان أثره، فشكّل مدن. صفحة لغات مشارف بل مدن, دون تم الجنود المبرمة. الذود بأضرار الأهداف انه أي, بالعمل وصافرات ومن تم, مئات مشروط بال من.",
                             },
                             {
-                                title: "Mi bibendum neque egestas congue quisque.",
-                                content: "Sapien eget mi proin sed libero. Adipiscing elit duis tristique sollicitudin nibh sit. Faucibus scelerisque eleifend donec pretium. Ac tortor dignissim convallis aenean et tortor at risus.",
+                                title: "يشرب أو تريد كل منها.",
+                                content: "فعل يونيو انتصارهم في, و أخر تعداد أوزار ليرتفع. لم حتى جسيمة وسمّيت والإتحاد. بفرض الصفحات لم لان, جسيمة السفن يكن كل. أن الفترة بريطانيا مدن.",
                             },
                         ],
                     },
                     {
                         class: "columns-3-balanced",
-                        header: "Asia",
+                        header: "آسيا",
                         type: "articles-list",
                         content: [
                             {
-                                title: "Sodales ut etiam sit amet nisl purus in. Enim sed faucibus turpis in eu mi bibendum neque.",
-                                content: "Tortor id aliquet lectus proin. Pulvinar elementum integer enim neque volutpat ac tincidunt. Auctor eu augue ut lectus arcu bibendum at varius. Congue mauris rhoncus aenean vel elit scelerisque mauris.",
+                                title: "قد يكون الأعضاء أيضًا لاعبيك الفلفل الحار.على سبيل المثال ، ولكن حلق القبيح في كرة القدم ، مشروب بلدي ، ولا.",
+                                content: "الشمال سليمان، ان دول, قد ومضى وقبل عشوائية لمّ. البرية والعتاد وصل من, أن شيء وبدأت حالية. أم كما واحدة اتفاقية, أي بحق أراضي واقتصار. ثم وجزر تكاليف عشوائية الى, عل ولم سكان قائمة. ان حين رئيس مرمى وترك. نفس إعلان واتّجه سنغافورة ٣٠, المبرمة ماليزيا، قد إيو. بـ وقد وجزر قادة لبولندا،, تحت عل الثقيل الربيع،.",
                             },
                             {
-                                title: "haretra convallis posuere morbi leo urna.",
-                                content: "Egestas diam in arcu cursus euismod quis. Ac turpis egestas integer eget aliquet nibh praesent tristique magna. Molestie at elementum eu facilisis sed odio morbi quis. Lectus arcu bibendum at varius. Eros in cursus turpis massa tincidunt dui.",
+                                title: "وادي هاريترا لتعيين وعاء الأسد الذي يرجع تاريخه.",
+                                content: "حتى لم جورج عليها استدعى, جديدة وباءت الساحة ان كما, يبق عن فبعد والنفيس الاندونيسية. يكن بـ يتبقّ تغييرات, عدد بسبب علاقة الدّفاع إذ. أن رجوعهم اسبوعين جعل, أكثر مقاومة في بال. و مساعدة وتزويده العالمية لان, بحث خيار مساعدة عل, من بها بالفشل وإعلان مواقعها. سقطت مساعدة بين أي, أعلنت استرجاع بعد ثم.",
                             },
                             {
-                                title: "At varius vel pharetra vel turpis nunc eget lorem dolor. ",
-                                content: "Proin sagittis nisl rhoncus mattis rhoncus urna neque viverra. Lacus sed viverra tellus in. Sed nisi lacus sed viverra tellus in. Venenatis cras sed felis eget velit aliquet sagittis id consectetur.",
+                                title: "في مختلف أو جعبة أو قبيح بحاجة الآن إلى ألم لوريم.",
+                                content: "رجوعهم الجنوب أي بحث. بل مرجع وصغار شيء, بسبب جديدة دول بل. ان لإعادة المجتمع وايرلندا بال, مكن و يعبأ محاولات ومطالبة. جهة أم مايو سياسة الدمج. حول سبتمبر وبغطاء ومحاولة بل, فعل أي بلديهما لتقليعة للأراضي.",
                             },
                         ],
                     },
@@ -472,130 +471,130 @@ export const content = {
             },
             {
                 id: "content-frontpage-featured",
-                name: "Featured",
+                name: "متميز",
                 articles: [
                     {
                         class: "columns-3-balanced",
-                        header: "Washington",
+                        header: "واشنطن",
                         image: {
                             src: "placeholder_light.jpg",
-                            alt: "Placeholder",
+                            alt: "عنصر نائب",
                             width: "1280",
                             height: "720",
                         },
                         meta: {
-                            captions: "Photo taken by someone.",
+                            captions: "الصورة التي التقطها شخص ما.",
                         },
-                        title: "Et netus et malesuada fames ac.",
+                        title: "عشوائي أخذتها من نص، لتكوّن كتيّب بمثابة دليل أو مرجع شكلي لهذه الأحرف. خمسة قرون من",
                         type: "list",
                         display: "bullets",
                         content: [
                             {
-                                content: "Vulputate dignissim suspendisse in est ante.",
+                                content: "تدليك كرة القدم الجذاب في الجبهة.",
                                 url: "#",
                             },
                             {
-                                content: "Blandit turpis cursus in hac habitasse platea dictumst.",
+                                content: "اضبط الجري القبيح في هذا الشارع العشور.",
                                 url: "#",
                             },
                             {
-                                content: "Sed nisi lacus sed viverra tellus in hac.",
+                                content: "وفي مكّن للسيطرة الإطلاق من. في وصل جسيمة المتحدة التجارية, عن",
                                 url: "#",
                             },
                             {
-                                content: "Euismod in pellentesque massa placerat duis ultricies lacus sed.",
+                                content: "الأداء على مجموعة الموجات فوق الصوتية للواجبات العقارية التغذوية حتى الآن.",
                                 url: "#",
                             },
                             {
-                                content: "Quam lacus suspendisse faucibus interdum posuere.",
+                                content: "من تصحيح فكي التدليك في بعض الأحيان.",
                                 url: "#",
                             },
                             {
-                                content: "Sit amet mattis vulputate enim nulla aliquet porttitor lacus.",
+                                content: "الكثير من الضعف من أجل عدم وجود ضغوط طيران الموز.",
                                 url: "#",
                             },
                         ],
                     },
                     {
                         class: "columns-3-balanced",
-                        header: "New York",
+                        header: "نيويورك",
                         image: {
                             src: "placeholder_light.jpg",
-                            alt: "Placeholder",
+                            alt: "عنصر نائب",
                             width: "1280",
                             height: "720",
                         },
                         meta: {
-                            captions: "Photo taken by someone.",
+                            captions: "الصورة التي التقطها شخص ما.",
                         },
-                        title: "Commodo quis imperdiet massa tincidunt nunc pulvinar sapien et ligula.",
+                        title: "الزمن لم تقضي على هذا النص، بل انه حتى صار مستخدماً وبشكله الأصلي في الطباعة والتنضيد",
                         type: "list",
                         display: "bullets",
                         content: [
                             {
-                                content: "Id semper risus in hendrerit gravida rutrum quisque non.",
+                                content: "هذه دائمًا ابتسامة في المكياج حامل المكتب ليس الجميع كذلك.",
                                 url: "#",
                             },
                             {
-                                content: "Sit amet est placerat in egestas erat imperdiet sed euismod.",
+                                content: "وعُرفت إنطلاق في ومن. وترك وبولندا بعض مع, للسيطرة العسكر",
                                 url: "#",
                             },
                             {
-                                content: "Aliquam malesuada bibendum arcu vitae elementum curabitur vitae nunc.",
+                                content: "دون ثم بداية حادثة ويكيبيديا. أما لهيمنة استبدال التكاليف عل, أي تحت ",
                                 url: "#",
                             },
                             {
-                                content: "get gravida cum sociis natoque. Bibendum ut tristique et egestas.",
+                                content: "فعل يونيو انتصارهم في, و أخر تعداد أوزار ليرتفع. لم حتى جسي",
                                 url: "#",
                             },
                             {
-                                content: "Mauris cursus mattis molestie a iaculis at erat.",
+                                content: "الشمال سليمان، ان دول, قد ومضى وقبل عشوائية لمّ. البرية والعتاد وصل",
                                 url: "#",
                             },
                             {
-                                content: "Sit amet massa vitae tortor condimentum lacinia.",
+                                content: "الكثير من الكتلة من صلصة ماكرو الحياة.",
                                 url: "#",
                             },
                         ],
                     },
                     {
                         class: "columns-3-balanced",
-                        header: "Los Angeles",
+                        header: "الملائكة",
                         image: {
                             src: "placeholder_light.jpg",
-                            alt: "Placeholder",
+                            alt: "عنصر نائب",
                             width: "1280",
                             height: "720",
                         },
                         meta: {
-                            captions: "Photo taken by someone.",
+                            captions: "الصورة التي التقطها شخص ما.",
                         },
-                        title: "Parturient montes nascetur ridiculus mus mauris.",
+                        title: "يولد المورس لتفوت الماوس.",
                         type: "list",
                         display: "bullets",
                         content: [
                             {
-                                content: "Mattis enim ut tellus elementum sagittis.",
+                                content: "ماتيس هو السخرية من الأسهم العناصر.",
                                 url: "#",
                             },
                             {
-                                content: "Sit amet venenatis urna cursus eget nunc scelerisque viverra mauris.",
+                                content: "الجزر المعقمة وعاء الجري تحتاج الآن كرتون الشوكولاتة موريس.",
                                 url: "#",
                             },
                             {
-                                content: "Mi bibendum neque egestas congue quisque egestas.",
+                                content: "حتى لم جورج عليها استدعى, جديدة و",
                                 url: "#",
                             },
                             {
-                                content: "Nunc scelerisque viverra mauris in aliquam.",
+                                content: "الآن كرتون الشوكولاتة موريس في بعض.",
                                 url: "#",
                             },
                             {
-                                content: "Egestas erat imperdiet sed euismod nisi porta lorem mollis aliquam.",
+                                content: "تريد التمويل ولكن الأداء ولكن بوابة لوريم لينة بعض.",
                                 url: "#",
                             },
                             {
-                                content: "Phasellus egestas tellus rutrum tellus pellentesque eu tincidunt tortor aliquam.",
+                                content: "المبرمة ماليزيا، قد إيو. بـ وقد وجزر قادة لبولندا،, تحت عل الثقيل الربيع،.",
                                 url: "#",
                             },
                         ],
@@ -604,70 +603,70 @@ export const content = {
             },
             {
                 id: "content-frontpage-underscored",
-                name: "Underscored",
+                name: "يؤكد",
                 articles: [
                     {
                         class: "columns-2-balanced",
-                        header: "This First",
+                        header: "هذا أولا",
                         type: "grid",
                         content: [
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
                                 meta: {
                                     tag: "new"
                                 },
-                                text: "Rhoncus urna neque viverra justo nec. Dis parturient montes nascetur ridiculus mus mauris vitae ultricies leo. Praesent semper feugiat nibh sed pulvinar proin gravida hendrerit lectus. Enim nunc faucibus a pellentesque sit amet. Est ullamcorper eget nulla facilisi.",
+                                text: "تصفح يقوم الشهير عدد و. و وتم بوابة تطوير. إيو قد لعدم يعادل, ذلك لدحر وتنامت كل, قام وسوء أملاً المشتّتون في. بعد يذكر نتيجة اليابان، كل, أحدث أطراف البولندي كان أن. ذات لهيمنة الحدود و, أسابيع الحدود اليابانية ان حتى. دون مارد أجزاء المؤلّفة ٣٠.",
                                 url: "#"
                             },
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
                                 meta: {
                                     tag: "new"
                                 },
-                                text: "Enim lobortis scelerisque fermentum dui faucibus in ornare quam. Iaculis urna id volutpat lacus laoreet non curabitur gravida. Non quam lacus suspendisse faucibus. Elit ullamcorper dignissim cras tincidunt lobortis feugiat vivamus at. Bibendum est ultricies integer quis auctor elit.",
+                                text: "وتم بقيادة الواقعة باستحداث ما, أي انه العدّ ممثّلة استدعى. إيو ان وقرى لغزو, فكانت الشطر شموليةً يكن لم. دفّة الأخذ جهة ٣٠, مع بسبب بالفشل حين. أن والحزب والمانيا ضرب, لدحر التي إذ أخر, بين لم وقرى بهيئة. وجزر بالفشل الأوروبيّون قام أي, بل والتي التخطيط تحت.",
                                 url: "#"
                             }
                         ]
                     },
                     {
                         class: "columns-2-balanced",
-                        header: "This Second",
+                        header: "هذا الثاني",
                         type: "grid",
                         content: [
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
                                 meta: {
                                     tag: "breaking"
                                 },
-                                text: "Faucibus scelerisque eleifend donec pretium vulputate. Lacus luctus accumsan tortor posuere. Nulla facilisi nullam vehicula ipsum a arcu cursus vitae. Viverra aliquet eget sit amet tellus cras adipiscing. Congue quisque egestas diam in arcu cursus.",
+                                text: "وعلى أفاق مهمّات من أما. أخذ ضمنها انتهت أفريقيا ان. في ا استمرار الدنمارك ذات, ما بينما معزّزة الا. قِبل وباءت والعتاد ان فعل, ٣٠ ومن وقبل بتخصيص. على حصدت ليبين تكاليف أم, بلا من حكومة الشرق،, لان لإعادة الثقيلة في. بين وبعض حكومة إعادة من, جنوب النفط ٣٠ على.",
                                 url: "#"
                             },
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
                                 meta: {
                                     tag: "breaking"
                                 },
-                                text: "Cum sociis natoque penatibus et magnis dis parturient montes. Ut eu sem integer vitae justo eget magna fermentum iaculis. Amet venenatis urna cursus eget nunc scelerisque viverra. Quisque id diam vel quam elementum. Nulla facilisi cras fermentum odio eu feugiat pretium nibh.",
+                                text: "وتم عُقر النفط الرئيسية عن, ضمنها ولكسمبورغ وبريطانيا ثم مما. ولم أم أكثر وبالتحديد،, عرض الحرة الطرفين اتفاقية إذ, لغزو التجارية التقليدية عل جعل. أي مدن غينيا وسمّيت, إبّان فرنسا أي فقد, على مع سليمان، والإتحاد بريطانيا-فرنسا. أي الإثنان العمليات جُل, ان سابق معاملة حيث. سكان تشكيل بقيادة هو دنو.",
                                 url: "#"
                             }
                         ]
@@ -676,107 +675,107 @@ export const content = {
             },
             {
                 id: "content-frontpage-happening-now",
-                name: "Happening Now",
+                name: "يحدث الآن",
                 articles: [
                     {
                         class: "columns-wrap",
-                        header: "Political",
+                        header: "سياسي",
                         type: "excerpt",
                         content: [
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
-                                text: "Cras semper auctor neque vitae tempus quam pellentesque. Consequat ac felis donec et odio pellentesque. Eu consequat ac felis donec et odio pellentesque diam volutpat. Suscipit tellus mauris a diam maecenas sed enim ut sem.",
+                                text: "كنقطة الانجليزية كل حين, ٣٠ الجنوبي ايطاليا، التغييرات انه, عل هذه إنطلاق البرية. هُزم الفرنسي الأمريكية ٣٠ عدد, دون ما منتصف أوروبا بالإنزال. ٣٠ تحرّك الفرنسي فصل, بل كما ا البولندي. نهاية بالمحور حدى إذ, إذ أوسع تجهيز الشمال ذات, قد بلا الحكومة الواقعة الكونجرس. أم فقد وبدون المحيط. ومن بل قدما الشرق، الأمريكي, ٣٠ أواخر تشكيل وانهاء على.",
                             },
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
-                                text: "Sed faucibus turpis in eu mi bibendum neque. Condimentum id venenatis a condimentum vitae sapien pellentesque habitant morbi. In iaculis nunc sed augue lacus viverra. Pellentesque nec nam aliquam sem et. Tellus mauris a diam maecenas sed.",
+                                text: "كل يعبأ بالرّد الولايات فعل, بلاده وباستثناء الإتفاقية قد على, أحكم لإعادة في تحت. جسيمة جديداً بالسيطرة ثم كان, بل يقوم وجهان واستمر وصل. ووصف واعتلاء و حيث, فقامت المحيط لتقليعة كان بـ. قدما جديداً إيطاليا بلا إذ, قد بأيدي الشرقي أسر. حول تم تحرير الثقيلة. تصرّف شاسعة مع عدم, أم العاصمة الشرقية المعاهدات به،.",
                             },
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
-                                text: "Mattis vulputate enim nulla aliquet. Ac tortor dignissim convallis aenean. Nulla posuere sollicitudin aliquam ultrices sagittis orci a scelerisque. Consequat ac felis donec et odio pellentesque diam. Lorem ipsum dolor sit amet consectetur adipiscing.",
+                                text: "ذات لم فكان فقامت والروسية. لمّ هُزم انتباه بل. دون مع لعدم ويتّفق المواد. كرسي اتّجة أطراف كلا من, بشرية وايرلندا كان ٣٠. ٣٠ وسفن قُدُماً الإيطالية بين, كل النفط يعادل هذا.",
                             },
                         ],
                     },
                     {
                         class: "columns-wrap",
-                        header: "Health",
+                        header: "صحة",
                         type: "excerpt",
                         content: [
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
-                                text: "Vitae tortor condimentum lacinia quis. Nisl nisi scelerisque eu ultrices vitae. Id velit ut tortor pretium viverra suspendisse potenti nullam. Viverra accumsan in nisl nisi scelerisque eu ultrices vitae.",
+                                text: "ما جُل هنا؟ وأكثرها, عن انه جزيرتي بالمطالبة. الله حقول كان في, بـ إيو ألمّ أخرى والمعدات, أخر بل تحرّك الضغوط والمانيا. ما سقوط نتيجة ويتّفق ومن. وفي ودول الواقعة ان, ٣٠ ذلك يذكر المتساقطة،, نفس و بقيادة بالحرب. بحث الأخذ وانهاء في, بالحرب وإيطالي لكل من.",
                             },
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
-                                text: "Ullamcorper malesuada proin libero nunc consequat. Imperdiet sed euismod nisi porta. Arcu cursus vitae congue mauris rhoncus aenean vel. Enim nunc faucibus a pellentesque. Gravida in fermentum et sollicitudin ac orci phasellus.",
+                                text: "فكانت اعلان وإقامة قد وصل, ان يذكر قبضتهم والفلبين مكن. هو فقد وكسبت العصبة استبدال. أن الطرفين استراليا، انه. كانتا اكتوبر ان قبل, بقيادة وبولندا بريطانيا-فرنسا ما بين, عن أما لهيمنة والمانيا ماليزيا،. مع يبق بفرض وتنامت واستمرت, مع سياسة جديداً ذلك.",
                             },
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
-                                text: "Morbi tristique senectus et netus et malesuada fames. Sit amet cursus sit amet dictum sit. Sagittis vitae et leo duis ut diam quam. Non consectetur a erat nam at lectus. Massa massa ultricies mi quis hendrerit dolor magna eget est.",
+                                text: "هامش البرية الساحلية دنو في, مع شاسعة تعديل ومطالبة على. أي تمهيد عليها والكساد دول, أم ذات رئيس وصافرات. دار مرجع الأوروبية، قد, أملاً واُسدل حاملات أم بحث. من بشرية قُدُماً جُل, بها كل سياسة فقامت وانهاء. الستار للحكومة عل مدن, مشروط كُلفة المسرح من يكن, تحت بـ الجو وتتحمّل لبلجيكا،. غضون لفشل تحرّك ما جعل. حيث في قررت وباءت, قبل ثم الآخر بالفشل معزّزة, قد ترتيب استراليا، مكن.",
                             },
                         ],
                     },
                     {
                         class: "columns-wrap",
-                        header: "Business",
+                        header: "عمل",
                         type: "excerpt",
                         content: [
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
-                                text: "Integer enim neque volutpat ac. Feugiat sed lectus vestibulum mattis. Ullamcorper malesuada proin libero nunc consequat interdum varius sit amet. Mattis molestie a iaculis at erat pellentesque. Adipiscing elit duis tristique sollicitudin.",
+                                text: "حيث عل وقرى بمباركة. لم بعض أمام ولاتّساع, العناد بمعارضة الإمتعاض تلك ما. ثم تمهيد كثيرة الشّعبين ذات, بـ كرسي أصقاع واتّجه لان, بقعة كانت الحرة كان و. مدن وزارة ميناء بمعارضة مع, جديداً تحرّكت باستخدام قد يتم.",
                             },
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
-                                text: "Dignissim sodales ut eu sem integer. Mauris cursus mattis molestie a iaculis at erat. Tempus quam pellentesque nec nam aliquam sem et tortor. Id diam vel quam elementum pulvinar etiam non quam.",
+                                text: "بها لم تونس جديدة الدّفاع, تم وصل مارد إجلاء اعلان. يبق في هامش المؤلّفة الدولارات, أم انه مليارات ولاتّساع الكونجرس. ترتيب الأخذ ممثّلة أسر ثم, الشمل الجنود عن كلا. وفنلندا الإثنان الجنوبي ثم حيث. وبعد لليابان ثم بعد. لم يكن الساحل التكاليف, حدى أجزاء الحيلولة عن, وأزيز مقاطعة الفرنسية كلا و. يعادل وإعلان واقتصار دول و.",
                             },
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
-                                text: "Massa vitae tortor condimentum lacinia quis vel eros. Platea dictumst vestibulum rhoncus est pellentesque. Sollicitudin tempor id eu nisl nunc mi ipsum faucibus vitae. Sed risus ultricies tristique nulla aliquet. Magna sit amet purus gravida quis blandit turpis cursus in.",
+                                text: "سقوط إحكام وبولندا أم جعل, جُل بـ فسقط تطوير سليمان،, وقرى الأجل الأوضاع ذلك ثم. أوسع الدنمارك ان أخر. العالمي مواقعها بال إذ, أما المحيط الاندونيسية هو. بل أخذ أواخر الآلاف القادة, أم استرجاع والنرويج غير, استدعى العالم، الأوربيين قد شيء. وجهان الدول وإعلان أما أم, ان رئيس مسارح اعلان يتم. تلك تُصب والنفيس هو, ماشاء الإثنان المتساقطة، عن شيء.",
                             },
                         ],
                     },
@@ -784,70 +783,70 @@ export const content = {
             },
             {
                 id: "content-frontpage-hot-topics",
-                name: "Hot Topics",
+                name: "مواضيع مثيرة",
                 articles: [
                     {
                         class: "columns-2-balanced",
-                        header: "This First",
+                        header: "هذا أولا",
                         type: "grid",
                         content: [
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
                                 meta: {
                                     tag: "new"
                                 },
-                                text: "Amet nisl suscipit adipiscing bibendum. Elit ullamcorper dignissim cras tincidunt lobortis feugiat. Non odio euismod lacinia at. Risus viverra adipiscing at in tellus integer feugiat scelerisque.",
+                                text: "مع يبق المضي العالمية, كلّ هو جورج الآخر الغالي. انه ومضى القوى أي. كل غريمه بالمطالبة دول, بـ كلا قررت وعُرفت قُدُماً. نتيجة الشهيرة والفرنسي عدد كل, عدم ان وجزر وبدأت. بزمام الحيلولة بـ عرض, الى عُقر أفاق بالجانب هو, مكن أي تصفح التحالف. بال منتصف المؤلّفة قد, وقد وحلفاؤها المشتّتون أي.",
                                 url: "#"
                             },
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
                                 meta: {
                                     tag: "new"
                                 },
-                                text: "Viverra suspendisse potenti nullam ac tortor. Tellus id interdum velit laoreet id donec. Dui nunc mattis enim ut tellus. Nec ullamcorper sit amet risus nullam eget felis eget. Viverra suspendisse potenti nullam ac tortor vitae purus faucibus.",
+                                text: "أي حدى بزمام العالم, المسرح الأبرياء في لها. ٣٠ ولم بخطوط تشكيل اعتداء, أم الوزراء التقليدي التقليدية دون. من بسبب العالمي كلا, ان يونيو التقليدي حول. كان أسيا وباءت واُسدل إذ, قتيل، شواطيء وتم من.",
                                 url: "#"
                             }
                         ]
                     },
                     {
                         class: "columns-2-balanced",
-                        header: "This Second",
+                        header: "هذا الثاني",
                         type: "grid",
                         content: [
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
                                 meta: {
                                     tag: "breaking"
                                 },
-                                text: "Commodo ullamcorper a lacus vestibulum sed arcu non odio euismod. Etiam non quam lacus suspendisse. Hac habitasse platea dictumst vestibulum rhoncus est.",
+                                text: "دنو صفحة أصقاع والكساد بل. بها ليبين بالولايات من, تعد أملاً وهولندا، ويكيبيديا، ان. كل أضف قِبل وبحلول استبدال, في الوراء للمجهود تلك. وبعض اعلان معاملة حول هو, مسؤولية الثانية في جهة. بها الوراء التّحول الأوروبية، في. الإنزال التّحول جُل من, مكّن مليون العدّ ٣٠ لان.",
                                 url: "#"
                             },
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
                                 meta: {
                                     tag: "breaking"
                                 },
-                                text: "Mi eget mauris pharetra et ultrices neque ornare aenean euismod. Egestas congue quisque egestas diam in arcu cursus euismod quis. Tincidunt id aliquet risus feugiat. Viverra nibh cras pulvinar mattis nunc sed.",
+                                text: "دون قد بخطوط الشهير, قد يقوم الهادي والروسية جهة, أدنى الإطلاق الانجليزية عن تحت. بعد مسؤولية ارتكبها ان, لها العصبة المشتّتون بـ, أخرى وتزويده جُل ما. كل سقطت الصفحة وفنلندا إيو, حصدت اعلان وتنامت أم لمّ. وقد بحشد سقوط عليها في, عل تطوير للجزر المشترك فصل. ذات ٣٠ السفن اسبوعين.",
                                 url: "#"
                             }
                         ]
@@ -856,7 +855,7 @@ export const content = {
             },
             {
                 id: "content-frontpage-paid-content",
-                name: "Paid Content",
+                name: "المحتوى المدفوع",
                 articles: [
                     {
                         class: "columns-4-balanced",
@@ -865,44 +864,20 @@ export const content = {
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
-                                title: "Nunc aliquet bibendum enim facilisis gravida neque. Nec feugiat in fermentum posuere urna. Molestie at elementum eu facilisis sed odio morbi. Scelerisque purus semper eget duis at tellus.",
+                                title: "الآن يشرب الموز لمضادات الأكسدة الحوامل أو.ولا  في الخميرة وضعت على الوعاء.م",
                             },
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
-                                title: "Eget dolor morbi non arcu risus quis. Non curabitur gravida arcu ac tortor dignissim.",
-                            },
-                        ],
-                    },
-                    {
-                        class: "columns-4-balanced",
-                        type: "preview",
-                        content: [
-                            {
-                                image: {
-                                    src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
-                                    width: "1280",
-                                    height: "720",
-                                },
-                                title: "Quam lacus suspendisse faucibus interdum. In pellentesque massa placerat duis ultricies lacus sed. Convallis a cras semper auctor neque vitae tempus quam. Ut pharetra sit amet aliquam id diam.",
-                            },
-                            {
-                                image: {
-                                    src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
-                                    width: "1280",
-                                    height: "720",
-                                },
-                                title: "Vel fringilla est ullamcorper eget nulla facilisi etiam dignissim diam. Eu feugiat pretium nibh ipsum consequat.",
+                                title: "تحتاج إلى كرة قدم ذكية أو قوس ابتسامة أي شخص.لا الدردشة القوس الحامل وأصول درجة الحرارة.",
                             },
                         ],
                     },
@@ -913,20 +888,20 @@ export const content = {
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
-                                title: "Non tellus orci ac auctor augue mauris augue neque gravida. Nulla facilisi nullam vehicula ipsum a arcu cursus vitae. Quam nulla porttitor massa id neque aliquam vestibulum morbi. Diam quis enim lobortis scelerisque.",
+                                title: "من رقعة من فكي التدليك في بعض الأحيان.مجموعة التغذية الجماعية للعقارات التجمعات فوق الصوتيات حتى الآن.وادي الغد هو دائما المؤلف أو فترة الحياة.لارتجال الكثير من بعض المعرف.",
                             },
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
-                                title: "Haretra diam sit amet nisl suscipit adipiscing bibendum est ultricies. Senectus et netus et malesuada fames.",
+                                title: "البيئي لا يحتاج إلى قطر كرة القدم حتى.كرة القد وصفة شبكة.",
                             },
                         ],
                     },
@@ -937,20 +912,44 @@ export const content = {
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
-                                title: "It amet porttitor eget dolor morbi non. Sed lectus vestibulum mattis ullamcorper. Laoreet id donec ultrices tincidunt arcu non. Quam adipiscing vitae proin sagittis.",
+                                title: "أو حامل.لا يوجد مركبة من موبيليسي نولام نفسها من مسار طيران أو بعض كرة القدم.أي شخص هو شوكولاتة كرتون.",
                             },
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
-                                title: "Mollis aliquam ut porttitor leo a diam. Nunc aliquet bibendum enim facilisis gravida neque convallis.",
+                                title: "هنالك العديد من الأنواع المتوفرة لنصوص لوريم إيبسوم، ولكن الغالبية تم تعديلها بشكل ما عبر",
+                            },
+                        ],
+                    },
+                    {
+                        class: "columns-4-balanced",
+                        type: "preview",
+                        content: [
+                            {
+                                image: {
+                                    src: "placeholder_light.jpg",
+                                    alt: "عنصر نائب",
+                                    width: "1280",
+                                    height: "720",
+                                },
+                                title: "عليك أن تتحقق أولاً أن ليس هناك أي كلمات أو عبارات محرجة أو غير لائقة مخبأة في هذا النص.",
+                            },
+                            {
+                                image: {
+                                    src: "placeholder_light.jpg",
+                                    alt: "عنصر نائب",
+                                    width: "1280",
+                                    height: "720",
+                                },
+                                title: "طبقة ناعمة من أسد العبارة من قطر.الآن يشرب الموز لمضادات الأكسدة الحوامل أو الوادي.",
                             },
                         ],
                     },
@@ -959,79 +958,79 @@ export const content = {
         ],
     },
     us: {
-        name: "US",
+        name: "نحن",
         url: "/us",
         priority: 1,
         message: {
-            title: "Watch breaking news!",
-            description: "Something important happened and you should watch it!"
+            title: "شاهد الأخبار العاجلة!",
+            description: "حدث شيء مهم ويجب عليك مشاهدته!"
         },
         sections: [
             {
                 id: "content-us-world-news",
-                name: "World News",
+                name: "اخبار العالم",
                 articles: [
                     {
                         class: "columns-3-wide",
-                        header: "Happening Today",
+                        header: "يحدث اليوم",
                         url: "#",
                         image: {
                             src: "placeholder_light.jpg",
-                            alt: "Placeholder",
+                            alt: "عنصر نائب",
                             width: "1280",
                             height: "720",
                         },
                         meta: {
-                            captions: "Photo taken by someone.",
+                            captions: "الصورة التي التقطها شخص ما.",
                             tag: "breaking",
                         },
-                        title: "Sed egestas egestas fringilla phasellus faucibus scelerisque eleifend.",
+                        title: "لكن إنفاذ التنفيذ البيئي المغذي الحراري القابل للخصم.",
                         type: "text",
                         content:
-                            "Iaculis urna id volutpat lacus. Dictumst vestibulum rhoncus est pellentesque elit ullamcorper. Dictum varius duis at consectetur lorem donec. At tellus at urna condimentum mattis pellentesque id. Consectetur lorem donec massa sapien faucibus et molestie ac. Risus at ultrices mi tempus.",
+                            "من غير حاول والفلبين اليابان،, فعل احداث اتفاقية في. في وصل وبعض عقبت وجهان, قائمة السيء ولكسمبورغ ومن أي, هاربر غرّة، هذه إذ. عل كلا الشمال وفنلندا, نفس كل لعملة التّحول ومحاولة, أوسع الجنوب الخاطفة دون هو. نفس مليون نهاية استعملت إذ, من الجنوبي وهولندا، أخر. جهة قد بالجانب بمحاولة ولاتّساع, أسر تم بوابة النفط وبحلول. فعل وبدأت اوروبا إذ. حقول وبعد وفي ٣٠, للجزر الأبرياء و شيء. دفّة العدّ الضروري دار أم, عل التي مقاومة الجنوبي بال. بـ ولم منتصف بالرّغم, عن أفاق الشرق، بريطانيا-فرنسا بال. مع نفس الأحمر الصعداء, بحث يقوم لهذه بـ.",
                     },
                     {
                         class: "columns-3-narrow",
-                        header: "Trending",
+                        header: "الشائع",
                         url: "#",
                         image: {
                             src: "placeholder_light.jpg",
-                            alt: "Placeholder",
+                            alt: "عنصر نائب",
                             width: "1280",
                             height: "720",
                         },
                         meta: {
-                            captions: "Photo taken by someone.",
+                            captions: "الصورة التي التقطها شخص ما.",
                         },
-                        title: "Ut eu sem integer vitae justo eget magna.",
+                        title: "من أجل تنشيط سيناريو حياة فقط تحتاج إلى شيء عظيم.",
                         type: "text",
                         content:
-                            "Id neque aliquam vestibulum morbi blandit cursus risus at ultrices. Arcu dui vivamus arcu felis bibendum ut tristique et. Justo donec enim diam vulputate ut.\n\nPellentesque elit ullamcorper dignissim cras tincidunt lobortis feugiat vivamus at. Ipsum suspendisse ultrices gravida dictum fusce ut placerat. Convallis tellus id interdum velit laoreet id.",
+                            "هذا ليس تصنيعًا معينًا لكرة القدم يركض ضحكًا في كرة السلة.بطولة وثيقة الهوية الوحيدة لايف الكحول تشرب الشراب كدبابات.فقط حتى الضعف القطر.تدليك كرة السلة حامل للغاية سريري للاستثمار.فالي تيلوس معرف البروتين معرف.\n\nلدحر السيء وهولندا، أم ولم, أما وإيطالي ألمانيا بالسيطرة بـ. ما رئيس الواقعة باستحداث حيث, أن الله قتيل، حول. عل الوراء الجنود أما, تعد قد اللازمة الأولية, أم تعديل والمانيا الإيطالية انه. تم لكل تعديل السيطرة ايطاليا،. لدحر والنفيس بريطانيا مع وتم, أوسع مليون أضف ٣٠, من وحرمان المشتّتون وقد.",
                     },
                     {
                         class: "columns-3-narrow",
-                        header: "Weather",
+                        header: "طقس",
                         url: "#",
                         image: {
                             src: "placeholder_light.jpg",
-                            alt: "Placeholder",
+                            alt: "عنصر نائب",
                             width: "1280",
                             height: "720",
                         },
                         meta: {
-                            captions: "Photo taken by someone.",
+                            captions: "الصورة التي التقطها شخص ما.",
                         },
-                        title: "Id consectetur purus ut faucibus pulvinar elementum integer enim.",
+                        title: "هذا الفلفل الحار الطماطم إلى عنصر الكرة الطائرة الحلق.",
                         type: "list",
                         content: [
                             {
-                                content: "Pellentesque habitant morbi tristique senectus et. Vel eros donec ac odio tempor orci dapibus ultrices in.",
+                                content: "سكان التغذية كرة القدم الحزين الشيخوخة.أو الفول السوداني Til ووقت الكراهية Orci بروتين كرة السلة في.",
                             },
                             {
-                                content: "Et odio pellentesque diam volutpat commodo sed egestas egestas fringilla.",
+                                content: "أنا أكره الراحة في نهاية الأسبوع في نهاية الأسبوع ، لكن إنفاذ إنفاذ التنفيذ البيئي.",
                             },
                             {
-                                content: "Et netus et malesuada fames ac turpis egestas. Maecenas ultricies mi eget mauris pharetra et ultrices.",
+                                content: "لدحر السيء وهولندا، أم ولم, أما وإيطالي ألمانيا بالسيطرة بـ. ما رئيس الواقعة باستحداث حيث, أن الله قتيل، حول. عل الوراء الجنود أما, تعد قد اللازمة الأولية, أم تعديل والمانيا الإيطالية انه. تم لكل تعديل السيطرة ايطاليا،. لدحر والنفيس بريطانيا مع وتم, أوسع مليون أضف ٣٠, من وحرمان المشتّتون وقد.",
                             },
                         ],
                     },
@@ -1039,89 +1038,89 @@ export const content = {
             },
             {
                 id: "content-us-around-the-nation",
-                name: "Around the Nation",
+                name: "في جميع أنحاء البلاد",
                 articles: [
                     {
                         class: "columns-3-balanced",
-                        header: "Latest",
+                        header: "أحدث",
                         image: {
                             src: "placeholder_light.jpg",
-                            alt: "Placeholder",
+                            alt: "عنصر نائب",
                             width: "1280",
                             height: "720",
                         },
                         meta: {
-                            captions: "Photo taken by someone.",
+                            captions: "الصورة التي التقطها شخص ما.",
                         },
-                        title: "Nullam eget felis eget nunc lobortis mattis aliquam.",
+                        title: "تم تكوين 1 فقرة، 5 كلمة، 27 بايت من نص لوريم إيبسوم",
                         type: "list",
                         content: [
                             {
-                                content: "Nibh ipsum consequat nisl vel. Senectus et netus et malesuada fames.",
+                                content: "بال بالعمل جديداً ماليزيا، ان. عن بها مليارات المتحدة",
                             },
                             {
-                                content: "Lectus vestibulum mattis ullamcorper velit sed ullamcorper morbi.",
+                                content: "آسف على كرة القدم التي تخرجت.",
                             },
                             {
-                                content: "Blandit volutpat maecenas volutpat blandit aliquam etiam erat.",
+                                content: "حين. خطّة بشرية أوراقهم حدى في, ما والتي أعمال العالمية دار. مكن",
                             },
                             {
-                                content: "Non curabitur gravida arcu ac. Est sit amet facilisis magna etiam tempor orci eu lobortis.",
+                                content: "أنا لا الدردشة الكحول الحامل و.من المهم مضادات الأكسدة الكبيرة حتى وقت كرة القدم السريرية.",
                             },
                         ],
                     },
                     {
                         class: "columns-3-balanced",
-                        header: "Business",
+                        header: "عمل",
                         image: {
                             src: "placeholder_light.jpg",
-                            alt: "Placeholder",
+                            alt: "عنصر نائب",
                             width: "1280",
                             height: "720",
                         },
                         meta: {
-                            captions: "Photo taken by someone.",
+                            captions: "الصورة التي التقطها شخص ما.",
                         },
-                        title: "Vestibulum rhoncus est pellentesque elit. Enim lobortis scelerisque fermentum dui faucibus.",
+                        title: "نطاق تصنيع مطور التغذية.للكرتون الشوكولاته الاحماء مع الرقبة.",
                         type: "list",
                         content: [
                             {
-                                content: "Sapien pellentesque habitant morbi tristique senectus et.",
+                                content: "جُل بشرية إستعمل إذ, بـ جعل خيار لغات تسبب. لم الإمتعاض الإتفاقية وتم, دنو كل",
                             },
                             {
-                                content: "Aliquet eget sit amet tellus cras adipiscing.",
+                                content: "لأوربيين ثم ذات, و تشكيل إعلان أضف. جُل الضروري الخاصّة ان, الإمداد عشو",
                             },
                             {
-                                content: "Tellus mauris a diam maecenas sed enim ut sem viverra.",
+                                content: "أوروبا ولاتّساع وحلفاؤها تم جهة, عل جعل وعلى وجهان والنرويج",
                             },
                         ],
                     },
                     {
                         class: "columns-3-balanced",
-                        header: "Politics",
+                        header: "سياسة",
                         image: {
                             src: "placeholder_light.jpg",
-                            alt: "Placeholder",
+                            alt: "عنصر نائب",
                             width: "1280",
                             height: "720",
                         },
                         meta: {
-                            captions: "Photo taken by someone.",
+                            captions: "الصورة التي التقطها شخص ما.",
                         },
-                        title: "Hendrerit dolor magna eget est. Nec dui nunc mattis enim ut tellus elementum sagittis.",
+                        title: "آلام المكتب وظيفية رائعة.كما أنها ليست العقارات الآن هي أن أسهم عنصر المنطقة.",
                         type: "list",
                         content: [
                             {
-                                content: "Euismod elementum nisi quis eleifend quam adipiscing vitae proin sagittis.",
+                                content: "دون قد بخطوط الشهير, قد يقوم الهادي والروسية جهة, أدنى الإطلاق",
                             },
                             {
-                                content: "Ac tincidunt vitae semper quis lectus nulla at volutpat diam.",
+                                content: "بـ, أخرى وتزويده جُل ما. كل سقطت الصفحة وفنلندا إيو, حصدت ",
                             },
                             {
-                                content: "In mollis nunc sed id semper risus in hendrerit. Turpis massa sed elementum tempus egestas sed sed risus. Imperdiet proin fermentum leo vel orci.",
+                                content: "قبل من الأمور الطرفين ولكسمبورغ, قبل غريمه أطراف إتفاقية عن, و",
                             },
                             {
-                                content: "Nisl purus in mollis nunc sed id semper. Pretium lectus quam id leo in vitae.",
+                                content: " لم الإمتعاض الإتفاقية وتم, دنو كل وفنلندا وبالتحديد،, بخطوط وبلجيكا، بين بل. مشا",
                             },
                         ],
                     },
@@ -1129,107 +1128,107 @@ export const content = {
             },
             {
                 id: "content-us-roundup",
-                name: "Roundup",
+                name: "جمع الشمل",
                 articles: [
                     {
                         class: "columns-wrap",
-                        header: "Washington",
+                        header: "واشنطن",
                         type: "excerpt",
                         content: [
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
-                                text: "Nisl nisi scelerisque eu ultrices vitae. Consectetur adipiscing elit duis tristique sollicitudin. Ornare suspendisse sed nisi lacus. Justo eget magna fermentum iaculis.",
+                                text: "مرجع الأوروبيّون عن ذلك. بل لمّ بزمام تجهيز بمحاولة, يكن قد جيوب إستيلاء, ودول بينما الإطلاق ما حتى. بعد بل اسبوعين الإيطالية الإقتصادية. مما ان فرنسا ديسمبر إستيلاء, و منتصف تحرّكت أخذ.",
                             },
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
-                                text: "Tellus integer feugiat scelerisque varius morbi enim. Ut tristique et egestas quis.",
+                                text: "قبل من الأمور الطرفين ولكسمبورغ, قبل غريمه أطراف إتفاقية عن, و لمّ وجهان مشاركة. إذ لمّ الهادي بالمطالبة, إذ ٢٠٠٤ كنقطة اليها حين. خطّة بشرية أوراقهم حدى في, ما والتي أعمال العالمية دار. مكن ٣٠ ليبين قتيل، عسكرياً. ما الصفحات استرجاع مكن.",
                             },
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
-                                text: "Nulla malesuada pellentesque elit eget gravida cum sociis natoque penatibus.",
+                                text: "بال بالعمل جديداً ماليزيا، ان. عن بها مليارات المتحدة, كردة واتّجه قُدُماً قام و. عل مارد الصين مساعدة كما. سابق الإنزال أي أسر, معزّزة بالحرب ضرب في. تم أضف خيار مواقعها.",
                             },
                         ],
                     },
                     {
                         class: "columns-wrap",
-                        header: "East Coast",
+                        header: "الساحل الشرقي",
                         type: "excerpt",
                         content: [
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
-                                text: "Pharetra et ultrices neque ornare aenean euismod elementum nisi. Ipsum dolor sit amet consectetur adipiscing elit ut.",
+                                text: "جُل بشرية إستعمل إذ, بـ جعل خيار لغات تسبب. لم الإمتعاض الإتفاقية وتم, دنو كل وفنلندا وبالتحديد،, بخطوط وبلجيكا، بين بل. مشارف الأوربيين ثم ذات, و تشكيل إعلان أضف. جُل الضروري الخاصّة ان, الإمداد عشوائية وقد ثم, عرض بل أملاً ديسمبر. مع لغزو بالعمل ذات, فاتّبع الأمور جعل كل.",
                             },
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
-                                text: "Quam vulputate dignissim suspendisse in est. Vestibulum mattis ullamcorper velit sed.",
+                                text: "إذ قادة المضي النزاع قام, ما كلا وأكثرها ومطالبة الساحلية. قتيل، المضي ولم أم. ثم مما اتّجة الإكتفاء. قبل و أساسي بالسيطرة, حول أن بلاده معزّزة. و بقصف مسارح الإنذار، ذلك, تعد أمّا بهيئة الوراء مع.",
                             },
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
-                                text: "Habitant morbi tristique senectus et netus et. Ullamcorper sit amet risus nullam eget felis.",
+                                text: "يكن الفترة وتنامت العالمي بـ, انتباه الربيع، باستحداث فصل عن. بعض ثم خطّة القادة. نقطة مرمى تم جُل, حيث قد تجهيز إستعمل التبرعات, يتبقّ رجوعهم إذ عدد. أسيا الشتاء عل شيء. معارضة وبالتحديد، قد أخذ. لان فكان بلديهما ثم, لدحر فهرست بل نفس.",
                             },
                         ],
                     },
                     {
                         class: "columns-wrap",
-                        header: "West Coast",
+                        header: "الساحل الغربي",
                         type: "excerpt",
                         content: [
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
-                                text: "Bibendum enim facilisis gravida neque convallis a cras. Semper feugiat nibh sed pulvinar proin gravida hendrerit.",
+                                text: "لها لغزو للمجهود لم. الخاصّة اقتصادية من حول, بعض قد لإعلان الإنزال الإمتعاض. بعض إذ إحكام الآلاف, أن هذا مقاطعة بالمحور. كل إحتار اعلان الى, بل به، مارد بخطوط المسرح.",
                             },
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
-                                text: "Vel facilisis volutpat est velit. Odio ut sem nulla pharetra diam sit amet nisl.",
+                                text: "أوروبا ولاتّساع وحلفاؤها تم جهة, عل جعل وعلى وجهان والنرويج. بحشد أكثر هو به،, كان وإقامة استبدال لم. لمّ تصفح وفرنسا إذ, فقد أطراف إتفاقية ما, فصل اعتداء الطرفين ان. قُدُماً التجارية بـ مدن. مقاومة والروسية ايطاليا، كان أم, ان ومحاولة المشتّتون وقد, مما أم وحتى بتخصيص. دنو قد الجو ويتّفق, ثم الأولية الخارجية ويكيبيديا إيو, الأثنان واستمرت باستخدام من لكل.",
                             },
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
-                                text: "Risus nec feugiat in fermentum posuere urna nec. Massa tincidunt nunc pulvinar sapien.",
+                                text: "والنفيس التاريخ، بريطانيا، تم وقد, يذكر علاقة به، أم. أم يبق العدّ الساحة, المضي وكسبت انه قد, إتفاقية والديون الأراضي ما هذا. حول تم خيار الولايات, المجتمع المتحدة الأوروبية، بحق ما, تم للصين الأمور العمليات تحت. مليون هاربر المشتّتون لم عرض. بهيئة الغالي كما مع, ان بتخصيص مشاركة بالإنزال انه, وبعض مشروط ان بلا.",
                             },
                         ],
                     },
@@ -1237,62 +1236,62 @@ export const content = {
             },
             {
                 id: "content-us-crime+justice",
-                name: "Crime & Justice",
+                name: "الجريمة والعدالة",
                 articles: [
                     {
                         class: "columns-3-balanced",
-                        header: "Supreme Court",
+                        header: "المحكمة العليا",
                         type: "articles-list",
                         content: [
                             {
-                                title: "Vel risus commodo viverra maecenas.",
-                                content: "Vitae tempus quam pellentesque nec nam aliquam sem. Mi in nulla posuere sollicitudin aliquam ultrices sagittis. Leo integer malesuada nunc vel. Ultricies integer quis auctor elit sed vulputate. Sit amet justo donec enim diam vulputate. Velit aliquet sagittis id consectetur purus ut faucibus pulvinar.",
+                                title: "أو ابتسامة أو راحة سحب.",
+                                content: "سابق أفريقيا الإتحاد في يكن, شمال لغات الحرة ٣٠ الى, أي بأضرار وحلفاؤها الرئيسية إيو. هو الى قامت البرية تزامناً, أم دفّة الحيلولة يبق. ان خلاف انذار مدن, مايو لإنعدام عل به،. المدن باستحداث لبلجيكا، من بحث, و أعمال الشرق، الجنرال بعض, و مارد بالرغم بالإنزال بعد. كل عقبت أكثر الربيع، شيء, ان أهّل ماشاء مدن. أحدث احداث بـ جُل, الحرة يتعلّق بلا هو.",
                             },
                             {
-                                title: "Sit amet mattis vulputate enim.",
-                                content: "Urna porttitor rhoncus dolor purus non. Tristique senectus et netus et malesuada fames ac turpis egestas. Suscipit tellus mauris a diam maecenas. Risus ultricies tristique nulla aliquet enim. Quis imperdiet massa tincidunt nunc pulvinar sapien et ligula ullamcorper.",
+                                title: "الكثير من الضعف مات هو.",
+                                content: "حتى ان لإعلان التغييرات, بـ وأزيز التجارية بريطانيا، بها. كل وبدأت يعادل لتقليعة حدى. ساعة ضمنها الفرنسي ٣٠ أضف. وصل في هُزم كانتا وإعلان, ما الى شواطيء اللازمة. بال كثيرة واتّجه الهادي ثم, بشكل ووصف الأرضية قام ما.",
                             },
                             {
-                                title: "Mauris in aliquam sem fringilla ut morbi tincidunt.",
-                                content: "A erat nam at lectus. Orci sagittis eu volutpat odio facilisis mauris sit. Faucibus nisl tincidunt eget nullam non. Nisl condimentum id venenatis a. Suscipit tellus mauris a diam maecenas sed enim. Orci nulla pellentesque dignissim enim sit amet venenatis. Est ultricies integer quis auctor.",
+                                title: "موريس في بعض السلطة البيئية مثل مطوري كرة القدم.",
+                                content: "هو دول المضي الإحتفاظ الإمتعاض, بينما أعلنت قُدُماً جُل لم, الأحمر الخاسرة بل جُل. بل أخذ معقل الأجل الصعداء, الله اوروبا بالجانب أي عدم. الشتاء العظمى حاملات كل ضرب, عدم دخول مئات المزيفة في. بحشد اتفاق شيء أن, بـ أخذ تشكيل قبضتهم اللازمة. انه قد وحرمان الساحلية الأوروبي.",
                             },
                         ],
                     },
                     {
                         class: "columns-3-balanced",
-                        header: "Local Law",
+                        header: "قانون محلي",
                         type: "articles-list",
                         content: [
                             {
-                                title: "Sit amet justo donec enim diam vulputate ut.",
-                                content: "Tincidunt dui ut ornare lectus sit amet est. Risus sed vulputate odio ut enim blandit volutpat maecenas volutpat. Posuere urna nec tincidunt praesent semper feugiat nibh sed pulvinar. Euismod in pellentesque massa placerat duis.",
+                                title: "الكثير من العلاج حتى الضعف القطر.",
+                                content: "مشروط العدّ المتحدة في جُل. مع شدّت تكبّد الإطلاق تلك, والكوري والمانيا الى عل, جعل تم مليون العسكري المجتمع. كلا شرسة البولندي الساحلية مع, الى هو بقعة تنفّس واقتصار. إذ لفشل ديسمبر لكل, و حتى إبّان بريطانيا-فرنسا. للسيطرة العسكري المنتصر أن عرض, وتم وصافرات التقليدي أي.",
                             },
                             {
-                                title: "Aliquam ultrices sagittis orci a scelerisque purus semper eget duis.",
-                                content: "Lobortis feugiat vivamus at augue eget arcu. Id ornare arcu odio ut sem nulla pharetra diam. Mauris in aliquam sem fringilla ut morbi tincidunt augue interdum. Congue quisque egestas diam in arcu cursus euismod quis viverra.",
+                                title: "أحدث أسهم كرة السلة السريرية من الفلفل الحار تحتاج دائمًا إلى الواجب المنزلي.",
+                                content: "أم الشرق، معزّزة الحيلولة الى. الصين شواطيء إذ قبل, مرمى الأهداف ثم الا, و بعض أراض والديون. أم كردة بقسوة وبالرغم على. إعادة ماشاء العسكري حتى عن, وإعلان العظمى عل كما, بحشد حقول لهذه أم فقد. لان العصبة والمعدات من, بقصف المضي المواد كل يتم. سكان ويتّفق وإيطالي فعل كل, ثم بال أوزار فشكّل, تكبّد التاريخ، التغييرات جعل عن.",
                             },
                             {
-                                title: "In metus vulputate eu scelerisque felis imperdiet proin.",
-                                content: "Elementum pulvinar etiam non quam. Id nibh tortor id aliquet lectus proin nibh. Elementum facilisis leo vel fringilla est ullamcorper eget. Dictum sit amet justo donec enim diam vulputate.",
+                                title: "الشوكولاتة الشوكولاتة الشوكولاتة في الأرز.",
+                                content: "إحكام للمجهود جهة قد, وصل ووصف أوسع للحكومة عن. وشعار عسكرياً التقليدية لم كما, كما ما ماذا ومضى تطوير, تحرّك بالحرب قد بحق. أن أمّا اتفاق لها. ماذا ٠٨٠٤ وبولندا عن قبل, لها وقام التّحول استرجاع عن. قد سياسة غرّة، كلّ, و جُل أطراف إستيلاء.",
                             },
                         ],
                     },
                     {
                         class: "columns-3-balanced",
-                        header: "Opinion",
+                        header: "رأي",
                         type: "articles-list",
                         content: [
                             {
-                                title: "Magna ac placerat vestibulum lectus.",
-                                content: "enenatis urna cursus eget nunc scelerisque viverra mauris. Convallis posuere morbi leo urna molestie at elementum. Eu lobortis elementum nibh tellus. Vitae purus faucibus ornare suspendisse sed nisi lacus sed viverra.",
+                                title: "رائع وتصنيع العقارات المختارة.",
+                                content: "ثم الجنرال الأوربيين يكن. تعد الذود تحرير وباءت ٣٠. تم لكل مليون سبتمبر شموليةً. وبعض سبتمبر يتعلّق بلا عن, إيو قائمة أجزاء و, ثم بعد للمجهود وبولندا. و أسر مرجع الخطّة اوروبا, من ذات وعُرفت الإنزال. اتفاق الشمل بمباركة بال أن, تلك أن السيطرة الأعمال, وحتّى السيطرة بريطانيا أن لها.",
                             },
                             {
-                                title: "Nisl rhoncus mattis rhoncus urna neque viverra justo.",
-                                content: "Tristique sollicitudin nibh sit amet. Aliquam purus sit amet luctus venenatis. Vitae nunc sed velit dignissim sodales ut. Elit scelerisque mauris pellentesque pulvinar pellentesque habitant morbi tristique senectus. Sit amet risus nullam eget.",
+                                title: "خلافاَ للإعتقاد السائد فإن لوريم إيبسوم ليس نصاَ عشوائياً،",
+                                content: "لمّ إبّان وباءت الإثنان عل, مكن الطريق الشّعبين ٣٠. فقد خطّة وترك يتسنّى ان, الفرنسية ولكسمبورغ بـ حيث, أسر قد الأمريكي الإقتصادية. أي بين تطوير النزاع, المحيط النزاع عسكرياً بعد لم. كما معارضة للسيطرة انتصارهم و, عن وإقامة الإقتصادية أضف. من أسر الأوضاع الدنمارك انتصارهم, اليميني لإنعدام يكن إذ. تشكيل بريطانيا، لمّ بل, كل واُسدل للسيطرة بحث, انه ان هُزم التبرعات.",
                             },
                             {
-                                title: "Sed felis eget velit aliquet sagittis id consectetur purus ut.",
-                                content: "Egestas erat imperdiet sed euismod nisi porta. Vel orci porta non pulvinar neque laoreet. Urna condimentum mattis pellentesque id nibh. Arcu non sodales neque sodales ut etiam sit amet. Elementum curabitur vitae nunc sed velit dignissim.",
+                                title: "لكلاسيكي منذ العام 45 قبل الميلاد، مما يجعله أكثر",
+                                content: "جمعت الأوروبيّون أخر مع, ترتيب يونيو واُسدل كلّ أن, وفي لم وباءت ديسمبر. ثم اعتداء المنتصر كلا. بل حدى بقصف عشوائية. إذ بالفشل واتّجه بها, ما عرفها للمجهود اتفاقية هذا, وانهاء الكونجرس ٣٠ بال. خطّة الأولى الباهضة لم مما, لم جهة إعلان الباهضة.",
                             },
                         ],
                     },
@@ -1300,89 +1299,89 @@ export const content = {
             },
             {
                 id: "content-us-around-the-us",
-                name: "Around the US",
+                name: "حول الولايات المتحدة",
                 articles: [
                     {
                         class: "columns-3-balanced",
-                        header: "Latest",
+                        header: "أحدث",
                         image: {
                             src: "placeholder_light.jpg",
-                            alt: "Placeholder",
+                            alt: "عنصر نائب",
                             width: "1280",
                             height: "720",
                         },
                         meta: {
-                            captions: "Photo taken by someone.",
+                            captions: "الصورة التي التقطها شخص ما.",
                         },
-                        title: "Ut tortor pretium viverra suspendisse potenti nullam ac tortor.",
+                        title: "لجعل سعر الميكروفون لسحب القوية ، ودرجة الحرارة.",
                         type: "list",
                         content: [
                             {
-                                content: "Erat pellentesque adipiscing commodo elit at. Ornare lectus sit amet est placerat in."
+                                content: "لقد كان مطور الراحة في التغذية في.الجزر المتخرج لكرة القدم هو عقار في."
                             },
                             {
-                                content: "Dui ut ornare lectus sit amet est placerat in egestas. Commodo sed egestas egestas fringilla phasellus.",
+                                content: "وثيقة الهوية الوحيدة لتزيين الجزر المتدربين للاستثمار في الأرنب.من فضلك ومع ذلك ، إنفاذ التنفيذ الاحترافية البيئية.",
                             },
                             {
-                                content: "Mi quis hendrerit dolor magna eget est lorem ipsum. Urna molestie at elementum eu facilisis sed odio morbi.",
+                                content: "مع, قبل أي اللا المنتصر والنفيس. أن حتى مئات وإيطالي تشيكوسلوفاكيا, في سابق",
                             },
                             {
-                                content: "Mauris rhoncus aenean vel elit scelerisque mauris pellentesque pulvinar.",
+                                content: "عجّل أصقاع الربيع، حيث قد. الخاطفة الأبرياء انه عن, بعض ما لفشل الأحمر",
                             },
                         ],
                     },
                     {
                         class: "columns-3-balanced",
-                        header: "Business",
+                        header: "عمل",
                         image: {
                             src: "placeholder_light.jpg",
-                            alt: "Placeholder",
+                            alt: "عنصر نائب",
                             width: "1280",
                             height: "720",
                         },
                         meta: {
-                            captions: "Photo taken by someone.",
+                            captions: "الصورة التي التقطها شخص ما.",
                         },
-                        title: "Nam at lectus urna duis convallis convallis tellus id. Sem nulla pharetra diam sit amet nisl.",
+                        title: "في السرير دفع الواجب المنزلي وادي تيلوس معرف لاعبي الجزر قطر الجزر.",
                         type: "list",
                         content: [
                             {
-                                content: "Nunc faucibus a pellentesque sit amet. Id velit ut tortor pretium viverra suspendisse potenti nullam ac.",
+                                content: "من الى الضغوط البرية الانجليزية, كل لهذه إبّان ضرب, هذا الوراء الإتحاد",
                             },
                             {
-                                content: "Eget mi proin sed libero enim sed. A scelerisque purus semper eget duis at tellus.",
+                                content: "أحتاج إلى الميكروويف الخاص بي ولكن مجاني ل.يحتاج الفلفل الحار الشوكولاتة دائمًا إلى الواجب المنزلي في المنطقة.",
                             },
                             {
-                                content: "Praesent tristique magna sit amet purus. Eros in cursus turpis massa.",
+                                content: "الحاضر الحزين العظيم هو الفلفل الحار المهم.الفول السوداني في سياق القداس المدرسي.",
                             },
                         ],
                     },
                     {
                         class: "columns-3-balanced",
-                        header: "Politics",
+                        header: "سياسة",
                         image: {
                             src: "placeholder_light.jpg",
-                            alt: "Placeholder",
+                            alt: "عنصر نائب",
                             width: "1280",
                             height: "720",
                         },
                         meta: {
-                            captions: "Photo taken by someone.",
+                            captions: "الصورة التي التقطها شخص ما.",
                         },
-                        title: "Tristique nulla aliquet enim tortor at auctor urna nunc.",
+                        title: "بينما تعمل جميع مولّدات نصوص لوريم إيبسوم على الإنترنت على",
                         type: "list",
                         content: [
                             {
-                                content: "Tincidunt ornare massa eget egestas purus viverra accumsan in nisl. Amet mattis vulputate enim nulla.",
+                                content: "بل إيو وقبل مشروط الدولارات, عل أخرى لفرنسا نفس. أن وسوء الحكم الأمريكي لا",
                             },
                             {
-                                content: "Pellentesque massa placerat duis ultricies. Tortor at auctor urna nunc id cursus.",
+                                content: "التغذية كتلة العقارات تعويض الواجب المنزلي.الميكروفون في مؤلف الوعاء الآن الذي يعمل.",
                             },
                             {
-                                content: "Venenatis urna cursus eget nunc scelerisque viverra mauris.",
+                                content: "مبروك الجري تحتاج الآن إلى الشوكولاتة الكرتون موريس.",
                             },
                             {
-                                content: "Dolor morbi non arcu risus quis varius quam quisque id.",
+                                content: "أمراض الألم ليست قوسًا للابتسامة التي تتماشى لأن أي شخص آخر هو معرف.",
                             },
                         ],
                     },
@@ -1390,7 +1389,7 @@ export const content = {
             },
             {
                 id: "content-us-latest-media",
-                name: "Latest Media",
+                name: "أحدث الوسائط",
                 articles: [
                     {
                         class: "columns-1",
@@ -1399,7 +1398,7 @@ export const content = {
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -1410,7 +1409,7 @@ export const content = {
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -1421,7 +1420,7 @@ export const content = {
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -1432,7 +1431,7 @@ export const content = {
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -1446,62 +1445,62 @@ export const content = {
             },
             {
                 id: "content-us-business",
-                name: "Business",
+                name: "عمل",
                 articles: [
                     {
                         class: "columns-3-balanced",
-                        header: "Local",
+                        header: "محلي",
                         type: "articles-list",
                         content: [
                             {
-                                title: "Sed viverra tellus in hac habitasse platea dictumst vestibulum.",
-                                content: "Maecenas volutpat blandit aliquam etiam. Diam volutpat commodo sed egestas egestas fringilla phasellus faucibus scelerisque. Est ullamcorper eget nulla facilisi etiam dignissim diam quis. Tincidunt praesent semper feugiat nibh sed pulvinar proin gravida hendrerit. Varius vel pharetra vel turpis nunc eget. Enim ut tellus elementum sagittis vitae et leo duis.",
+                                title: "ومع ذلك ، فإن منطقة الكرتون في هذا الشارع العشور.",
+                                content: "وقد في وحتى الانجليزية. تعد أم الصين وانتهاءً. مارد أوزار للحكومة من بعض, ٣٠ أسر تكاليف وأكثرها, قبل شعار لغات وحلفاؤها مع. حتى ما وإقامة وإيطالي, أن إيو والتي الثالث واعتلاء.",
                             },
                             {
-                                title: "Porttitor leo a diam sollicitudin tempor id eu nisl.",
-                                content: "Ut diam quam nulla porttitor massa id neque. Nulla facilisi etiam dignissim diam quis enim lobortis. Quam nulla porttitor massa id. Neque ornare aenean euismod elementum nisi quis eleifend quam adipiscing. Justo nec ultrices dui sapien eget mi. Volutpat diam ut venenatis tellus in. Mi in nulla posuere sollicitudin aliquam ultrices.",
+                                title: "وقت رعاية القطر الذي لاعبي كرة القدم.",
+                                content: "في حيث وبغطاء الشتاء والعتاد, ولم عن دخول تطوير شواطيء. تحرير إحتار الطريق دار تم, حتى أكثر الربيع، كل. كل اللا ارتكبها الثالث، دار, ٣٠ عرض هاربر العالم, بل وصل سياسة ماشاء الجنود. الشمال والمانيا بـ بعض, انه مع الدول موالية, و المارق وتزويده ضرب. عن الله تُصب كما.",
                             },
                             {
-                                title: "Leo vel orci porta non pulvinar neque laoreet.",
-                                content: "Placerat duis ultricies lacus sed. Pellentesque adipiscing commodo elit at imperdiet dui. Accumsan lacus vel facilisis volutpat. Condimentum lacinia quis vel eros donec ac. Pellentesque habitant morbi tristique senectus. Ultrices eros in cursus turpis massa tincidunt dui ut ornare. Rhoncus urna neque viverra justo nec ultrices dui sapien. Amet venenatis urna cursus eget.",
+                                title: "الأسد أو البوابة السريرية ليست وسادة أو.",
+                                content: "السبب الشتاء، استمرار فقد هو. بل إيو يتمكن الباهضة, ان ذات اوروبا البرية. تعد الدّفاع المؤلّفة ان. قامت ليبين الأوضاع مع مدن, فكان المنتصر ما مدن.",
                             },
                         ],
                     },
                     {
                         class: "columns-3-balanced",
-                        header: "Global",
+                        header: "عالمي",
                         type: "articles-list",
                         content: [
                             {
-                                title: "Platea dictumst quisque sagittis purus sit amet volutpat consequat mauris.",
-                                content: "Eu lobortis elementum nibh tellus molestie nunc. Vel turpis nunc eget lorem dolor sed viverra. Massa sapien faucibus et molestie ac feugiat sed. Sed egestas egestas fringilla phasellus faucibus. At erat pellentesque adipiscing commodo elit at imperdiet dui accumsan",
+                                title: "كل أسهم جزر الفلفل الحار في نهاية الأسبوع التصوير الفوتوغرافي موريس.",
+                                content: "الصين محاولات أم بعض, عن حيث خلاف ديسمبر. هو أوسع مقاطعة تشيكوسلوفاكيا بعد, عرض وسفن بقيادة أم. ما تحرّك بالتوقيع بها, دار شرسة احداث من, قبل لم فكانت ابتدعها البشريةً. ببعض تنفّس لم عدم.",
                             },
                             {
-                                title: "Ultrices gravida dictum fusce ut placerat orci nulla pellentesque.",
-                                content: "Velit ut tortor pretium viverra suspendisse potenti nullam ac tortor. Feugiat nibh sed pulvinar proin gravida. Feugiat in fermentum posuere urna nec tincidunt praesent. Nulla posuere sollicitudin aliquam ultrices sagittis orci a scelerisque. A scelerisque purus semper eget.",
+                                title: "كان حامل كرة السلة سريريًا لاستثمار التغذية السريرية.",
+                                content: "التي السبب اتفاقية أم وفي. كلا ثم دفّة مايو, لدحر ألمّ الثقيل ما يتم. الا لم أخرى أكثر تعداد. وفي مدينة الغالي بل, بين الأمور لإنعدام المتساقطة، أن. قبل حالية إستعمل مسؤولية ما.",
                             },
                             {
-                                title: "Est ullamcorper eget nulla facilisi etiam.",
-                                content: "Augue mauris augue neque gravida in fermentum et. Ornare arcu odio ut sem nulla pharetra diam. Tristique et egestas quis ipsum suspendisse ultrices gravida. Aliquam vestibulum morbi blandit cursus risus at ultrices mi. Non blandit massa enim nec dui nunc mattis.",
+                                title: "لا يحتاج رات بما تتطلبه",
+                                content: "مما تم الأجل لفرنسا الأوربيين. أوسع وزارة ثم بين, هو عرض قتيل، الستار ومحاولة, الى فكان كنقطة لم. هو والتي ويتّفق المؤلّفة وصل. عدد لغات بقسوة البولندي لم. هو بحق يذكر جسيمة وسمّيت, قد مدن هناك غريمه وبالرغم. دار لم ماشاء التقليدي, أسيا العظمى بالمحور تحت بـ. دول عل اللا أوزار الخطّة.",
                             },
                         ],
                     },
                     {
                         class: "columns-3-balanced",
-                        header: "Quarterly",
+                        header: "ربعي",
                         type: "articles-list",
                         content: [
                             {
-                                title: "Non curabitur gravida arcu ac tortor dignissim.",
-                                content: "Dui nunc mattis enim ut. Non consectetur a erat nam. Arcu vitae elementum curabitur vitae nunc sed velit dignissim. Congue quisque egestas diam in arcu cursus euismod quis viverra. Consequat semper viverra nam libero justo laoreet sit amet.",
+                                title: "لا الدردشة القوس الحامل وأصول درجة الحرارة.",
+                                content: "عجّل أصقاع الربيع، حيث قد. الخاطفة الأبرياء انه عن, بعض ما لفشل الأحمر لإعلان. و أضف شعار قامت, أمدها أوزار الإكتفاء أما مع, قبل أي اللا المنتصر والنفيس. أن حتى مئات وإيطالي تشيكوسلوفاكيا, في سابق انذار الإتفاقية بحق. ان الدول لإعلان للسيطرة بحث, أي بعض الجو وايرلندا, أن بلا غينيا لليابان.",
                             },
                             {
-                                title: "Velit egestas dui id ornare arcu odio ut.",
-                                content: "At ultrices mi tempus imperdiet nulla malesuada pellentesque elit eget. Aenean et tortor at risus viverra. Lectus magna fringilla urna porttitor rhoncus dolor. Posuere lorem ipsum dolor sit amet consectetur adipiscing elit. Euismod in pellentesque massa placerat duis ultricies lacus sed turpis.",
+                                title: "أتمنى لكم معرف فقر وثيقة الهوية الوحيدة لتزيين الكراهية القوس.",
+                                content: "وبعض وإيطالي إذ به،. بل الا القادة اعتداء الهادي. ألمّ مساعدة عدد عل, عدد كل التي لإعلان. فعل ما دخول للسيطرة, بـ وإقامة للإتحاد بها. عرض عالمية للإتحاد لم.",
                             },
                             {
-                                title: "Malesuada nunc vel risus commodo viverra maecenas accumsan lacus vel.",
-                                content: "Nunc eget lorem dolor sed. Amet aliquam id diam maecenas ultricies mi. Sodales ut etiam sit amet nisl purus. Consectetur adipiscing elit ut aliquam purus sit amet luctus venenatis. Fusce ut placerat orci nulla pellentesque dignissim enim sit.",
+                                title: "الآن أو ابتسامة الراحة سحب طبقة لاكوس أو.",
+                                content: "من الى الضغوط البرية الانجليزية, كل لهذه إبّان ضرب, هذا الوراء الإتحاد في. كل منتصف عسكرياً حول, إذ بعض أحكم مسؤولية بالسيطرة. هامش ليرتفع من يبق. كلا أن وعُرفت بمعارضة وحلفاؤها, أي بعد سكان وبعدما الانجليزية. يتم مع لغات سنغافورة.",
                             },
                         ],
                     },
@@ -1509,70 +1508,70 @@ export const content = {
             },
             {
                 id: "content-us-underscored",
-                name: "Underscored",
+                name: "يؤكد",
                 articles: [
                     {
                         class: "columns-2-balanced",
-                        header: "This First",
+                        header: "هذا أولا",
                         type: "grid",
                         content: [
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
                                 meta: {
                                     tag: "new"
                                 },
-                                text: "Netus et malesuada fames ac turpis egestas. Habitasse platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim. Morbi tempus iaculis urna id volutpat lacus laoreet non curabitur. Sed enim ut sem viverra. Tellus integer feugiat scelerisque varius morbi enim.",
+                                text: "ساعة وتنامت وباستثناء حيث و, جُل عقبت بداية قتيل، عن. هو غير تحرير الخاسر. الدمج واقتصار والمانيا وفي ٣٠. انه في الموسوعة استطاعوا, أن جدول وحرمان تعد. كانتا السادس العالمي قام ما, أن حيث وبعض ليبين اليميني. والقرى الخاسرة بالولايات كما إذ.",
                                 url: "#"
                             },
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
                                 meta: {
                                     tag: "new"
                                 },
-                                text: "Aenean vel elit scelerisque mauris. Et ligula ullamcorper malesuada proin libero nunc. Mi sit amet mauris commodo quis imperdiet. Elit ullamcorper dignissim cras tincidunt lobortis feugiat. Erat velit scelerisque in dictum non consectetur a erat nam. Orci porta non pulvinar neque.",
+                                text: "بل إيو وقبل مشروط الدولارات, عل أخرى لفرنسا نفس. أن وسوء الحكم الأمريكي لان, ساعة الخارجية شيء في. ٠٨٠٤ الأمم الولايات في ذات, عن عقبت إحكام ومحاولة يتم, شيء عل بتخصيص سنغافورة. كل شيء بقعة وبغطاء واقتصار, نقطة انتهت عدد تم, إذ الى تونس أحدث. أم وتم اتّجة ومطالبة, الى تُصب فمرّ العالم ما, هو جُل جنوب فهرست الوزراء.",
                                 url: "#"
                             }
                         ]
                     },
                     {
                         class: "columns-2-balanced",
-                        header: "This Second",
+                        header: "هذا الثاني",
                         type: "grid",
                         content: [
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
                                 meta: {
                                     tag: "breaking"
                                 },
-                                text: "Eget gravida cum sociis natoque penatibus et. Malesuada pellentesque elit eget gravida cum. Curabitur vitae nunc sed velit dignissim sodales ut. Curabitur vitae nunc sed velit dignissim. Vel pretium lectus quam id leo in. Aliquet lectus proin nibh nisl condimentum id venenatis a.",
+                                text: "حيث لفرنسا المعاهدات الدولارات و, لها الدنمارك وبريطانيا عل. دون دارت مليون السيء تم, أم بهيئة الأسيوي الساحلية بعد. بـ غريمه انتباه تعد, إذ الحرة انتباه مسؤولية مدن. إجلاء الثالث وقوعها، عن ضرب. بين جمعت سكان والعتاد ما. مدن ثم الساحل العالمي استبدال, دول بل ونتج انتهت.",
                                 url: "#"
                             },
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
                                 meta: {
                                     tag: "breaking"
                                 },
-                                text: "Tristique senectus et netus et malesuada fames ac turpis. Semper risus in hendrerit gravida rutrum. Urna cursus eget nunc scelerisque viverra. Amet mauris commodo quis imperdiet massa. Erat nam at lectus urna duis convallis convallis tellus id.",
+                                text: "قد ذات أدوات بالحرب ومحاولة, مع جمعت لفشل والروسية ذلك. فصل عل جنوب إعادة وكسبت, عرض عن زهاء المبرمة. و ومن خلاف وحرمان, أن يبق رئيس لتقليعة الأبرياء. كلا لم انتهت شواطيء, أم نفس هاربر الساحلية.",
                                 url: "#"
                             }
                         ]
@@ -1581,107 +1580,107 @@ export const content = {
             },
             {
                 id: "content-us-state-by-state",
-                name: "State by state",
+                name: "الدولة حسب الدولة",
                 articles: [
                     {
                         class: "columns-wrap",
-                        header: "California",
+                        header: "كاليفورنيا",
                         type: "excerpt",
                         content: [
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
-                                text: "Et tortor at risus viverra adipiscing at. Leo urna molestie at elementum eu facilisis sed. Adipiscing tristique risus nec feugiat in fermentum posuere urna.",
+                                text: "حقول هنا؟ الموسوعة كان كل, حاول جنوب عن وقد. لها إذ شمال الإنزال الثالث،. لها قد العدّ بمحاولة المتاخمة, سكان الأمور اليابان، أما من. ارتكبها الأولية تعد بـ, وقد مكثّفة وحلفاؤها باستخدام ان, حيث تم الجنود الإنزال.",
                             },
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
-                                text: "Luctus venenatis lectus magna fringilla. Condimentum mattis pellentesque id nibh tortor id. Rhoncus aenean vel elit scelerisque mauris pellentesque.",
+                                text: "ضمنها لإعادة الإتحاد إيو من, فقد ترتيب يتسنّى واقتصار في, إستعمل استمرار العالمية ٣٠ عدم. أي كما ليبين مهمّات الشرقية, إذ جورج للأراضي ضرب. جيوب تعديل بمباركة أسر عن, شعار سقطت إستعمل ذلك ان. بل العناد الإحتفاظ اليابان، دون. أن أما الشتاء ومحاولة, ٣٠ معقل الأسيوي ويكيبيديا، قام.",
                             },
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
-                                text: "Feugiat scelerisque varius morbi enim nunc. Amet consectetur adipiscing elit ut aliquam purus sit amet luctus. Orci a scelerisque purus semper eget duis at tellus at.",
+                                text: "ببعض بمحاولة وتم و, تم عدد لإنعدام اقتصادية. لان في وبعض الشهيرة, قد الشمال ماليزيا، الدولارات إيو. يبق قائمة جزيرتي ما. يبق حصدت هامش الأمم ٣٠, و خطّة قادة السادس فقد. عل حيث وقبل ممثّلة الغالي.",
                             },
                         ],
                     },
                     {
                         class: "columns-wrap",
-                        header: "New York",
+                        header: "نيويورك",
                         type: "excerpt",
                         content: [
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
-                                text: "Vitae sapien pellentesque habitant morbi tristique. Quisque id diam vel quam elementum pulvinar etiam non. Hendrerit gravida rutrum quisque non tellus orci.",
+                                text: "بال ساعة بالفشل وسمّيت ما, تحت بل الله الجو. التي بمباركة ثم كما, بل كلّ دفّة عرفها. أي جُل نتيجة يتعلّق وقدّموا, بها لم أكثر وبلجيكا،. يطول السيطرة ٣٠ أضف, ٣٠ تُصب تحرير الأولى حتى. عدد إجلاء نتيجة الساحة ثم, الدول فقامت يكن ٣٠. من أراض تغييرات الولايات بها, بل القادة جديداً على.",
                             },
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
-                                text: "Rhoncus dolor purus non enim praesent. Massa enim nec dui nunc mattis. Odio eu feugiat pretium nibh ipsum consequat. Bibendum enim facilisis gravida neque convallis a cras.",
+                                text: "فصل جيما اتفاق الهادي أم, تعد عل قبضتهم وتتحمّل. تشكيل حاملات التنازلي حتى تم. حين بـ يتعلّق البرية الحيلولة, أي الأخذ العظمى حين. وعلى كرسي وقوعها، أي الى, الهادي المتّبعة ان هذه, فعل ٣٠ جنوب الشمال.",
                             },
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
-                                text: "Cursus euismod quis viverra nibh. Facilisis mauris sit amet massa. Eget mauris pharetra et ultrices. Vitae turpis massa sed elementum tempus egestas sed. Semper viverra nam libero justo.",
+                                text: "ليتسنّى وبالتحديد، دول ٣٠, بمباركة مليارات الشّعبين قام من. ان يعبأ بالحرب وباستثناء جعل, دون بـ ومضى وجهان فرنسية. مع بشكل إعمار حتى. وقبل لإعادة وقد ما, بهيئة تشكيل مما أي, الشرقية بمحاولة تعد ٣٠.",
                             },
                         ],
                     },
                     {
                         class: "columns-wrap",
-                        header: "Washington",
+                        header: "واشنطن",
                         type: "excerpt",
                         content: [
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
-                                text: "Iaculis nunc sed augue lacus viverra. Sed libero enim sed faucibus turpis in. Massa tincidunt dui ut ornare. Adipiscing bibendum est ultricies integer quis auctor elit.",
+                                text: "قام أم سقوط أواخر. مدن الثقيل الثقيلة الواقعة ٣٠, مع المحيط الصفحة الشتاء، دون, بحق كردة التحالف الإقتصادي مع. يتبقّ الفترة كلّ أم. أم مسرح شمال وسمّيت حيث, يتم في تسبب وحتّى. جدول النفط فقد ٣٠, الستار الباهضة بريطانيا لمّ في.",
                             },
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
-                                text: "Aliquet nec ullamcorper sit amet risus nullam eget felis eget. Tortor dignissim convallis aenean et tortor at risus. Dolor sed viverra ipsum nunc.",
+                                text: "فسقط الثالث عل على. ومن الأجل اليها بل, عرفها وباءت إتفاقية أضف بل. بحث بل إعلان الأبرياء الاندونيسية, بل إنطلاق العالم تزامناً يبق. والحزب بالمطالبة تم ضرب, قد وتم مهمّات بولندا،, جعل تُصب وعلى بالحرب ثم. الى أم وتتحمّل الوزراء, تعداد الانجليزية دنو ٣٠. غينيا وفنلندا فقد عل, كُلفة الحدود العالمي ثم جهة, الحكم بلديهما أي به،.",
                             },
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
-                                text: "In cursus turpis massa tincidunt dui ut ornare. Lacus vestibulum sed arcu non odio euismod lacinia at. Mi ipsum faucibus vitae aliquet nec. Commodo sed egestas egestas fringilla phasellus faucibus scelerisque eleifend.",
+                                text: "يطول إجلاء تم كلّ, و فصل عالمية بقيادة بمعارضة. عدد تم قدما عالمية الأثنان, بفرض وسوء التّحول دول مع. ثم السيء إستعمل استمرار الا, اعلان كثيرة الثانية من قام. فهرست ويتّفق دنو من. ٣٠ فقد شرسة دأبوا تعديل, أن بتخصيص والإتحاد ولم, أخر بينما الشمل إذ.",
                             },
                         ],
                     },
@@ -1689,70 +1688,70 @@ export const content = {
             },
             {
                 id: "content-us-hot-topics",
-                name: "Hot Topics",
+                name: "مواضيع مثيرة",
                 articles: [
                     {
                         class: "columns-2-balanced",
-                        header: "This First",
+                        header: "هذا أولا",
                         type: "grid",
                         content: [
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
                                 meta: {
                                     tag: "new"
                                 },
-                                text: "Magna ac placerat vestibulum lectus mauris ultrices eros. Risus nullam eget felis eget nunc. Orci porta non pulvinar neque. Aliquam purus sit amet luctus venenatis lectus magna fringilla urna. In arcu cursus euismod quis viverra nibh.",
+                                text: "بل أمدها العصبة الإيطالية فصل, قد والفرنسي سنغافورة الأمريكية بعد. ببعض أمّا قد مما, كانتا والكساد بـ حتى. عدد إذ معاملة وسمّيت. أخذ أم قُدُماً بالإنزال, تعد هامش نهاية عالمية بل, بقسوة العدّ بالحرب فصل أم. في الصفحة وقدّموا مدن. عن ضمنها بولندا، دنو, حين وقبل بداية إختار كل, ان بال الحكم اقتصادية. أن تعد مارد الشمال, حيث و أهّل العالمي اقتصادية, إختار التغييرات ولم ثم.",
                                 url: "#"
                             },
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
                                 meta: {
                                     tag: "new"
                                 },
-                                text: "Id venenatis a condimentum vitae sapien. Dui vivamus arcu felis bibendum ut tristique. Laoreet sit amet cursus sit amet dictum sit amet justo. Id semper risus in hendrerit gravida rutrum quisque non. Posuere sollicitudin aliquam ultrices sagittis orci a scelerisque.",
+                                text: "Iليبين بتخصيص حين و. كانتا بولندا، واستمرت تعد مع, بل لها ثمّة بتخصيص الثالث،. القوى بريطانيا-فرنسا و كما, و تلك يتسنّى ا اليميني, تلك ثم بالرّد مهمّات الشتوية. ثمّة المشترك ومحاولة هو بها.",
                                 url: "#"
                             }
                         ]
                     },
                     {
                         class: "columns-2-balanced",
-                        header: "This Second",
+                        header: "هذا الثاني",
                         type: "grid",
                         content: [
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
                                 meta: {
                                     tag: "breaking"
                                 },
-                                text: "Nulla porttitor massa id neque aliquam. Amet massa vitae tortor condimentum lacinia quis vel. Semper quis lectus nulla at volutpat diam ut venenatis. In nulla posuere sollicitudin aliquam ultrices.",
+                                text: "تم وقبل جسيمة وكسبت فقد, ما جهة الأسيوي والمعدات. عل كانت الهجوم يتم, مكن أن أمّا وبحلول المبرمة. عن غير وكسبت عسكرياً, بل شيء أثره، ا. أخذ تشكيل بقيادة المنتصر كل, ذلك أدنى أواخر اقتصادية مع. الطريق العالم، اليميني فقد ثم, لأداء وتتحمّل الأعمال قبل تم. والحزب وفرنسا عسكرياً جهة كل, كل تحت سياسة تحرّك.",
                                 url: "#"
                             },
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
                                 meta: {
                                     tag: "breaking"
                                 },
-                                text: "Egestas congue quisque egestas diam in arcu cursus. Vitae tempus quam pellentesque nec nam aliquam. Proin nibh nisl condimentum id. Mattis ullamcorper velit sed ullamcorper morbi tincidunt. Egestas integer eget aliquet nibh praesent tristique.",
+                                text: "بقصف العصبة الوراء وصل و. لهذه المضي أم قبل, هو دول بقصف حادثة. دارت مسرح عقبت تلك عل. حلّت معاملة تحت ما. قد الضروري وصافرات تحت.",
                                 url: "#"
                             }
                         ]
@@ -1761,7 +1760,7 @@ export const content = {
             },
             {
                 id: "content-us-paid-content",
-                name: "Paid Content",
+                name: "المحتوى المدفوع",
                 articles: [
                     {
                         class: "columns-4-balanced",
@@ -1770,11 +1769,11 @@ export const content = {
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
-                                title: "Mi tempus imperdiet nulla malesuada pellentesque elit eget gravida cum. Nec tincidunt praesent semper feugiat nibh sed pulvinar proin.",
+                                title: "وقتي تمويل مطور التغذية يحتاج إلى الحمل.كما أن المطورين لا يقدمون دائمًا ولكن السيرة الذاتية للكرة الطائرة.",
                             },
                         ],
                     },
@@ -1785,11 +1784,11 @@ export const content = {
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
-                                title: "Sed cras ornare arcu dui vivamus arcu. Blandit aliquam etiam erat velit scelerisque in. Nisl rhoncus mattis rhoncus urna neque viverra.",
+                                title: "ومع ذلك ، غد كرة القدم قوس الكحول.وكان أيضا الشوكولاته في الشوكولات لا رسم كاريكاتوري.",
                             },
                         ],
                     },
@@ -1800,11 +1799,11 @@ export const content = {
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
-                                title: "Nunc sed id semper risus in hendrerit gravida rutrum. Ac felis donec et odio pellentesque diam volutpat commodo sed.",
+                                title: "الآن ، لكن هذا يبتسم دائمًا في المكياج الحامل للمكتب.وكرة القدم حتى أكره راحة قطر الأطفال في عطلة نهاية الأسبوع ولكن.",
                             },
                         ],
                     },
@@ -1815,11 +1814,11 @@ export const content = {
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
-                                title: "Semper quis lectus nulla at volutpat diam ut venenatis tellus. Felis eget nunc lobortis mattis aliquam faucibus purus in massa. Et malesuada fames ac turpis.",
+                                title: "دائما صفر الشخص المختار في قطر عطلة نهاية الأسبوع ليتم تعقيمه.فيليس بحاجة الآن إلى كرتون الكثير من تذوق الفلفل الحار في الكتلة. الجوع والقبيح.",
                             },
                         ],
                     },
@@ -1828,146 +1827,146 @@ export const content = {
         ],
     },
     world: {
-        name: "World",
+        name: "عالم",
         url: "/world",
         priority: 1,
         sections: [
             {
                 id: "content-world-global-trends",
-                name: "Global trends",
+                name: "الاتجاهات العالمية",
                 articles: [
                     {
                         class: "columns-3-balanced",
-                        header: "Africa",
+                        header: "أفريقيا",
                         url: "#",
                         image: {
                             src: "placeholder_light.jpg",
-                            alt: "Placeholder",
+                            alt: "عنصر نائب",
                             width: "1280",
                             height: "720",
                         },
                         meta: {
-                            captions: "Photo taken by someone.",
+                            captions: "الصورة التي التقطها شخص ما.",
                         },
-                        title: "Sed id semper risus in hendrerit gravida. Sagittis orci a scelerisque purus semper eget duis at tellus.",
+                        title: "لكنها دائما ابتسامة في مكتب حامل.الأسهم السريرية من الفلفل الحار تحتاج دائمًا إلى الواجب المنزلي في المنطقة.",
                         type: "text",
                         content:
-                            "Quam viverra orci sagittis eu volutpat odio facilisis mauris sit. Magna fringilla urna porttitor rhoncus dolor purus non enim praesent. Pellentesque sit amet porttitor eget dolor morbi non arcu risus. Dictum varius duis at consectetur. Ut porttitor leo a diam sollicitudin tempor id eu nisl.",
+                            "مدن و تحرير بمباركة الباهضة, الأول اعتداء أخر لم, تلك و الثقيل الحكومة استرجاع. هو العدّ اليابان لان, ٣٠ وقامت مكثّفة مكن, مدن بلاده الآخر الشرقية ٣٠. غير للمجهود المجتمع مع, وشعار ايطاليا، تم كلّ. قد الحيلولة العمليات وصل. سابق والحزب الدّفاع انه و. جهة بـ وترك والحزب تزامناً.\n\n أفريقيا, شاسعة إعمار به، ما. ولم كرسي وقوعها، من. فصل واستمر التنازلي لم, أم مكن تاريخ تطوير الساحل. أساسي بمحاولة دار هو, لها الأول لإعادة ما.\n\n٣٠ ومطالبة والفلبين جهة, أراض معارضة عرض ان. حكومة إحتار تم ضرب, عل جمعت وعلى أضف, حدى في نهاية الأرضية. الدّفاع العالمية الا أي, بـ طوكيو الساحة حدى. بحق ما اليابانية الإيطالية الأوروبية،, بـ فبعد ترتيب دول. بالحرب بالمطالبة ولم أن.",
                     },
                     {
                         class: "columns-3-balanced",
-                        header: "China",
+                        header: "الصين",
                         url: "#",
                         image: {
                             src: "placeholder_light.jpg",
-                            alt: "Placeholder",
+                            alt: "عنصر نائب",
                             width: "1280",
                             height: "720",
                         },
                         meta: {
-                            captions: "Photo taken by someone.",
+                            captions: "الصورة التي التقطها شخص ما.",
                         },
-                        title: "Convallis aenean et tortor at risus. Pellentesque elit eget gravida cum sociis natoque penatibus.",
+                        title: "وادي ياسمين وميكروفون في الابتسامة.يحتاج مطور إلى الحمل مع رفاق أشعة السحب.",
                         type: "text",
                         content:
-                            "Auctor urna nunc id cursus metus aliquam. Amet commodo nulla facilisi nullam. Blandit massa enim nec dui nunc mattis enim ut. Et netus et malesuada fames ac turpis. Pellentesque habitant morbi tristique senectus et netus et malesuada. Habitant morbi tristique senectus et netus et malesuada fames ace.",
+                            "تحت لفشل المتّبعة و, دول بأيدي بتخصيص مليارات عل. كل فمرّ شاسعة لعملة أخر, حول مع أوسع الشتاء،, حتى مشارف لمحاكم الشتوية إذ. كل الى جيما النزاع الكونجرس. ما اللا العالم فقد, يبق بـ سقطت أوزار بالولايات. وقوعها، التغييرات عن بحث. عن ميناء واشتدّت جهة, قبل يذكر التنازلي أي.\n\nجعل تم تونس ماذا مسؤولية, جُل ٣٠ بتخصيص وأكثرها والديون, ان بلاده وحلفاؤها وصل. أم بحث الواقعة باستخدام, كان ما فرنسا بالرّد لبلجيكا،, اتفاق وبولندا بالولايات أي حدى. دار القادة وتنامت عن. جُل طوكيو الثانية و, انه السفن العالم، عن. شمال مليون ثم كان, كل مما موالية ألمانيا الأهداف.",
                     },
                     {
                         class: "columns-3-balanced",
-                        header: "Russia",
+                        header: "روسيا",
                         url: "#",
                         image: {
                             src: "placeholder_light.jpg",
-                            alt: "Placeholder",
+                            alt: "عنصر نائب",
                             width: "1280",
                             height: "720",
                         },
                         meta: {
-                            captions: "Photo taken by someone.",
+                            captions: "الصورة التي التقطها شخص ما.",
                         },
-                        title: "Pharetra magna ac placerat vestibulum lectus mauris ultrices eros.",
+                        title: "ارتجاع كبير وتصنيع عقاري مختار كرة السلة موريس.",
                         type: "list",
                         content: [
                             {
-                                content: "Luctus venenatis lectus magna fringilla urna porttitor rhoncus.",
+                                content: "اليها الهادي المتساقطة، لم بال وبغطاء الشمال ايطاليا،, ثم المارق الأبرياء التقليدية حيث, مكن عل ويعزى لبلجيكا،. ترتيب لإعلان هذا قد, مدن عل تعديل الحدود اسبوعين.",
                             },
                             {
-                                content: "Placerat orci nulla pellentesque dignissim enim sit amet venenatis.",
+                                content: "وزارة أفريقيا الإقتصادي كما ٣٠, غينيا وبداية اليابان، عل هذه. لها تم بفرض أفاق الثالث،, بال مع مايو للمجهود, بقسوة فهرست الأولية هذا تم. حين في دأبوا",
                             },
                             {
-                                content: "Pellentesque nec nam aliquam sem et.",
+                                content: "هذا بتخصيص بالرغم أن, الإقتصادية, لان غضون مقاومة تم. ولم إبّان أراضي إذ. مكن لم أفاق وأزيز وبلجيكا،, حقول المزيفة ٣٠ ضرب. وفرنسا المعاهدات عن بحق, فصل مسؤولية كل.",
                             },
                             {
-                                content: "In hendrerit gravida rutrum quisque non tellus.",
-                            },
+                                content: "مرجع مليون الخطّة ومن ما, بقيادة وحرمان إيو كل. بتحدّي الأولية يكن لم. هو قام ليرتفع الخاطفة بالمحور, هو يذكر العدّ هذا. يتسنّى الفرنسي وتم هو, و بلا حادثة المواد. حول إذ يعادل",
+                            }
                         ],
                     },
                 ],
             },
             {
                 id: "content-world-around-the-world",
-                name: "Around the world",
+                name: "حول العالم",
                 articles: [
                     {
                         class: "columns-3-balanced",
-                        header: "Europe",
+                        header: "أوروبا",
                         image: {
                             src: "placeholder_light.jpg",
-                            alt: "Placeholder",
+                            alt: "عنصر نائب",
                             width: "1280",
                             height: "720",
                         },
                         meta: {
-                            captions: "Photo taken by someone.",
+                            captions: "الصورة التي التقطها شخص ما.",
                         },
-                        title: "Porttitor massa id neque aliquam vestibulum. Semper auctor neque vitae tempus quam.",
+                        title: "محايدة محايدة. دائما المؤلف أو فترة الحياة.",
                         type: "text",
                         content:
-                            "Metus vulputate eu scelerisque felis imperdiet proin fermentum leo vel. Nisi scelerisque eu ultrices vitae auctor eu. Risus pretium quam vulputate dignissim suspendisse. Pulvinar neque laoreet suspendisse interdum. Mauris cursus mattis molestie a iaculis at erat.",
+                            "مع ولم بقسوة الخطّة. أم أمام الشرقية والنرويج نفس, بتطويق الأبرياء التغييرات في حدى, الطرفين بالمطالبة دار عل. بها ومضى وتنامت مليارات بل. إذ ولم الإطلاق مليارات وحلفاؤها, بخطوط بزمام لها ٣٠.\n\nأي لعملة إستعمل العالم، مما, وباءت الضغوط وبولندا ٣٠ تلك. حول هناك سياسة إذ, إيطاليا تزامناً الانجليزية ٣٠ ولم. قادة فاتّبع الثالث، ان هذه. إذ ووصف بزمام بين, ومن ثم ودول لهذه الموسوعة. الطريق للحكومة الأعمال يكن في, تحت قد الذود انتصارهم. لها واستمر الإطلاق استطاعوا ان. ووصف يتمكن الثالث، كل أسر.",
                     },
                     {
                         class: "columns-3-balanced",
-                        header: "Middle East",
+                        header: "الشرق الأوسط",
                         image: {
                             src: "placeholder_light.jpg",
-                            alt: "Placeholder",
+                            alt: "عنصر نائب",
                             width: "1280",
                             height: "720",
                         },
                         meta: {
-                            captions: "Photo taken by someone.",
+                            captions: "الصورة التي التقطها شخص ما.",
                         },
-                        title: "Et molestie ac feugiat sed lectus vestibulum mattis.",
+                        title: "الموظف والاتحاد الأوروبي ولكن الكثير من التصنيع المحدد.",
                         type: "text",
                         content:
-                            "Suspendisse interdum consectetur libero id faucibus nisl tincidunt eget nullam. Cursus vitae congue mauris rhoncus aenean vel elit scelerisque mauris. Quam vulputate dignissim suspendisse in est ante in nibh mauris.",
+                            "جعل إحتار الباهضة الواقعة ان, مدن في ودول الساحل الإثنان. بعض بينما مشروط الساحلية ان, عل اتفاقية التاريخ، هذا, قامت يتمكن بالتوقيع أي عرض. حكومة وعُرفت لم وصل. أسر بل نتيجة والحزب.\n\nخطّة وتنامت حين أم, تمهيد وايرلندا قد أخر. لفشل بداية بل بحق, أم وتم أكثر تشيكوسلوفاكيا. كان لم كانت المبرمة. قد أما نقطة مساعدة ابتدعها, تحت قد أخرى ارتكبها, انتباه والفلبين الاندونيسية لمّ عل. ان اللا وبالرغم الاندونيسية أخذ, بين عن لهذه بالفشل.",
                     },
                     {
                         class: "columns-3-balanced",
-                        header: "Asia",
+                        header: "آسيا",
                         image: {
                             src: "placeholder_light.jpg",
-                            alt: "Placeholder",
+                            alt: "عنصر نائب",
                             width: "1280",
                             height: "720",
                         },
                         meta: {
-                            captions: "Photo taken by someone.",
+                            captions: "الصورة التي التقطها شخص ما.",
                         },
-                        title: "Metus dictum at tempor commodo.",
+                        title: "كان الخوف في وقت الراحة.",
                         type: "list",
                         content: [
                             {
-                                content: "Id faucibus nisl tincidunt eget nullam non nisi.",
+                                content: "تم وقبل جسيمة وكسبت فقد, ما جهة الأسيوي والمعدات. عل كانت الهجو",
                             },
                             {
-                                content: "Lectus quam id leo in vitae turpis massa.",
+                                content: "تم اختياره كأسد في حياة القداس المدرسي.",
                             },
                             {
-                                content: "Urna nec tincidunt praesent semper feugiat nibh sed. Sed turpis tincidunt id aliquet risus.",
+                                content: "والحزب وفرنسا عسكرياً جهة كل, كل تحت سياسة تحرّك.",
                             },
                             {
-                                content: "Eu ultrices vitae auctor eu augue ut lectus.",
+                                content: "الاتحاد الأوروبي لكرة السلة مؤلفة الدعاية لكرة القدم لتخرج.",
                             },
                         ],
                     },
@@ -1975,7 +1974,7 @@ export const content = {
             },
             {
                 id: "content-world-latest-media",
-                name: "Latest Media",
+                name: "أحدث الوسائط",
                 articles: [
                     {
                         class: "columns-1",
@@ -1984,7 +1983,7 @@ export const content = {
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -1995,7 +1994,7 @@ export const content = {
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -2006,7 +2005,7 @@ export const content = {
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -2017,7 +2016,7 @@ export const content = {
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -2031,106 +2030,106 @@ export const content = {
             },
             {
                 id: "content-world-today",
-                name: "Today",
+                name: "اليوم",
                 articles: [
                     {
                         class: "columns-3-wide",
-                        header: "Unrest",
+                        header: "الاضطرابات",
                         url: "#",
                         image: {
                             src: "placeholder_light.jpg",
-                            alt: "Placeholder",
+                            alt: "عنصر نائب",
                             width: "1280",
                             height: "720",
                         },
                         meta: {
-                            captions: "Photo taken by someone.",
+                            captions: "الصورة التي التقطها شخص ما.",
                             tag: "breaking",
                         },
-                        title: "Viverra aliquet eget sit amet. In fermentum posuere urna nec.",
+                        title: "موز الكرتون يتطلب الكثير.في الاحماء أو وضع على الوعاء أم لا.",
                         type: "list",
                         content: [
                             {
-                                content: "Massa enim nec dui nunc mattis. Ornare lectus sit amet est placerat in.",
+                                content: "القداس ليست لا قيمة لها الآن العقارات.الجزر المتخرج لكرة القدم هو عقار في.",
                             },
                             {
-                                content: "Morbi tristique senectus et netus et malesuada fames ac turpis.",
+                                content: "إذ. كل الى جيما النزاع الكونجرس. ما اللا العالم فقد, يبق بـ سقطت أوزار بالولايات",
                             },
                             {
-                                content: "Fed vulputate mi sit amet mauris commodo quis imperdiet massa.",
+                                content: "مدن و تحرير بمباركة الباهضة, الأول اعتداء أخر لم, تلك و الثقيل الحكومة استرجاع. ه",
                             },
                             {
-                                content: "In egestas erat imperdiet sed euismod nisi porta lorem mollis. Scelerisque eu ultrices vitae auctor eu augue ut lectus arcu.",
+                                content: "اليها الهادي المتساقطة، عن لمّ. وفي هو قبضتهم وتنصيب. لم بال وبغطاء الشمال ايطاليا،, ثم المارق الأبرياء التقليدية حيث, مكن عل ويعزى لبلجيكا،. ترتيب لإعلان هذا قد, مدن عل تعديل الحدود اسبوعين. تحت لفشل المتّبعة و, دول بأيدي بتخصيص مليارات عل. كل فمرّ شاسعة لعملة أخر, حول مع",
                             },
                         ],
                     },
                     {
                         class: "columns-3-narrow",
-                        header: "Happening now",
+                        header: "يحدث الآن",
                         url: "#",
                         type: "preview",
                         content: [
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
-                                title: "Semper auctor neque vitae tempus quam pellentesque nec nam aliquam.",
+                                title: "دائما أو وقت الحياة كأطفال أو للبعض.",
                             },
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
-                                title: "Viverra maecenas accumsan lacus vel facilisis volutpat.",
+                                title: "طب الكرتونية من البلياردو أو مضادات الأكسدة في عطلة نهاية الأسبوع.",
                             },
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
-                                title: "Orci sagittis eu volutpat odio facilisis mauris sit.",
+                                title: "السهام السريرية كرة القدم عطلة نهاية الأسبوع الكراهية مضادات الأكسدة موريس الجلوس.",
                             },
                         ],
                     },
                     {
                         class: "columns-3-narrow",
-                        header: "Noteworthy",
+                        header: "جدير بالملاحظة",
                         url: "#",
                         type: "preview",
                         content: [
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
-                                title: "Nunc aliquet bibendum enim facilisis gravida neque convallis a.",
+                                title: "الآن مشروب الموز هو مضادات الأكسدة حامل أو وادي.",
                             },
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
-                                title: "Ut diam quam nulla porttitor massa id neque aliquam vestibulum.",
+                                title: "إلى القطر من عدم وجود كتلة طيران ليست تصنيع معين.",
                             },
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
-                                title: "Magna fermentum iaculis eu non diam phasellus vestibulum lorem.",
+                                title: "كرة القدم الإحماء العظيمة ليست قطر.",
                             },
                         ],
                     },
@@ -2138,89 +2137,89 @@ export const content = {
             },
             {
                 id: "content-world-featured",
-                name: "Featured",
+                name: "متميز",
                 articles: [
                     {
                         class: "columns-3-balanced",
-                        header: "European Union",
+                        header: "الاتحاد الأوروبي",
                         image: {
                             src: "placeholder_light.jpg",
-                            alt: "Placeholder",
+                            alt: "عنصر نائب",
                             width: "1280",
                             height: "720",
                         },
                         meta: {
-                            captions: "Photo taken by someone.",
+                            captions: "الصورة التي التقطها شخص ما.",
                         },
-                        title: "Luctus venenatis lectus magna fringilla urna.",
+                        title: "الحداد تعقيم وعاء بيئي كبير.",
                         type: "list",
                         content: [
                             {
-                                content: "Nulla facilisi cras fermentum odio eu. Porttitor lacus luctus accumsan tortor posuere ac ut.",
+                                content: "كان ان وبدون حادثة النزاع, إذ العصبة واقتصار كما. ثم فعل هاربر أفريقيا.",
                             },
                             {
-                                content: "Phasellus egestas tellus rutrum tellus pellentesque eu tincidunt. Leo vel orci porta non. Sem nulla pharetra diam sit amet nisl.",
+                                content: "سنغافورة لم. ولم عل لفشل تحرّكت محاولات, أم كما الساحة الجديدة، الفرنسية, أن دون مرمى أمام مساعدة. ٣٠ جُل حالي",
                             },
                             {
-                                content: "Justo donec enim diam vulputate ut pharetra sit amet aliquam. Eu consequat ac felis donec et.",
+                                content: "الشرق، الهادي ٣٠ أما, ثم سقوط أمّا ومن. لمّ بل لعدم الأول. إذ أطراف اكتوبر دنو, قِبل الثقيلة الجديدة، حول كل",
                             },
                         ],
                     },
                     {
                         class: "columns-3-balanced",
-                        header: "Britain",
+                        header: "بريطانيا",
                         image: {
                             src: "placeholder_light.jpg",
-                            alt: "Placeholder",
+                            alt: "عنصر نائب",
                             width: "1280",
                             height: "720",
                         },
                         meta: {
-                            captions: "Photo taken by someone.",
+                            captions: "الصورة التي التقطها شخص ما.",
                         },
-                        title: "Orci a scelerisque purus semper eget duis.",
+                        title: "الشوكولاتة السريرية الفلفل الحار تحتاج دائما الواجب المنزلي.",
                         type: "text",
                         content:
-                            "Gravida rutrum quisque non tellus orci ac auctor augue mauris. Enim ut sem viverra aliquet eget. Sit amet volutpat consequat mauris nunc congue nisi vitae.\n\nPraesent tristique magna sit amet purus gravida quis blandit turpis. Commodo odio aenean sed adipiscing diam donec adipiscing tristique risus. Quam quisque id diam vel quam elementum.",
+                            "في قتيل، ابتدعها دنو. ضرب شمال للسيطرة استراليا، أم. قادة بقسوة الهادي مع عدم. إذ تطوير علاقة أساسي هذه. عليها الأوروبية الإقتصادية تم انه, بحق أم وسوء أمدها بريطانيا،.",
                     },
                     {
                         class: "columns-3-balanced",
-                        header: "Latin America",
+                        header: "أمريكا اللاتينية",
                         image: {
                             src: "placeholder_light.jpg",
-                            alt: "Placeholder",
+                            alt: "عنصر نائب",
                             width: "1280",
                             height: "720",
                         },
                         meta: {
-                            captions: "Photo taken by someone.",
+                            captions: "الصورة التي التقطها شخص ما.",
                         },
-                        title: "Congue nisi vitae suscipit tellus.",
+                        title: "التخطيط ما لم تأخذ الحياة الحزمة.",
                         type: "list",
                         display: "bullets",
                         content: [
                             {
-                                content: "Ut venenatis tellus in metus vulputate.",
+                                content: "ليتم تعقيمها في المنطقة في الخوف من الضعف.",
                                 url: "#",
                             },
                             {
-                                content: "Vitae aliquet nec ullamcorper sit amet risus nullam.",
+                                content: "خيار اليابان، الأوروبية، أم عدد. بـ لفرنسا واُسدل الى. التي اليميني",
                                 url: "#",
                             },
                             {
-                                content: "Ellus in hac habitasse platea dictumst.",
+                                content: "عرض يقوم أسابيع ديسمبر. سكان وزارة مسؤولية ذلك تم,",
                                 url: "#",
                             },
                             {
-                                content: "In nisl nisi scelerisque eu ultrices vitae.",
+                                content: "في اللاعبين باستثناء حياة كرة السلة للشوكولاتة.",
                                 url: "#",
                             },
                             {
-                                content: "Est ullamcorper eget nulla facilisi etiam dignissim diam quis enim.",
+                                content: "هذا لعدم القادة الأمريكي أم. حالية السبب قد أسر. عن أخر",
                                 url: "#",
                             },
                             {
-                                content: "It volutpat diam ut venenatis tellus.",
+                                content: "قطر عطلة نهاية الأسبوع كمنطقة معقمة.",
                                 url: "#",
                             },
                         ],
@@ -2229,107 +2228,107 @@ export const content = {
             },
             {
                 id: "content-world-international",
-                name: "International",
+                name: "دولي",
                 articles: [
                     {
                         class: "columns-wrap",
-                        header: "United Nations",
+                        header: "الأمم المتحدة",
                         type: "excerpt",
                         content: [
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
-                                text: "Morbi quis commodo odio aenean sed adipiscing diam. Congue mauris rhoncus aenean vel elit scelerisque mauris pellentesque. Justo nec ultrices dui sapien.",
+                                text: "و بينما مكثّفة الأمريكية يبق, إذ لفشل أفاق استرجاع بعد, جُل أصقاع معزّزة اليابانية ان. وصغار وحلفاؤها هو جعل, كانت تحرّكت التقليدي بلا كل. مكثّفة وهولندا، يكن هو, خطّة وجزر مع بين. هذه ان جيما ليرتفع, دون مع فسقط اتفاق بأيدي. مع يتم اعتداء الأمور وهولندا،, الخاسر المتحدة كل عدد. الخارجية استطاعوا بـ بحق.",
                             },
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
-                                text: "Nibh nisl condimentum id venenatis a condimentum. Id diam maecenas ultricies mi eget mauris pharetra et ultrices. Faucibus turpis in eu mi bibendum neque egestas. Et malesuada fames ac turpis egestas sed tempus urna et.",
+                                text: "شواطيء ومطالبة إيو ان. أسيا والمانيا عل تحت, فكانت العالم، الربيع، أخذ أي. كلا و جديدة القوى. غضون أوسع اللازمة حول هو, يتم ما الآخر وبداية السادس, والقرى بريطانيا-فرنسا هذه ٣٠. وفي الحرة الأمور المواد إذ, جهة لم رئيس ميناء. بين أن أدوات التّحول.",
                             },
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
-                                text: "Ut etiam sit amet nisl purus in mollis nunc sed. Pellentesque adipiscing commodo elit at imperdiet dui. Ac tortor vitae purus faucibus ornare suspendisse sed nisi lacus. Enim facilisis gravida neque convallis.",
+                                text: "بـ أضف أوزار البولندي الإكتفاء. دارت الهادي يبق قد, أي ويعزى الساحل لمّ. وتم في أكثر اتفاقية الواقعة, وقبل مسؤولية قد شيء. يتم فمرّ مشارف ان, تلك ان وإقامة الخطّة. كانت الساحلية مدن كل, بل هذه اعتداء الثانية.",
                             },
                         ],
                     },
                     {
                         class: "columns-wrap",
-                        header: "European Union",
+                        header: "الاتحاد الأوروبي",
                         type: "excerpt",
                         content: [
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
-                                text: "Donec massa sapien faucibus et molestie. Fermentum iaculis eu non diam. Donec pretium vulputate sapien nec sagittis. Placerat duis ultricies lacus sed. Pretium lectus quam id leo in vitae turpis massa.",
+                                text: "خيار اليابان، الأوروبية، أم عدد. بـ لفرنسا واُسدل الى. التي اليميني بـ بحق, هذه الأوضاع المتّبعة و, وعلى محاولات سليمان، الى ان. هو الخطّة ديسمبر الأثنان يتم, لمّ ثم قبضتهم الثالث، وبلجيكا،.",
                             },
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
-                                text: "Luctus accumsan tortor posuere ac ut. Convallis posuere morbi leo urna molestie at elementum. Nisi est sit amet facilisis magna etiam tempor orci eu.",
+                                text: "هذا لعدم القادة الأمريكي أم. حالية السبب قد أسر. عن أخر حصدت الفرنسية, الصفحات للإتحاد قبل ثم. ضرب عُقر أحكم لإعادة عل, من عرض يقوم أسابيع ديسمبر. سكان وزارة مسؤولية ذلك تم, غضون إجلاء العالم، ٣٠ تلك, دول كُلفة الخاسرة بل.",
                             },
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
-                                text: "Purus in massa tempor nec feugiat nisl pretium fusce. Fermentum odio eu feugiat pretium nibh ipsum consequat nisl vel. Vestibulum sed arcu non odio euismod lacinia at quis.",
+                                text: "ومن عن الشتاء الشرقي, إذ أسر تطوير والإتحاد. ٣٠ الى لفشل بالحرب الإمتعاض. شاسعة تعديل ولم عن, يقوم لبلجيكا، قام و, فصل هو أوروبا الخاصّة. فعل الإثنان اليابانية من.",
                             },
                         ],
                     },
                     {
                         class: "columns-wrap",
-                        header: "Global Crisis",
+                        header: "أزمة عالمية",
                         type: "excerpt",
                         content: [
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
-                                text: "ristique senectus et netus et malesuada. Orci phasellus egestas tellus rutrum tellus pellentesque eu tincidunt. Varius quam quisque id diam vel quam elementum pulvinar. Quis imperdiet massa tincidunt nunc pulvinar sapien et ligula.",
+                                text: "مرجع الثانية الانجليزية لم مكن. فكان وبداية استمرار دار عل. الشتاء، الثانية حين مع. وصل أن لمحاكم للحكومة اليابان, تم عُقر وبغطاء شموليةً بها. أواخر الصينية فصل و, ومن أي ليتسنّى بولندا، اليابانية. بحشد عملية أما لم, هو العناد معزّزة بحق.",
                             },
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
-                                text: "Cras ornare arcu dui vivamus arcu felis bibendum ut. Volutpat blandit aliquam etiam erat velit scelerisque in dictum. Pharetra magna ac placerat vestibulum lectus.",
+                                text: "أخر في مشروط الهادي, عدم تم ترتيب الشّعبين, من الإنزال البشريةً بعض. عل عدد الصفحات للأراضي, إعلان للجزر الشتاء، جهة من. عن العالمي المبرمة الأبرياء دون. هو الشهير بالتوقيع أخر, تعد عن مايو واستمرت, عرض من جمعت ماشاء المارق.",
                             },
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
-                                text: "Leo integer malesuada nunc vel. Porttitor lacus luctus accumsan tortor posuere ac ut consequat. Ultrices eros in cursus turpis massa tincidunt dui ut. Eleifend mi in nulla posuere sollicitudin.",
+                                text: "حيث فقامت السفن وبلجيكا، في, حين أم وحتّى لليابان, أي أخر هاربر الدنمارك. تلك في سكان التخطيط, غير أراضي إتفاقية وهولندا، ٣٠. ما لها سقوط المضي وقدّموا, أخذ حكومة بقيادة تكاليف قد, ذلك أراض الحكم أي. ومن أم بقصف منتصف الاندونيسية, أن كُلفة ويعزى الواقعة عدم.",
                             },
                         ],
                     },
@@ -2337,92 +2336,92 @@ export const content = {
             },
             {
                 id: "content-world-global-impact",
-                name: "Global Impact",
+                name: "التأثير العالمي",
                 articles: [
                     {
                         class: "columns-3-balanced",
-                        header: "Weather",
+                        header: "طقس",
                         image: {
                             src: "placeholder_light.jpg",
-                            alt: "Placeholder",
+                            alt: "عنصر نائب",
                             width: "1280",
                             height: "720",
                         },
                         meta: {
-                            captions: "Photo taken by someone.",
+                            captions: "الصورة التي التقطها شخص ما.",
                         },
-                        title: "Euismod elementum nisi quis eleifend.",
+                        title: "عنصر الأداء ما لم يكن أي خصم.",
                         type: "list",
                         content: [
                             {
-                                content: "Enim tortor at auctor urna nunc id cursus metus. Nisi est sit amet facilisis magna etiam.",
+                                content: "الميكروفون في مؤلف كتاب الوعاء الآن معرف يدير المخاوف.إذا كان هناك الكثير من المرح أيضا.",
                             },
                             {
-                                content: "Neque volutpat ac tincidunt vitae. Metus aliquam eleifend mi in.",
+                                content: "أو عطلة نهاية الأسبوع ومطوري الحياة.مخاطر حركة المرور في.",
                             },
                             {
-                                content: "Aliquam malesuada bibendum arcu vitae elementum curabitur vitae.",
+                                content: "مرجع الثانية الانجليزية لم مكن. فكان وبداية استمرار دار عل.",
                             },
                             {
-                                content: "Turpis cursus in hac habitasse platea dictumst.",
+                                content: "التذاكر في هذا الوقت من الوقت.",
                             },
                         ],
                     },
                     {
                         class: "columns-3-balanced",
-                        header: "Business",
+                        header: "عمل",
                         image: {
                             src: "placeholder_light.jpg",
-                            alt: "Placeholder",
+                            alt: "عنصر نائب",
                             width: "1280",
                             height: "720",
                         },
                         meta: {
-                            captions: "Photo taken by someone.",
+                            captions: "الصورة التي التقطها شخص ما.",
                         },
-                        title: "Nunc mi ipsum faucibus vitae aliquet nec ullamcorper.",
+                        title: "الآن ، موز حياتي الحلق أو.",
                         type: "list",
                         content: [
                             {
-                                content: "Eget nulla facilisi etiam dignissim diam quis enim.",
+                                content: "حيث فقامت السفن وبلجيكا، في, حين أم وحتّى لليابان,",
                             },
                             {
-                                content: "Risus viverra adipiscing at in tellus integer feugiat scelerisque.",
+                                content: "الضحك سحب المرحلة الجامعية الأولى في المنطقة عدد صحيح الشوكولاتة.",
                             },
                             {
-                                content: "Cursus turpis massa tincidunt dui.",
+                                content: "الدورة التدريبية المطورين كتلة القبيحة وثيقة الهوية الوحيدة.",
                             },
                             {
-                                content: "Nascetur ridiculus mus mauris vitae ultricies leo integer."
+                                content: ". ما لها سقوط المضي وقدّموا, أخذ حكومة بقيادة تكاليف"
                             }
                         ],
                     },
                     {
                         class: "columns-3-balanced",
-                        header: "Politics",
+                        header: "سياسة",
                         image: {
                             src: "placeholder_light.jpg",
-                            alt: "Placeholder",
+                            alt: "عنصر نائب",
                             width: "1280",
                             height: "720",
                         },
                         meta: {
-                            captions: "Photo taken by someone.",
+                            captions: "الصورة التي التقطها شخص ما.",
                         },
-                        title: "Vulputate sapien nec sagittis aliquam malesuada.",
+                        title: "ن حتى جورج الحرة, ثم جيوب أواخر ولم, ثم جنوب الخاطفة البشريةً حول.",
                         type: "list",
                         content: [
                             {
-                                content: "Nisi scelerisque eu ultrices vitae auctor.",
+                                content: "اربر الدنمارك. تلك في سكان التخطيط, غير أراضي إتفاقية وهولندا،",
                             },
                             {
-                                content: "Urna porttitor rhoncus dolor purus non enim praesent elementum.",
+                                content: "ذلك أراض الحكم أي. ومن أم بقصف منتصف الاندونيسية, أن كُلفة ",
                             },
                             {
-                                content: "Ac turpis egestas integer eget aliquet.",
+                                content: " بحث ثم, ضرب لكون أملاً وفرنسا في. ثم فقد وصغار إعادة بولندا،.",
                             },
                             {
-                                content: "Nisl tincidunt eget nullam non nisi est.",
+                                content: "تحرّكت انتباه مع. أن وبدأت يتمكن حدى. دون ٣٠ يتسنّى ",
                             },
                         ],
                     },
@@ -2430,70 +2429,70 @@ export const content = {
             },
             {
                 id: "content-world-underscored",
-                name: "Underscored",
+                name: "يؤكد",
                 articles: [
                     {
                         class: "columns-2-balanced",
-                        header: "This First",
+                        header: "هذا أولا",
                         type: "grid",
                         content: [
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
                                 meta: {
                                     tag: "new"
                                 },
-                                text: "Risus sed vulputate odio ut enim blandit volutpat. Tempus egestas sed sed risus pretium quam vulputate. Ultrices mi tempus imperdiet nulla malesuada. Pellentesque diam volutpat commodo sed egestas. Scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam.",
+                                text: "حول بينما الستار عل, لمّ كل الشتاء، التغييرات. ممثّلة الضروري بحث ثم, ضرب لكون أملاً وفرنسا في. ثم فقد وصغار إعادة بولندا،. الثقيل اليابانية بريطانيا، ثم بلا. عرض الأجل وتنصيب الإنزال و, بل ٢٠٠٤ إحتار لها.",
                                 url: "#"
                             },
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
                                 meta: {
                                     tag: "new"
                                 },
-                                text: "Nunc mi ipsum faucibus vitae aliquet nec. Felis eget nunc lobortis mattis aliquam faucibus. Amet est placerat in egestas. Vitae proin sagittis nisl rhoncus mattis rhoncus. Mauris in aliquam sem fringilla ut. Pellentesque habitant morbi tristique senectus et netus et.",
+                                text: "مسرح مواقعها الانجليزية و بلا, ضرب ودول إختار التّحول ما. إيو أحكم تحرّكت انتباه مع. أن وبدأت يتمكن حدى. دون ٣٠ يتسنّى التكاليف, عل وقد تسبب عرفها الثقيل.",
                                 url: "#"
                             }
                         ]
                     },
                     {
                         class: "columns-2-balanced",
-                        header: "This Second",
+                        header: "هذا الثاني",
                         type: "grid",
                         content: [
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
                                 meta: {
                                     tag: "breaking"
                                 },
-                                text: "Egestas diam in arcu cursus euismod quis viverra nibh cras. Scelerisque fermentum dui faucibus in ornare quam viverra orci sagittis. Sed ullamcorper morbi tincidunt ornare massa eget egestas purus viverra. Risus in hendrerit gravida rutrum.",
+                                text: "ثم عدم ثمّة بمعارضة الدنمارك, ضرب ما كردة أكثر الأبرياء, ذلك عملية اتفاقية الشهيرة إذ. عن نفس العالمي الأسيوي وهولندا،, ما وبعض تمهيد رجوعهم يبق, على ثم ويعزى واستمر. به، عل إحتار السيطرة والكساد, ذات مليون مشاركة ا أن. أخرى جسيمة البشريةً تم يتم, قبل أي وجهان وزارة فرنسا, يكن انذار وإيطالي الأهداف بـ. أن خطّة المتساقطة، الى, تكبّد طوكيو ابتدعها أن ذلك, جورج واحدة الوزراء أم فصل.",
                                 url: "#"
                             },
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
                                 meta: {
                                     tag: "breaking"
                                 },
-                                text: "Integer malesuada nunc vel risus commodo viverra maecenas accumsan. Nec feugiat nisl pretium fusce id. Vel fringilla est ullamcorper eget nulla facilisi etiam dignissim diam. At tempor commodo ullamcorper a lacus vestibulum sed arcu. Suspendisse faucibus interdum posuere lorem ipsum dolor.",
+                                text: "التخطيط الإثنان بالمحور لان قد. بحق وبدون ويعزى ان, بل تعد الأولى الأوروبية. أن جهة شاسعة بريطانيا الأوربيين, العدّ واستمر الأهداف قام هو. أن حالية إستعمل أسر, أجزاء للسيطرة وبالتحديد، به، مع, بقسوة حاملات الإقتصادية بل كان. كل ذلك الدمج المجتمع والكساد, هو شيء فكان بالجانب البولندي, ذات إعلان الثقيل في. مع يعبأ أجزاء ومن, حاول هامش تم لكل.",
                                 url: "#"
                             }
                         ]
@@ -2502,85 +2501,85 @@ export const content = {
             },
             {
                 id: "content-world-global-issues",
-                name: "Global Issues",
+                name: "قضايا عالمية",
                 articles: [
                     {
                         class: "columns-wrap",
-                        header: "Rising Crime",
+                        header: "ارتفاع الجريمة",
                         type: "excerpt",
                         content: [
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
-                                text: "Phasellus faucibus scelerisque eleifend donec pretium. Tellus molestie nunc non blandit. Sed sed risus pretium quam vulputate dignissim suspendisse.",
+                                text: "الشوكولاتة المراهقين حتى السعر.التلفزيون المضحك الآن ليس بعد الظهر.ومع ذلك ، ولكن سعر الابتسامة من تدليك كرة القدم الجذاب.",
                             },
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
-                                text: "In vitae turpis massa sed. In hac habitasse platea dictumst vestibulum rhoncus est pellentesque elit. Egestas pretium aenean pharetra magna ac placerat vestibulum.",
+                                text: "في حياة الكتلة القبيحة ولكن.في هذه الدورة التدريبية ، فإن مجموعة التغذية هي مطور التغذية.أرنب برايس آينيان جويفر كبيرة والاستثمار في عطلة نهاية الأسبوع.",
                             },
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
-                                text: "Morbi tempus iaculis urna id volutpat lacus laoreet non. Dignissim convallis aenean et tortor at risus viverra adipiscing at. Nibh tortor id aliquet lectus proin nibh nisl.",
+                                text: "تعد شاسعة أطراف عن, مرمى استعملت يبق عل. ان العسكري الإحتفاظ نفس, و فرنسية الموسوعة الإتفاقية كلّ. ذات بـ أهّل وزارة الإطلاق, الثقيلة والروسية ومن في, ان انه ٠٨٠٤ وقرى احداث. غير وتزويده التخطيط عن.",
                             },
                         ],
                     },
                     {
                         class: "columns-wrap",
-                        header: "Health concerns",
+                        header: "المخاوف الصحية",
                         type: "excerpt",
                         content: [
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
-                                text: "Id diam maecenas ultricies mi eget mauris pharetra. Aliquam sem fringilla ut morbi tincidunt augue interdum. Accumsan sit amet nulla facilisi morbi tempus iaculis.",
+                                text: "عن وبعد تعداد وأزيز بحث, إذ أخذ مايو جديدة. هو وصل الساحل الخاصّة الأثنان. وبداية جديداً العاصمة شيء قد, أسابيع بتطويق الساحة غير عل, بفرض التنازلي نفس ثم. أن قبل وسفن اتّجة الخاسرة, قبل ليبين الجديدة، لم, بـ هذه أهّل لإعلان الخاسر.",
                             },
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
-                                text: "In fermentum posuere urna nec tincidunt praesent semper feugiat nibh. Dolor sit amet consectetur adipiscing elit pellentesque habitant. Eget dolor morbi non arcu risus quis varius quam quisque.",
+                                text: "هو بقعة العالمي ضرب. هذه أم لغات المضي مشاركة, أطراف اعتداء عن قبل. ان غير مرجع فكانت أساسي. أضف وبدون الطريق بالرغم ثم. به، جورج معقل من.",
                             },
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
-                                text: "Commodo sed egestas egestas fringilla phasellus faucibus. Lectus urna duis convallis convallis. Sit amet tellus cras adipiscing enim eu turpis egestas.",
+                                text: "ز والمعدات أي جهة. الى إذ بالرغم العاصمة التقليدية, ما بين التي الأوروبية, جمعت وإيطالي و حدى. تحت يذكر اتّجة كل. أي انه تُصب عالمية اليابانية, بحق جيما أراض أوراقهم إذ. جورج عملية والفلبين بحق أم, أم وسوء يونيو حول",
                             },
                         ],
                     },
                     {
                         class: "columns-wrap",
-                        header: "Economy",
+                        header: "اقتصاد",
                         type: "excerpt",
                         content: [
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -2589,7 +2588,7 @@ export const content = {
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -2598,7 +2597,7 @@ export const content = {
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -2610,17 +2609,17 @@ export const content = {
             },
             {
                 id: "content-world-hot-topics",
-                name: "Hot Topics",
+                name: "مواضيع مثيرة",
                 articles: [
                     {
                         class: "columns-2-balanced",
-                        header: "This First",
+                        header: "هذا أولا",
                         type: "grid",
                         content: [
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -2633,7 +2632,7 @@ export const content = {
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -2647,13 +2646,13 @@ export const content = {
                     },
                     {
                         class: "columns-2-balanced",
-                        header: "This Second",
+                        header: "هذا الثاني",
                         type: "grid",
                         content: [
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -2666,7 +2665,7 @@ export const content = {
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -2682,7 +2681,7 @@ export const content = {
             },
             {
                 id: "content-world-paid-content",
-                name: "Paid Content",
+                name: "المحتوى المدفوع",
                 articles: [
                     {
                         class: "columns-4-balanced",
@@ -2691,11 +2690,11 @@ export const content = {
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
-                                title: "Et sollicitudin ac orci phasellus. Massa placerat duis ultricies lacus sed turpis tincidunt id.",
+                                title: "والرعاية والمهنيين السريريين.جماعي العقارات الواجبات الصوتية التجمع ولكن معرف المطورين القبيح.",
                             },
                         ],
                     },
@@ -2706,11 +2705,11 @@ export const content = {
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
-                                title: "Neque volutpat ac tincidunt vitae semper. Nunc pulvinar sapien et ligula. Quam pellentesque nec nam aliquam sem et tortor consequat.",
+                                title: "أو عطلة نهاية الأسبوع ومطوري الحياة على الإطلاق.الآن الكرة الطائر و.من التغذية أو لبعض السلطة ودرجة حرارة الوصفة.",
                             },
                         ],
                     },
@@ -2721,11 +2720,11 @@ export const content = {
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
-                                title: "Velit euismod in pellentesque massa placerat duis ultricies. Nulla aliquet enim tortor at auctor. Vitae et leo duis ut diam quam nulla porttitor massa.",
+                                title: "الأداء في الهواء الطلق على تعويضات الواجب العقاري الجماعي التغذية.لا يوجد موز للميكروفون في المؤلف.الحياة والأسد الواجب المنزلي كقطر من عدم وجود كتلة طيران.",
                             },
                         ],
                     },
@@ -2736,11 +2735,11 @@ export const content = {
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
-                                title: "Eros in cursus turpis massa tincidunt dui ut ornare lectus. Pulvinar neque laoreet suspendisse interdum consectetur libero id faucibus nisl.",
+                                title: "الفول السوداني في تشغيل المطورين الجماعي القبيح ل لتزيين التخرج.يسحب أو تدليك في بعض الأحيان يعزز لاعبين الحلق المجاني.",
                             },
                         ],
                     },
@@ -2749,13 +2748,13 @@ export const content = {
         ],
     },
     politics: {
-        name: "Politics",
+        name: "سياسة",
         url: "/politics",
         priority: 1,
         sections: [
             {
                 id: "content-politics-what-really-matters",
-                name: "What Really Matters",
+                name: "ماهي المشكلة الحقيقية",
                 articles: [
                     {
                         class: "columns-1",
@@ -2765,7 +2764,7 @@ export const content = {
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -2778,7 +2777,7 @@ export const content = {
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -2791,7 +2790,7 @@ export const content = {
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -2804,7 +2803,7 @@ export const content = {
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -2817,7 +2816,7 @@ export const content = {
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -2833,23 +2832,23 @@ export const content = {
             },
             {
                 id: "content-politics-today",
-                name: "Today",
+                name: "اليوم",
                 articles: [
                     {
                         class: "columns-3-wide",
-                        header: "Campaign News",
+                        header: "أخبار الحملة",
                         url: "#",
                         image: {
                             src: "placeholder_light.jpg",
-                            alt: "Placeholder",
+                            alt: "عنصر نائب",
                             width: "1280",
                             height: "720",
                         },
                         meta: {
-                            captions: "Photo taken by someone.",
+                            captions: "الصورة التي التقطها شخص ما.",
                             tag: "breaking",
                         },
-                        title: "Adipiscing at in tellus integer feugiat scelerisque varius morbi enim.",
+                        title: "الأهم من ذلك في المنطقة عدد صحيح الشوكولاتة الاتحاد الأوروبي كرة القدم المتنوعة.",
                         type: "list",
                         content: [
                             {
@@ -2868,44 +2867,44 @@ export const content = {
                     },
                     {
                         class: "columns-3-narrow",
-                        header: "Elections",
+                        header: "انتخابات",
                         url: "#",
                         type: "preview",
                         content: [
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
-                                title: "Nunc aliquet bibendum enim facilisis gravida neque. Nec feugiat in fermentum posuere urna. Molestie at elementum eu facilisis sed odio morbi. Scelerisque purus semper eget duis at tellus.",
+                                title: "الآن يشرب الموز لمضادات الأكسدة الحوامل أو.ولا في الخميرة وضعت على الوعاء.موسى في عنصر مضادات الأكسدة لكرة القدم ولكن مرض الكراهية.الشوكولاتة الفلفل الحار تحتاج دائما الواجب المنزلي في الحزمة.",
                             },
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
-                                title: "Eget dolor morbi non arcu risus quis. Non curabitur gravida arcu ac tortor dignissim.",
+                                title: "تحتاج إلى كرة قدم ذكية أو قوس ابتسامة أي شخص.لا الدردشة القوس الحامل وأصول درجة الحرارة.",
                             },
                         ],
                     },
                     {
                         class: "columns-3-narrow",
-                        header: "Local Government",
+                        header: "حكومة محلية",
                         url: "#",
                         image: {
                             src: "placeholder_light.jpg",
-                            alt: "Placeholder",
+                            alt: "عنصر نائب",
                             width: "1280",
                             height: "720",
                         },
                         meta: {
-                            captions: "Photo taken by someone.",
+                            captions: "الصورة التي التقطها شخص ما.",
                         },
-                        title: "Nunc vel risus commodo viverra maecenas accumsan lacus.",
+                        title: "الآن أو ابتسامة الراحة سحب طبقة لاكوس.",
                         type: "list",
                         content: [
                             {
@@ -2926,21 +2925,21 @@ export const content = {
             },
             {
                 id: "content-politics-latest-headlines",
-                name: "Latest Headlines",
+                name: "العناوين الرئيسية",
                 articles: [
                     {
                         class: "columns-3-balanced",
-                        header: "Analysis",
+                        header: "تحليل",
                         image: {
                             src: "placeholder_light.jpg",
-                            alt: "Placeholder",
+                            alt: "عنصر نائب",
                             width: "1280",
                             height: "720",
                         },
                         meta: {
-                            captions: "Photo taken by someone.",
+                            captions: "الصورة التي التقطها شخص ما.",
                         },
-                        title: "Pellentesque pulvinar pellentesque habitant morbi tristique senectus et netus et.",
+                        title: "ثم هذه ثانية النزاع اللازمة, الأوضاع وبلجيكا، قد حيث. الشهير المتساقطة، لم دا",
                         type: "list",
                         content: [
                             {
@@ -2959,17 +2958,17 @@ export const content = {
                     },
                     {
                         class: "columns-3-balanced",
-                        header: "Facts First",
+                        header: "الحقائق أولا",
                         image: {
                             src: "placeholder_light.jpg",
-                            alt: "Placeholder",
+                            alt: "عنصر نائب",
                             width: "1280",
                             height: "720",
                         },
                         meta: {
-                            captions: "Photo taken by someone.",
+                            captions: "الصورة التي التقطها شخص ما.",
                         },
-                        title: "At varius vel pharetra vel turpis nunc eget lorem dolor.",
+                        title: "في مختلف أو جعبة أو بحاجة الآن إلى ألم لوريم.",
                         type: "list",
                         content: [
                             {
@@ -2988,17 +2987,17 @@ export const content = {
                     },
                     {
                         class: "columns-3-balanced",
-                        header: "More Politics News",
+                        header: "المزيد من أخبار السياسة",
                         image: {
                             src: "placeholder_light.jpg",
-                            alt: "Placeholder",
+                            alt: "عنصر نائب",
                             width: "1280",
                             height: "720",
                         },
                         meta: {
-                            captions: "Photo taken by someone.",
+                            captions: "الصورة التي التقطها شخص ما.",
                         },
-                        title: "Vitae auctor eu augue ut lectus arcu bibendum at varius.",
+                        title: "حياة مؤلف كتاب دعاية كرة القدم لمشروب الكحول في مختلف.",
                         type: "text",
                         content: "Pharetra diam sit amet nisl suscipit adipiscing bibendum est. Id aliquet lectus proin nibh. Porta lorem mollis aliquam ut porttitor leo a. Congue eu consequat ac felis donec et odio pellentesque.\n\nMi ipsum faucibus vitae aliquet nec ullamcorper. Sapien nec sagittis aliquam malesuada bibendum arcu vitae elementum curabitur. Quis imperdiet massa tincidunt nunc pulvinar sapien et ligula ullamcorper.",
                     },
@@ -3006,7 +3005,7 @@ export const content = {
             },
             {
                 id: "content-politics-latest-media",
-                name: "Latest Media",
+                name: "أحدث الوسائط",
                 articles: [
                     {
                         class: "columns-1",
@@ -3015,7 +3014,7 @@ export const content = {
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -3026,7 +3025,7 @@ export const content = {
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -3037,7 +3036,7 @@ export const content = {
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -3048,7 +3047,7 @@ export const content = {
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -3062,17 +3061,17 @@ export const content = {
             },
             {
                 id: "content-politics-election",
-                name: "Election",
+                name: "انتخاب",
                 articles: [
                     {
                         class: "columns-wrap",
-                        header: "Democrats",
+                        header: "الديمقراطيين",
                         type: "excerpt",
                         content: [
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -3081,7 +3080,7 @@ export const content = {
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -3090,7 +3089,7 @@ export const content = {
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -3100,13 +3099,13 @@ export const content = {
                     },
                     {
                         class: "columns-wrap",
-                        header: "Republicans",
+                        header: "الجمهوريون",
                         type: "excerpt",
                         content: [
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -3115,7 +3114,7 @@ export const content = {
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -3124,7 +3123,7 @@ export const content = {
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -3134,13 +3133,13 @@ export const content = {
                     },
                     {
                         class: "columns-wrap",
-                        header: "Liberals",
+                        header: "الليبراليين",
                         type: "excerpt",
                         content: [
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -3149,7 +3148,7 @@ export const content = {
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -3158,7 +3157,7 @@ export const content = {
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -3170,11 +3169,11 @@ export const content = {
             },
             {
                 id: "content-politics-more-political-news",
-                name: "More political News",
+                name: "المزيد من الأخبار السياسية",
                 articles: [
                     {
                         class: "columns-3-wide",
-                        header: "More News",
+                        header: "المزيد من الأخبار",
                         url: "#",
                         type: "list",
                         content: [
@@ -3233,29 +3232,29 @@ export const content = {
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
-                                title: "Nunc aliquet bibendum enim facilisis gravida neque. Nec feugiat in fermentum posuere urna. Molestie at elementum eu facilisis sed odio morbi. Scelerisque purus semper eget duis at tellus.",
+                                title: "الآن يشرب الموز لمضادات الأكسدة الحوامل أو.ولا في الخميرة وضعت على الوعاء.موسى في عنصر مضادات الأكسدة لكرة القدم ولكن مرض الكراهية.الشوكولاتة الفلفل الحار تحتاج دائما الواجب المنزلي في الحزمة.",
                             },
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
-                                title: "Eget dolor morbi non arcu risus quis. Non curabitur gravida arcu ac tortor dignissim.",
+                                title: "تحتاج إلى كرة قدم ذكية أو قوس ابتسامة أي شخص.لا الدردشة القوس الحامل وأصول درجة الحرارة.",
                             },
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
-                                title: "Eget dolor morbi non arcu risus quis. Non curabitur gravida arcu ac tortor dignissim.",
+                                title: "بشرية عن شيء, يبق الستار والفرنسي لبولندا، بـ, وتم بل أجزاء ",
                             },
                         ],
                     },
@@ -3267,29 +3266,29 @@ export const content = {
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
-                                title: "Tellus in metus vulputate eu scelerisque felis imperdiet proin fermentum.",
+                                title: "الأرض في الشوكولاته كرة القدم تمويل تخمير الميكروويف.",
                             },
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
-                                title: "Adipiscing tristique risus nec feugiat in fermentum posuere vulputate eu scelerisque.",
+                                title: "من المهم الابتسامة المحزنة أو التخلص من شوكولاتة كرة القدم الجذابة.",
                             },
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
-                                title: "Potenti nullam ac tortor vitae purus. Adipiscing diam donec adipiscing tristique risus nec feugiat in fermentum.",
+                                title: "بهدوء والكثير من الحياة الكلية.الأهم من ذلك قطره حتى ابتسامة حزينة في المرحلة الجامعية الأولى أو التغلب في التخمير.",
                             },
                         ],
                     },
@@ -3297,17 +3296,17 @@ export const content = {
             },
             {
                 id: "content-politics-underscored",
-                name: "Underscored",
+                name: "يؤكد",
                 articles: [
                     {
                         class: "columns-2-balanced",
-                        header: "This First",
+                        header: "هذا أولا",
                         type: "grid",
                         content: [
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -3320,7 +3319,7 @@ export const content = {
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -3334,13 +3333,13 @@ export const content = {
                     },
                     {
                         class: "columns-2-balanced",
-                        header: "This Second",
+                        header: "هذا الثاني",
                         type: "grid",
                         content: [
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -3353,7 +3352,7 @@ export const content = {
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -3369,17 +3368,17 @@ export const content = {
             },
             {
                 id: "content-politics-trending",
-                name: "Trending",
+                name: "الشائع",
                 articles: [
                     {
                         class: "columns-wrap",
-                        header: "New Legislations",
+                        header: "تشريعات جديدة",
                         type: "excerpt",
                         content: [
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -3388,7 +3387,7 @@ export const content = {
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -3397,7 +3396,7 @@ export const content = {
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -3407,13 +3406,13 @@ export const content = {
                     },
                     {
                         class: "columns-wrap",
-                        header: "Latest Polls",
+                        header: "أحدث استطلاعات الرأي",
                         type: "excerpt",
                         content: [
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -3422,7 +3421,7 @@ export const content = {
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -3431,7 +3430,7 @@ export const content = {
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -3441,13 +3440,13 @@ export const content = {
                     },
                     {
                         class: "columns-wrap",
-                        header: "Who's gaining votes",
+                        header: "من يكتسب الأصوات",
                         type: "excerpt",
                         content: [
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -3456,7 +3455,7 @@ export const content = {
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -3465,7 +3464,7 @@ export const content = {
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -3477,21 +3476,21 @@ export const content = {
             },
             {
                 id: "content-politics-around-the-world",
-                name: "Around the World",
+                name: "حول العالم",
                 articles: [
                     {
                         class: "columns-3-balanced",
-                        header: "Britain",
+                        header: "بريطانيا",
                         image: {
                             src: "placeholder_light.jpg",
-                            alt: "Placeholder",
+                            alt: "عنصر نائب",
                             width: "1280",
                             height: "720",
                         },
                         meta: {
-                            captions: "Photo taken by someone.",
+                            captions: "الصورة التي التقطها شخص ما.",
                         },
-                        title: "Sed blandit libero volutpat sed cras ornare arcu dui. Id ornare arcu odio ut sem.",
+                        title: "لكن اجلس في عطلة نهاية أسبوع مجانية ولكن غدا كرة القدم قوس DUI.هذا هو تزيين القوس لكراهية أن تكون سلطة.",
                         type: "list",
                         content: [
                             {
@@ -3510,17 +3509,17 @@ export const content = {
                     },
                     {
                         class: "columns-3-balanced",
-                        header: "Italy",
+                        header: "إيطاليا",
                         image: {
                             src: "placeholder_light.jpg",
-                            alt: "Placeholder",
+                            alt: "عنصر نائب",
                             width: "1280",
                             height: "720",
                         },
                         meta: {
-                            captions: "Photo taken by someone.",
+                            captions: "الصورة التي التقطها شخص ما.",
                         },
-                        title: "Vitae congue mauris rhoncus aenean vel elit.",
+                        title: "قرض الحياة مجموعة من الياسمين أو المطور.",
                         type: "list",
                         content: [
                             {
@@ -3539,17 +3538,17 @@ export const content = {
                     },
                     {
                         class: "columns-3-balanced",
-                        header: "Poland",
+                        header: "بولندا",
                         image: {
                             src: "placeholder_light.jpg",
-                            alt: "Placeholder",
+                            alt: "عنصر نائب",
                             width: "1280",
                             height: "720",
                         },
                         meta: {
-                            captions: "Photo taken by someone.",
+                            captions: "الصورة التي التقطها شخص ما.",
                         },
-                        title: "Sed id semper risus in hendrerit gravida rutrum quisque.",
+                        title: "لكنها دائما ابتسامة في المكياج حامل المكتب لكل منهما.",
                         type: "list",
                         content: [
                             {
@@ -3570,17 +3569,17 @@ export const content = {
             },
             {
                 id: "content-politics-hot-topics",
-                name: "Hot Topics",
+                name: "مواضيع مثيرة",
                 articles: [
                     {
                         class: "columns-2-balanced",
-                        header: "This First",
+                        header: "هذا أولا",
                         type: "grid",
                         content: [
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -3593,7 +3592,7 @@ export const content = {
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -3607,13 +3606,13 @@ export const content = {
                     },
                     {
                         class: "columns-2-balanced",
-                        header: "This Second",
+                        header: "هذا الثاني",
                         type: "grid",
                         content: [
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -3626,7 +3625,7 @@ export const content = {
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -3642,7 +3641,7 @@ export const content = {
             },
             {
                 id: "content-politics-paid-content",
-                name: "Paid Content",
+                name: "المحتوى المدفوع",
                 articles: [
                     {
                         class: "columns-4-balanced",
@@ -3651,11 +3650,11 @@ export const content = {
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
-                                title: "Duis at consectetur lorem donec massa.",
+                                title: "الواجب المنزلي في السيارة الرئيسية حتى الكتلة.",
                             },
                         ],
                     },
@@ -3666,11 +3665,11 @@ export const content = {
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
-                                title: "Eget mi proin sed libero enim sed. Proin libero nunc consequat interdum varius.",
+                                title: "أحتاج إلى الميكروويف الخاص بي ولكن مجاني ل.وصفة مجانية للميكروويف الآن متنوعة من حين لآخر.",
                             },
                         ],
                     },
@@ -3681,11 +3680,11 @@ export const content = {
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
-                                title: "Porta nibh venenatis cras sed felisDolor sit amet consectetur adipiscing elit ut aliquam purus sit.",
+                                title: "بريطانيا، لها, تم أما وشعار لإعادة, بل بين ببعض الأرضية. عل دنو مارد الوزراء, بل ب",
                             },
                         ],
                     },
@@ -3696,11 +3695,11 @@ export const content = {
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
-                                title: "Nisl vel pretium lectus quam id leo in vitae. Ultrices neque ornare aenean euismod elementum nisi quis eleifend quam. Eget nullam non nisi est sit. Aliquet enim tortor at auctor urna.",
+                                title: "أو السعر المحدد كأسد في الحياة.أي عنصر أداء لكرة السلة أو كرة القدم الياسمين ما لم يكن قابلاً للخصم قدر الإمكان.ومع ذلك ، فهي ليست واحدة فقط.الماكرو في مؤلف.",
                             },
                         ],
                     },
@@ -3709,65 +3708,65 @@ export const content = {
         ],
     },
     business: {
-        name: "Business",
+        name: "عمل",
         url: "/business",
         priority: 1,
         sections: [
             {
                 id: "content-business-latest-trends",
-                name: "Latest trends",
+                name: "آخر الصيحات",
                 articles: [
                     {
                         class: "columns-3-wide",
-                        header: "Investing",
+                        header: "الاستثمار",
                         url: "#",
                         image: {
                             src: "placeholder_light.jpg",
-                            alt: "Placeholder",
+                            alt: "عنصر نائب",
                             width: "1280",
                             height: "720",
                         },
                         meta: {
-                            captions: "Photo taken by someone.",
+                            captions: "الصورة التي التقطها شخص ما.",
                             tag: "breaking",
                         },
-                        title: "Enim lobortis scelerisque fermentum dui faucibus in ornare. Ante metus dictum at tempor.",
+                        title: "لتخمير الشوكولاتة الكرتون من وثيقة الهوية الوحيدة في كرة القدم.قبل الخوف كان في ذلك الوقت.",
                         type: "text",
                         content:
                             "Consequat mauris nunc congue nisi vitae. Felis imperdiet proin fermentum leo vel orci porta. Facilisis gravida neque convallis a cras semper. Risus quis varius quam quisque id diam vel quam. Egestas quis ipsum suspendisse ultrices gravida. Nisl nisi scelerisque eu ultrices vitae auctor.\n\nViverra vitae congue eu consequat ac felis. Vestibulum rhoncus est pellentesque elit ullamcorper. Donec massa sapien faucibus et. Vehicula ipsum a arcu cursus vitae congue mauris rhoncus. Quis ipsum suspendisse ultrices gravida. Vel facilisis volutpat est velit egestas dui id ornare arcu. Commodo ullamcorper a lacus vestibulum.",
                     },
                     {
                         class: "columns-3-narrow",
-                        header: "Media",
+                        header: "وسائط",
                         url: "#",
                         image: {
                             src: "placeholder_light.jpg",
-                            alt: "Placeholder",
+                            alt: "عنصر نائب",
                             width: "1280",
                             height: "720",
                         },
                         meta: {
-                            captions: "Photo taken by someone.",
+                            captions: "الصورة التي التقطها شخص ما.",
                         },
-                        title: "Gravida in fermentum et sollicitudin ac. Varius duis at consectetur lorem donec massa sapien faucibus.",
+                        title: "حامل في الاحماء والرعاية.الواجبات المنزلية المختلفة في لوريم الرئيسية حتى نصائح الكتلة.",
                         type: "text",
                         content:
                             "Nisi quis eleifend quam adipiscing vitae proin. Nunc sed velit dignissim sodales ut. Turpis nunc eget lorem dolor sed. Enim nulla aliquet porttitor lacus. Consequat ac felis donec et. Aliquam sem fringilla ut morbi tincidunt augue interdum velit. Arcu vitae elementum curabitur vitae nunc sed velit dignissim.",
                     },
                     {
                         class: "columns-3-narrow",
-                        header: "Insights",
+                        header: "أفكار",
                         url: "#",
                         image: {
                             src: "placeholder_light.jpg",
-                            alt: "Placeholder",
+                            alt: "عنصر نائب",
                             width: "1280",
                             height: "720",
                         },
                         meta: {
-                            captions: "Photo taken by someone.",
+                            captions: "الصورة التي التقطها شخص ما.",
                         },
-                        title: "Venenatis urna cursus eget nunc. Adipiscing elit duis tristique sollicitudin.",
+                        title: "وعاء لزج يعمل الآن.الأهم من ذلك المطور الواجب المنزلي الرعاية الحزينة.",
                         type: "text",
                         content:
                             "Donec adipiscing tristique risus nec. Vel fringilla est ullamcorper eget nulla facilisi etiam dignissim. Vitae et leo duis ut diam quam. Pulvinar etiam non quam lacus suspendisse faucibus interdum posuere lorem.\n\nAc odio tempor orci dapibus ultrices in iaculis nunc. A diam maecenas sed enim ut sem. At quis risus sed vulputate.",
@@ -3776,55 +3775,55 @@ export const content = {
             },
             {
                 id: "content-business-market-watch",
-                name: "Market Watch",
+                name: "مراقبة السوق",
                 articles: [
                     {
                         class: "columns-3-balanced",
-                        header: "Trending",
+                        header: "الشائع",
                         image: {
                             src: "placeholder_light.jpg",
-                            alt: "Placeholder",
+                            alt: "عنصر نائب",
                             width: "1280",
                             height: "720",
                         },
                         meta: {
-                            captions: "Photo taken by someone.",
+                            captions: "الصورة التي التقطها شخص ما.",
                         },
-                        title: "Dictumst quisque sagittis purus sit amet.",
+                        title: "كل جزر الفلفل الحار.",
                         type: "text",
                         content:
                             "Dolor magna eget est lorem. Nibh sit amet commodo nulla facilisi nullam. Etiam non quam lacus suspendisse faucibus interdum. Posuere sollicitudin aliquam ultrices sagittis orci. Massa enim nec dui nunc mattis enim ut tellus. Congue mauris rhoncus aenean vel. Egestas integer eget aliquet nibh praesent tristique.",
                     },
                     {
                         class: "columns-3-balanced",
-                        header: "Tech",
+                        header: "تقنية",
                         image: {
                             src: "placeholder_light.jpg",
-                            alt: "Placeholder",
+                            alt: "عنصر نائب",
                             width: "1280",
                             height: "720",
                         },
                         meta: {
-                            captions: "Photo taken by someone.",
+                            captions: "الصورة التي التقطها شخص ما.",
                         },
-                        title: "Posuere sollicitudin aliquam ultrices sagittis orci a.",
+                        title: "ضع مهنة سريرية.",
                         type: "text",
                         content:
                             "Praesent elementum facilisis leo vel fringilla est ullamcorper. Scelerisque viverra mauris in aliquam sem fringilla. Donec ac odio tempor orci. Eu augue ut lectus arcu. Diam sollicitudin tempor id eu nisl nunc mi ipsum.",
                     },
                     {
                         class: "columns-3-balanced",
-                        header: "Success",
+                        header: "نجاح",
                         image: {
                             src: "placeholder_light.jpg",
-                            alt: "Placeholder",
+                            alt: "عنصر نائب",
                             width: "1280",
                             height: "720",
                         },
                         meta: {
-                            captions: "Photo taken by someone.",
+                            captions: "الصورة التي التقطها شخص ما.",
                         },
-                        title: "Scelerisque fermentum dui faucibus in.",
+                        title: "تخمير الشوكولاتة من وثيقة الهوية الوحيدة الحلق في.",
                         type: "text",
                         content:
                             "landit volutpat maecenas volutpat blandit. Pulvinar pellentesque habitant morbi tristique senectus et. Facilisis magna etiam tempor orci. Sit amet commodo nulla facilisi nullam vehicula. Tortor vitae purus faucibus ornare suspendisse sed nisi lacus sed. Mus mauris vitae ultricies leo.",
@@ -3833,17 +3832,17 @@ export const content = {
             },
             {
                 id: "content-business-economy-today",
-                name: "Economy Today",
+                name: "الاقتصاد اليوم",
                 articles: [
                     {
                         class: "columns-wrap",
-                        header: "Global Impact",
+                        header: "التأثير العالمي",
                         type: "excerpt",
                         content: [
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -3852,7 +3851,7 @@ export const content = {
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -3861,7 +3860,7 @@ export const content = {
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -3871,13 +3870,13 @@ export const content = {
                     },
                     {
                         class: "columns-wrap",
-                        header: "Outlook",
+                        header: "الآفاق",
                         type: "excerpt",
                         content: [
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -3886,7 +3885,7 @@ export const content = {
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -3895,7 +3894,7 @@ export const content = {
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -3905,13 +3904,13 @@ export const content = {
                     },
                     {
                         class: "columns-wrap",
-                        header: "Financial Freedom",
+                        header: "الحرية المالية",
                         type: "excerpt",
                         content: [
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -3920,7 +3919,7 @@ export const content = {
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -3929,7 +3928,7 @@ export const content = {
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -3941,7 +3940,7 @@ export const content = {
             },
             {
                 id: "content-business-must-read",
-                name: "Must Read",
+                name: "يجب أن يقرأ",
                 articles: [
                     {
                         class: "columns-1",
@@ -3951,7 +3950,7 @@ export const content = {
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -3964,7 +3963,7 @@ export const content = {
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -3977,7 +3976,7 @@ export const content = {
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -3990,7 +3989,7 @@ export const content = {
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -4006,55 +4005,55 @@ export const content = {
             },
             {
                 id: "content-business-educational",
-                name: "Educational",
+                name: "تعليمية",
                 articles: [
                     {
                         class: "columns-3-balanced",
-                        header: "Business 101",
+                        header: "الأعمال 101",
                         image: {
                             src: "placeholder_light.jpg",
-                            alt: "Placeholder",
+                            alt: "عنصر نائب",
                             width: "1280",
                             height: "720",
                         },
                         meta: {
-                            captions: "Photo taken by someone.",
+                            captions: "الصورة التي التقطها شخص ما.",
                         },
-                        title: "Dictumst quisque sagittis purus sit amet.",
+                        title: "dictumst كل جزر الفلفل الحار.",
                         type: "text",
                         content:
                             "incidunt dui ut ornare lectus sit. Quis varius quam quisque id diam. Adipiscing diam donec adipiscing tristique risus nec feugiat in. Cursus sit amet dictum sit. Lacinia quis vel eros donec ac odio. Accumsan tortor posuere ac ut consequat semper. Interdum posuere lorem ipsum dolor sit amet consectetur adipiscing. Integer malesuada nunc vel risus commodo viverra. Arcu risus quis varius quam quisque id diam vel quam.\n\nEnim neque volutpat ac tincidunt vitae semper quis lectus nulla. Eget nulla facilisi etiam dignissim diam quis enim lobortis scelerisque. Sed tempus urna et pharetra pharetra massa.",
                     },
                     {
                         class: "columns-3-balanced",
-                        header: "Startup",
+                        header: "بدء",
                         image: {
                             src: "placeholder_light.jpg",
-                            alt: "Placeholder",
+                            alt: "عنصر نائب",
                             width: "1280",
                             height: "720",
                         },
                         meta: {
-                            captions: "Photo taken by someone.",
+                            captions: "الصورة التي التقطها شخص ما.",
                         },
-                        title: "Posuere sollicitudin aliquam ultrices sagittis orci a.",
+                        title: "دول نتيجة أوروبا عن. بين أحكم المشترك من, لم فرنسية أوروبا",
                         type: "text",
                         content:
                             "Potenti nullam ac tortor vitae purus faucibus. Vulputate mi sit amet mauris. Elit pellentesque habitant morbi tristique senectus. In pellentesque massa placerat duis ultricies. Cras fermentum odio eu feugiat pretium nibh ipsum. Ornare quam viverra orci sagittis eu. Commodo sed egestas egestas fringilla phasellus faucibus scelerisque eleifend. Non diam phasellus vestibulum lorem sed risus. Metus vulputate eu scelerisque felis imperdiet.\n\nMagna ac placerat vestibulum lectus mauris. Lobortis feugiat vivamus at augue eget. Facilisis volutpat est velit egestas dui id ornare arcu odio.",
                     },
                     {
                         class: "columns-3-balanced",
-                        header: "Make profit",
+                        header: "تحقيق الربح",
                         image: {
                             src: "placeholder_light.jpg",
-                            alt: "Placeholder",
+                            alt: "عنصر نائب",
                             width: "1280",
                             height: "720",
                         },
                         meta: {
-                            captions: "Photo taken by someone.",
+                            captions: "الصورة التي التقطها شخص ما.",
                         },
-                        title: "Scelerisque fermentum dui faucibus in.",
+                        title: "تخمير الشوكولاتة من وثيقة الهوية الوحيدة الحلق في.",
                         type: "text",
                         content:
                             "Ornare aenean euismod elementum nisi quis. Tellus in hac habitasse platea dictumst vestibulum rhoncus est. Nisl nunc mi ipsum faucibus vitae aliquet nec. Eget egestas purus viverra accumsan in nisl nisi scelerisque. Urna duis convallis convallis tellus id interdum velit laoreet. Ultrices sagittis orci a scelerisque purus. Feugiat vivamus at augue eget. Ultricies tristique nulla aliquet enim. Nibh mauris cursus mattis molestie a iaculis at erat pellentesque.\n\nElementum eu facilisis sed odio morbi. Ac turpis egestas integer eget aliquet nibh praesent tristique magna. Tortor at risus viverra adipiscing at in tellus.",
@@ -4063,17 +4062,17 @@ export const content = {
             },
             {
                 id: "content-business-underscored",
-                name: "Underscored",
+                name: "يؤكد",
                 articles: [
                     {
                         class: "columns-2-balanced",
-                        header: "This First",
+                        header: "هذا أولا",
                         type: "grid",
                         content: [
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -4086,7 +4085,7 @@ export const content = {
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -4100,13 +4099,13 @@ export const content = {
                     },
                     {
                         class: "columns-2-balanced",
-                        header: "This Second",
+                        header: "هذا الثاني",
                         type: "grid",
                         content: [
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -4119,7 +4118,7 @@ export const content = {
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -4135,61 +4134,61 @@ export const content = {
             },
             {
                 id: "content-business-investing-101",
-                name: "Investing 101",
+                name: "استثمار 101",
                 articles: [
                     {
                         class: "columns-3-balanced",
-                        header: "Manage your assets",
+                        header: "إدارة أصولك",
                         type: "articles-list",
                         content: [
                             {
-                                title: "Ic turpis egestas maecenas pharetra convallis. Dui accumsan sit amet nulla facilisi morbi tempus.",
+                                title: "إنفاذ القبيح وادي.الجزر طبقة وثيقة الهوية الوحيدة لا وقت كرة القدم في هوسيليسي.",
                                 content: "A scelerisque purus semper eget duis at. Condimentum lacinia quis vel eros donec ac odio. Pretium fusce id velit ut tortor pretium viverra suspendisse. Blandit aliquam etiam erat velit scelerisque in. Est placerat in egestas erat imperdiet sed euismod nisi. Suspendisse potenti nullam ac tortor vitae purus faucibus.",
                             },
                             {
-                                title: "Risus commodo viverra maecenas accumsan lacus vel.",
+                                title: "بحث ترتيب السادس الخاطفة ما, به، معاملة وسمّيت هو, بل شيء إعادة الضغو",
                                 content: "Est ullamcorper eget nulla facilisi etiam dignissim diam quis enim. Iaculis eu non diam phasellus. Odio aenean sed adipiscing diam donec. Eleifend donec pretium vulputate sapien nec sagittis aliquam malesuada bibendum.",
                             },
                             {
-                                title: "Vitae ultricies leo integer malesuada nunc vel risus commodo.",
+                                title: "وبعدما الجنوب أم لمّ. على مع استدعى ألمانيا. أم ونتج المشتّتون وت",
                                 content: "Donec et odio pellentesque diam volutpat. Sed libero enim sed faucibus turpis in eu. Aliquam nulla facilisi cras fermentum odio eu feugiat pretium. Tristique risus nec feugiat in fermentum. Turpis egestas maecenas pharetra convallis posuere morbi leo urna.",
                             },
                         ],
                     },
                     {
                         class: "columns-3-balanced",
-                        header: "What to watch",
+                        header: "ماذا تريد ان تشاهد",
                         type: "articles-list",
                         content: [
                             {
-                                title: "Elementum integer enim neque volutpat.",
+                                title: "جهة التنازلي المتساقطة، ان, به، حقول ويتّفق معارضة إذ. أم كلا الخاطفة الشهيرة",
                                 content: "Dignissim diam quis enim lobortis scelerisque. Lacus vestibulum sed arcu non odio euismod lacinia at quis. Mi bibendum neque egestas congue quisque. Arcu dui vivamus arcu felis bibendum ut tristique. Consectetur adipiscing elit ut aliquam purus sit amet luctus venenatis.",
                             },
                             {
-                                title: "Vitae turpis massa sed elementum tempus egestas sed.",
+                                title: "المشتّتون ما وتم, فسقط شدّت ان دول. يذكر تكبّد من قام. ",
                                 content: "Eu lobortis elementum nibh tellus molestie. Egestas congue quisque egestas diam in arcu cursus euismod quis. Purus non enim praesent elementum facilisis. Suscipit tellus mauris a diam maecenas sed enim ut sem. Sed elementum tempus egestas sed sed risus pretium quam.",
                             },
                             {
-                                title: "Consequat ac felis donec et odio pellentesque diam.",
+                                title: "ما عشوائية سنغافورة غير, أي جهة الجنوب ابتدعها, بـ",
                                 content: "Pharetra diam sit amet nisl suscipit adipiscing bibendum. Mi eget mauris pharetra et ultrices neque ornare. Habitant morbi tristique senectus et netus et. Quis eleifend quam adipiscing vitae. Fames ac turpis egestas maecenas pharetra convallis posuere morbi.",
                             },
                         ],
                     },
                     {
                         class: "columns-3-balanced",
-                        header: "Did you know?",
+                        header: "هل كنت تعلم؟",
                         type: "articles-list",
                         content: [
                             {
-                                title: "Lacus sed viverra tellus in. Eget mi proin sed libero enim sed.",
+                                title: "التصحيح ولكن سحب المنطقة في.أحتاج إلى الميكروويف الخاص بي ولكن مجاني ل.",
                                 content: "A diam maecenas sed enim. Platea dictumst vestibulum rhoncus est pellentesque elit. Metus dictum at tempor commodo ullamcorper. Est ullamcorper eget nulla facilisi etiam dignissim diam. Felis eget velit aliquet sagittis id consectetur purus.",
                             },
                             {
-                                title: "Est lorem ipsum dolor sit amet. Duis ultricies lacus sed turpis tincidunt.",
+                                title: "هناك جزر العملاء.تجمعات الموجات فوق الصوتية في الواجبات المنزلية ولكن المطورين القبيحين.",
                                 content: "Mattis pellentesque id nibh tortor id aliquet lectus. Odio aenean sed adipiscing diam donec adipiscing. Mi in nulla posuere sollicitudin aliquam ultrices sagittis. Dictum varius duis at consectetur lorem donec massa sapien faucibus.",
                             },
                             {
-                                title: "Duis ut diam quam nulla porttitor massa id.",
+                                title: "كقطر من عدم وجود معرف كتلة طيران.",
                                 content: "Id aliquet lectus proin nibh nisl condimentum id venenatis. Ultrices in iaculis nunc sed augue lacus viverra vitae congue. Lectus urna duis convallis convallis tellus id interdum velit. Duis convallis convallis tellus id interdum. Et malesuada fames ac turpis egestas sed.",
                             },
                         ],
@@ -4198,17 +4197,17 @@ export const content = {
             },
             {
                 id: "content-business-stock-market",
-                name: "Stock market",
+                name: "سوق الأوراق المالية",
                 articles: [
                     {
                         class: "columns-wrap",
-                        header: "Dow Jones",
+                        header: "الداو جونز",
                         type: "excerpt",
                         content: [
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -4217,7 +4216,7 @@ export const content = {
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -4226,7 +4225,7 @@ export const content = {
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -4236,13 +4235,13 @@ export const content = {
                     },
                     {
                         class: "columns-wrap",
-                        header: "S&P 500",
+                        header: "s&p500",
                         type: "excerpt",
                         content: [
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -4251,7 +4250,7 @@ export const content = {
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -4260,7 +4259,7 @@ export const content = {
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -4270,13 +4269,13 @@ export const content = {
                     },
                     {
                         class: "columns-wrap",
-                        header: "Day Trading",
+                        header: "تجارة يومية",
                         type: "excerpt",
                         content: [
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -4285,7 +4284,7 @@ export const content = {
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -4294,7 +4293,7 @@ export const content = {
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -4306,61 +4305,61 @@ export const content = {
             },
             {
                 id: "content-business-impact",
-                name: "Impact",
+                name: "تأثير",
                 articles: [
                     {
                         class: "columns-3-balanced",
-                        header: "Oil crisis",
+                        header: "أزمة النفط",
                         type: "articles-list",
                         content: [
                             {
-                                title: "Eleifend donec pretium vulputate sapien nec sagittis.",
+                                title: "المراهقون حتى يضعفوا السهام أو الأسهم.",
                                 content: "Adipiscing bibendum est ultricies integer quis. Viverra ipsum nunc aliquet bibendum enim facilisis gravida neque. Suspendisse in est ante in. Semper auctor neque vitae tempus quam pellentesque. Et tortor at risus viverra adipiscing at in tellus integer.",
                             },
                             {
-                                title: "Ornare aenean euismod elementum nisi quis eleifend quam.",
+                                title: "كرة القدم عنصر أداء الياسمين ما لم يكن قابلاً للخصم قدر الإمكان.",
                                 content: "Pretium aenean pharetra magna ac. Sem nulla pharetra diam sit amet nisl suscipit adipiscing bibendum. Neque vitae tempus quam pellentesque nec nam aliquam sem. Potenti nullam ac tortor vitae purus faucibus ornare suspendisse. Ipsum nunc aliquet bibendum enim facilisis gravida neque.",
                             },
                             {
-                                title: "Ultrices sagittis orci a scelerisque purus semper. Porttitor massa id neque aliquam vestibulum morbi blandit.",
+                                title: "كرة السلة اطلاق النار السريرية من الفلفل الحار دائما.محايدة محايدة محايدة محايدة.",
                                 content: "Augue eget arcu dictum varius. Aliquet nibh praesent tristique magna sit amet purus gravida. Mattis enim ut tellus elementum. A diam sollicitudin tempor id eu nisl nunc mi. Justo nec ultrices dui sapien eget mi proin. Euismod lacinia at quis risus sed vulputate odio.",
                             },
                         ],
                     },
                     {
                         class: "columns-3-balanced",
-                        header: "Tech Markets",
+                        header: "أسواق التكنولوجيا",
                         type: "articles-list",
                         content: [
                             {
-                                title: "Dictum sit amet justo donec. Justo donec enim diam vulputate ut pharetra sit.",
+                                title: "من المهم أن تكون كثيرًا.فقط حتى الضعف القطر إلى ارتجاع هو.",
                                 content: "Bibendum enim facilisis gravida neque. Ullamcorper dignissim cras tincidunt lobortis feugiat vivamus at augue. Auctor neque vitae tempus quam pellentesque nec. Justo donec enim diam vulputate ut pharetra sit amet. Aliquam sem fringilla ut morbi tincidunt augue interdum velit.",
                             },
                             {
-                                title: "Massa massa ultricies mi quis hendrerit dolor magna eget.",
+                                title: "الموجات فوق الصوتية الجماعية ، رولي الذي هيندريت المستهلك ماجنا إيت.",
                                 content: "Ornare massa eget egestas purus viverra accumsan in nisl nisi. A arcu cursus vitae congue mauris rhoncus. Gravida arcu ac tortor dignissim convallis aenean et tortor. Elit scelerisque mauris pellentesque pulvinar pellentesque habitant. Volutpat diam ut venenatis tellus in metus.",
                             },
                             {
-                                title: "Duis at consectetur lorem donec massa sapien faucibus.",
+                                title: "ان. الأرض الحكومة المعاهدات مع أخذ. قد لفشل ابتد",
                                 content: "acilisis gravida neque convallis a cras semper auctor neque. Non nisi est sit amet facilisis magna etiam tempor. Posuere morbi leo urna molestie at elementum eu. Tellus in hac habitasse platea dictumst vestibulum rhoncus est pellentesque.",
                             },
                         ],
                     },
                     {
                         class: "columns-3-balanced",
-                        header: "Declining Markets",
+                        header: "انخفاض الأسواق",
                         type: "articles-list",
                         content: [
                             {
-                                title: "Odio aenean sed adipiscing diam donec adipiscing tristique risus nec.",
+                                title: "قد, و شعار وبريطانيا حدى. فصل ما لفشل جديداً, قد أمام استرجاع بحث. عن مدن تُصب",
                                 content: "Pharetra vel turpis nunc eget. Non arcu risus quis varius quam quisque id. Augue ut lectus arcu bibendum at varius vel pharetra vel. Rhoncus dolor purus non enim praesent elementum.",
                             },
                             {
-                                title: "Quis enim lobortis scelerisque fermentum. Nisl rhoncus mattis rhoncus urna. Felis eget velit aliquet sagittis id consectetur purus ut.",
+                                title: "تم خلاف الأسيوي أسر, ضرب ووصف علاقة استبدال عل, وترك إعلان ",
                                 content: "Enim nec dui nunc mattis enim ut. Amet luctus venenatis lectus magna fringilla urna porttitor rhoncus dolor. Sed vulputate mi sit amet mauris commodo. Ultricies lacus sed turpis tincidunt id aliquet risus feugiat. In hac habitasse platea dictumst vestibulum rhoncus est.",
                             },
                             {
-                                title: "landit cursus risus at ultrices mi tempus imperdiet nulla malesuada.",
+                                title: "عجّل أراض الواقعة عدد في, طوكيو الأراضي التخطيط الا إذ.",
                                 content: "Vitae justo eget magna fermentum iaculis eu non diam phasellus. Et netus et malesuada fames ac turpis. In eu mi bibendum neque egestas congue. Justo eget magna fermentum iaculis eu non diam. Feugiat nibh sed pulvinar proin gravida hendrerit lectus a.",
                             },
                         ],
@@ -4369,17 +4368,17 @@ export const content = {
             },
             {
                 id: "content-business-hot-topics",
-                name: "Hot Topics",
+                name: "مواضيع مثيرة",
                 articles: [
                     {
                         class: "columns-2-balanced",
-                        header: "This First",
+                        header: "هذا أولا",
                         type: "grid",
                         content: [
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -4392,7 +4391,7 @@ export const content = {
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -4406,13 +4405,13 @@ export const content = {
                     },
                     {
                         class: "columns-2-balanced",
-                        header: "This Second",
+                        header: "هذا الثاني",
                         type: "grid",
                         content: [
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -4425,7 +4424,7 @@ export const content = {
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -4441,7 +4440,7 @@ export const content = {
             },
             {
                 id: "content-business-paid-content",
-                name: "Paid Content",
+                name: "المحتوى المدفوع",
                 articles: [
                     {
                         class: "columns-4-balanced",
@@ -4450,44 +4449,20 @@ export const content = {
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
-                                title: "Facilisis magna etiam tempor orci eu lobortis elementum nibh tellus. Morbi enim nunc faucibus a pellentesque sit amet porttitor eget.",
+                                title: "الوعاء عظيم ، حتى منطقة الكرتون لكرة القدم الإكلينيكية.كرة القدم هي الآن الحلق من جزر الأطفال المبتكرة.",
                             },
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
-                                title: "Cursus vitae congue mauris rhoncus aenean vel elit. Ultrices neque ornare aenean euismod elementum nisi. Aliquet risus feugiat in ante metus dictum at tempor commodo.",
-                            },
-                        ],
-                    },
-                    {
-                        class: "columns-4-balanced",
-                        type: "preview",
-                        content: [
-                            {
-                                image: {
-                                    src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
-                                    width: "1280",
-                                    height: "720",
-                                },
-                                title: "Sit amet aliquam id diam maecenas ultricies. Magna sit amet purus gravida quis blandit. Risus nullam eget felis eget nunc. Ac felis donec et odio pellentesque diam volutpat commodo sed.",
-                            },
-                            {
-                                image: {
-                                    src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
-                                    width: "1280",
-                                    height: "720",
-                                },
-                                title: "Purus faucibus ornare suspendisse sed nisi lacus. Malesuada nunc vel risus commodo. Pretium fusce id velit ut tortor pretium viverra suspendisse potenti.",
+                                title: "قرض تشغيل أو المطور.أي عنصر أداء لكرة السلة أو كرة القدم الياسمين ما لم.الموز الاتحاد الأوروبي في الرهان في ذلك الوقت.",
                             },
                         ],
                     },
@@ -4498,20 +4473,20 @@ export const content = {
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
-                                title: "Aliquam malesuada bibendum arcu vitae elementum curabitur. A pellentesque sit amet porttitor eget dolor morbi non.",
+                                title: "الكثير من قطر.جزر كبيرة الحامل الحامل أي جلوس.الضحك ولا حاجة لكرة القدم تحتاج الآن.وكرة القدم حتى أكره راحة قطر الأطفال في عطلة نهاية الأسبوع ولكن.",
                             },
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
-                                title: "Tortor at auctor urna nunc id cursus metus aliquam. Facilisis magna etiam tempor orci. Eu nisl nunc mi ipsum faucibus vitae aliquet.",
+                                title: "الفكين المكسيكيين من تدليك كرة القدم ولكن فقط التصحيح الآن أو ابتسامة الراحة.سعر المعرف السريري يرجى عمل مستحضرات سحب أسعار الماكرو.",
                             },
                         ],
                     },
@@ -4522,20 +4497,44 @@ export const content = {
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
-                                title: "Cursus mattis molestie a iaculis at. Nullam eget felis eget nunc. Tortor id aliquet lectus proin nibh nisl condimentum id.",
+                                title: "شرب الكحول عناصر الحياة الدردشة.مرض الجزر الأطفال الذكي الوظيفي ليس كذلك.",
                             },
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
-                                title: "arius morbi enim nunc faucibus a pellentesque sit amet porttitor. Blandit libero volutpat sed cras. Sed viverra ipsum nunc aliquet bibendum.",
+                                title: "الميكروفون في مؤلف القدر الآن ، وهذا هو مسار الخوف من البعض كبيرة حتى الوقت orci.لاعبي كرة القدم الآن ، موز حياتي الحلق للغاية.",
+                            },
+                        ],
+                    },
+                    {
+                        class: "columns-4-balanced",
+                        type: "preview",
+                        content: [
+                            {
+                                image: {
+                                    src: "placeholder_light.jpg",
+                                    alt: "عنصر نائب",
+                                    width: "1280",
+                                    height: "720",
+                                },
+                                title: "مجاملة التلفزيون مستهدف.لا حاجة للمادة الآن.مسح معرف الميكروفون المحدد ميكروويف معرف صلصة نيسل.",
+                            },
+                            {
+                                image: {
+                                    src: "placeholder_light.jpg",
+                                    alt: "عنصر نائب",
+                                    width: "1280",
+                                    height: "720",
+                                },
+                                title: "أريوس لكرة القدم هي الآن الحلق من شركة الطيران جزر الأطفال.اجلس عطلة نهاية أسبوع مجانية ولكن غدًا.لكن اسحب نفسها الآن يشرب الموز.",
                             },
                         ],
                     },
@@ -4544,63 +4543,63 @@ export const content = {
         ],
     },
     opinion: {
-        name: "Opinion",
+        name: "رأي",
         url: "/opinion",
         priority: 2,
         sections: [
             {
                 id: "content-opinion-a-deeper-look",
-                name: "A deeper look",
+                name: "نظرة أعمق",
                 articles: [
                     {
                         class: "columns-3-wide",
-                        header: "Latest Facts",
+                        header: "أحدث الحقائق",
                         url: "#",
                         image: {
                             src: "placeholder_light.jpg",
-                            alt: "Placeholder",
+                            alt: "عنصر نائب",
                             width: "1280",
                             height: "720",
                         },
                         meta: {
                             tag: "breaking",
                         },
-                        title: "Senectus et netus et malesuada fames ac turpis egestas. Odio facilisis mauris sit amet massa. Ornare quam viverra orci sagittis eu volutpat odio.",
+                        title: "الجوع القديم ونيتوس و وإنفاذ القانون القبيح.كراهية مضادات الأكسدة موريس الجلوس القداس .لن كرة القدم لكرة القدم السهام لكرة القدم في نهاية الأسبوع الكراهية.",
                         type: "text",
                         content:
                             "Lorem ipsum dolor sit amet consectetur. Ridiculus mus mauris vitae ultricies leo. Volutpat ac tincidunt vitae semper quis. In est ante in nibh. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Scelerisque eu ultrices vitae auctor eu augue.",
                     },
                     {
                         class: "columns-3-narrow",
-                        header: "Top of our mind",
+                        header: "قمة أذهاننا",
                         url: "#",
                         image: {
                             src: "placeholder_light.jpg",
-                            alt: "Placeholder",
+                            alt: "عنصر نائب",
                             width: "1280",
                             height: "720",
                         },
                         meta: {
-                            captions: "Photo taken by someone.",
+                            captions: "الصورة التي التقطها شخص ما.",
                         },
-                        title: "Nisl pretium fusce id velit ut tortor pretium. Arcu cursus vitae congue mauris rhoncus aenean.",
+                        title: "سعر من الهوية السريرية يرجى جعل سعر درجة الحرارة.تحقيق تشغيل.",
                         type: "text",
                         content: "Aenean euismod elementum nisi quis eleifend quam adipiscing vitae proin. Pharetra vel turpis nunc eget lorem. Morbi tincidunt augue interdum velit euismod in pellentesque massa placerat.",
                     },
                     {
                         class: "columns-3-narrow",
-                        header: "Editor Report",
+                        header: "تقرير المحرر",
                         url: "#",
                         image: {
                             src: "placeholder_light.jpg",
-                            alt: "Placeholder",
+                            alt: "عنصر نائب",
                             width: "1280",
                             height: "720",
                         },
                         meta: {
-                            captions: "Photo taken by someone.",
+                            captions: "الصورة التي التقطها شخص ما.",
                         },
-                        title: "Dignissim enim sit amet venenatis urna cursus.",
+                        title: "كرة القدم هي الكثير من الدورة المعقمة.",
                         type: "text",
                         content:
                             "Aenean pharetra magna ac placerat vestibulum lectus mauris. Massa sapien faucibus et molestie ac feugiat sed lectus vestibulum.\n\nVitae congue mauris rhoncus aenean vel elit scelerisque. Faucibus turpis in eu mi bibendum neque egestas congue quisque.",
@@ -4609,21 +4608,21 @@ export const content = {
             },
             {
                 id: "content-opinion-top-issues",
-                name: "Top Issues",
+                name: "أعلى القضايا",
                 articles: [
                     {
                         class: "columns-3-balanced",
-                        header: "Thoughts",
+                        header: "أفكار",
                         image: {
                             src: "placeholder_light.jpg",
-                            alt: "Placeholder",
+                            alt: "عنصر نائب",
                             width: "1280",
                             height: "720",
                         },
                         meta: {
-                            captions: "Photo taken by someone.",
+                            captions: "الصورة التي التقطها شخص ما.",
                         },
-                        title: "Morbi tincidunt ornare massa eget.",
+                        title: "مطورو كرة القدم احتياجات كرة القدم.",
                         type: "list",
                         content: [
                             {
@@ -4642,17 +4641,17 @@ export const content = {
                     },
                     {
                         class: "columns-3-balanced",
-                        header: "Social commentary",
+                        header: "التعليق الاجتماعي",
                         image: {
                             src: "placeholder_light.jpg",
-                            alt: "Placeholder",
+                            alt: "عنصر نائب",
                             width: "1280",
                             height: "720",
                         },
                         meta: {
-                            captions: "Photo taken by someone.",
+                            captions: "الصورة التي التقطها شخص ما.",
                         },
-                        title: "Sagittis aliquam malesuada bibendum arcu vitae.",
+                        title: "سهام القوس من الكحول.",
                         type: "list",
                         content: [
                             {
@@ -4671,17 +4670,17 @@ export const content = {
                     },
                     {
                         class: "columns-3-balanced",
-                        header: "Special Projects",
+                        header: "مشاريع خاصة",
                         image: {
                             src: "placeholder_light.jpg",
-                            alt: "Placeholder",
+                            alt: "عنصر نائب",
                             width: "1280",
                             height: "720",
                         },
                         meta: {
-                            captions: "Photo taken by someone.",
+                            captions: "الصورة التي التقطها شخص ما.",
                         },
-                        title: "Nulla aliquet enim tortor at auctor urna nunc id.",
+                        title: "عدد لعدم وفرنسا أي, وتزويده الأرضية يتم هو. جورج مس",
                         type: "text",
                         content:
                             "Platea dictumst quisque sagittis purus sit amet volutpat. Vulputate ut pharetra sit amet aliquam id. Tellus integer feugiat scelerisque varius morbi enim nunc faucibus. Est ante in nibh mauris. Libero volutpat sed cras ornare arcu dui vivamus.",
@@ -4690,17 +4689,17 @@ export const content = {
             },
             {
                 id: "content-opinon-trending",
-                name: "Trending",
+                name: "الشائع",
                 articles: [
                     {
                         class: "columns-wrap",
-                        header: "Around the world",
+                        header: "حول العالم",
                         type: "excerpt",
                         content: [
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -4709,7 +4708,7 @@ export const content = {
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -4718,7 +4717,7 @@ export const content = {
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -4728,13 +4727,13 @@ export const content = {
                     },
                     {
                         class: "columns-wrap",
-                        header: "Support",
+                        header: "يدعم",
                         type: "excerpt",
                         content: [
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -4743,7 +4742,7 @@ export const content = {
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -4752,7 +4751,7 @@ export const content = {
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -4762,13 +4761,13 @@ export const content = {
                     },
                     {
                         class: "columns-wrap",
-                        header: "Know More",
+                        header: "تعرف أكثر",
                         type: "excerpt",
                         content: [
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -4777,7 +4776,7 @@ export const content = {
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -4786,7 +4785,7 @@ export const content = {
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -4798,21 +4797,21 @@ export const content = {
             },
             {
                 id: "content-opinion-think-about-it",
-                name: "Think about it",
+                name: "فكر في الأمر",
                 articles: [
                     {
                         class: "columns-3-balanced",
-                        header: "Mental Health",
+                        header: "الصحة النفسية",
                         image: {
                             src: "placeholder_light.jpg",
-                            alt: "Placeholder",
+                            alt: "عنصر نائب",
                             width: "1280",
                             height: "720",
                         },
                         meta: {
-                            captions: "Photo taken by someone.",
+                            captions: "الصورة التي التقطها شخص ما.",
                         },
-                        title: "olutpat ac tincidunt vitae semper quis lectus nulla at. Non quam lacus suspendisse faucibus interdum posuere lorem..",
+                        title: "ومطورين الحياة الذين تخرجوا دائمًا في أي وقت من الأوقات.ليس أكثر من قطعة من فكي التدليك في بعض الأحيان يضع لوريم ..",
                         type: "list",
                         display: "bullets",
                         content: [
@@ -4836,17 +4835,17 @@ export const content = {
                     },
                     {
                         class: "columns-3-balanced",
-                        header: "Better life",
+                        header: "حياة أفضل",
                         image: {
                             src: "placeholder_light.jpg",
-                            alt: "Placeholder",
+                            alt: "عنصر نائب",
                             width: "1280",
                             height: "720",
                         },
                         meta: {
-                            captions: "Photo taken by someone.",
+                            captions: "الصورة التي التقطها شخص ما.",
                         },
-                        title: "Placerat vestibulum lectus mauris ultrices. Eros in cursus turpis massa.",
+                        title: "ضع مدخل محاضرة كرة السلة.الفول السوداني في سياق القداس المدرسي.",
                         type: "list",
                         display: "bullets",
                         content: [
@@ -4870,17 +4869,17 @@ export const content = {
                     },
                     {
                         class: "columns-3-balanced",
-                        header: "The right choice",
+                        header: "الاختيار الصحيح",
                         image: {
                             src: "placeholder_light.jpg",
-                            alt: "Placeholder",
+                            alt: "عنصر نائب",
                             width: "1280",
                             height: "720",
                         },
                         meta: {
-                            captions: "Photo taken by someone.",
+                            captions: "الصورة التي التقطها شخص ما.",
                         },
-                        title: "Faucibus et molestie ac feugiat. Enim sit amet venenatis urna cursus eget nunc scelerisque viverra.",
+                        title: "الحلق أو الموظف والاتحاد الأوروبي.بالنسبة للجزر المعقم وعاء الجري تحتاج الآن كرتون الشوكولاتة.",
                         type: "list",
                         display: "bullets",
                         content: [
@@ -4906,7 +4905,7 @@ export const content = {
             },
             {
                 id: "content-opinion-latest-media",
-                name: "Latest Media",
+                name: "أحدث الوسائط",
                 articles: [
                     {
                         class: "columns-1",
@@ -4915,7 +4914,7 @@ export const content = {
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -4926,7 +4925,7 @@ export const content = {
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -4937,7 +4936,7 @@ export const content = {
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -4948,7 +4947,7 @@ export const content = {
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -4962,21 +4961,21 @@ export const content = {
             },
             {
                 id: "content-opinion-in-case-you-missed-it",
-                name: "In case you missed it",
+                name: "في حال فوته على نفسك",
                 articles: [
                     {
                         class: "columns-3-balanced",
-                        header: "Critical thoughts",
+                        header: "الأفكار النقدية",
                         image: {
                             src: "placeholder_light.jpg",
-                            alt: "Placeholder",
+                            alt: "عنصر نائب",
                             width: "1280",
                             height: "720",
                         },
                         meta: {
-                            captions: "Photo taken by someone.",
+                            captions: "الصورة التي التقطها شخص ما.",
                         },
-                        title: "Facilisi morbi tempus iaculis urna id. Nibh cras pulvinar mattis nunc sed.",
+                        title: "وقت كرة القدم معرف الوعا غدا ماتيس الآن ولكن.",
                         type: "list",
                         content: [
                             {
@@ -4995,17 +4994,17 @@ export const content = {
                     },
                     {
                         class: "columns-3-balanced",
-                        header: "Critical Thinking",
+                        header: "التفكير النقدي",
                         image: {
                             src: "placeholder_light.jpg",
-                            alt: "Placeholder",
+                            alt: "عنصر نائب",
                             width: "1280",
                             height: "720",
                         },
                         meta: {
-                            captions: "Photo taken by someone.",
+                            captions: "الصورة التي التقطها شخص ما.",
                         },
-                        title: "Euismod nisi porta lorem mollis aliquam ut porttitor leo a.",
+                        title: "الأداء إذا كانت بوابة لورم لينة بعضها كأسد مبتكر.",
                         type: "list",
                         content: [
                             {
@@ -5024,17 +5023,17 @@ export const content = {
                     },
                     {
                         class: "columns-3-balanced",
-                        header: "Critical Actions",
+                        header: "الإجراءات الحرجة",
                         image: {
                             src: "placeholder_light.jpg",
-                            alt: "Placeholder",
+                            alt: "عنصر نائب",
                             width: "1280",
                             height: "720",
                         },
                         meta: {
-                            captions: "Photo taken by someone.",
+                            captions: "الصورة التي التقطها شخص ما.",
                         },
-                        title: "Amet dictum sit amet justo donec enim diam.",
+                        title: "وقال إلزامي العلاج بالجزر حتى القطر.",
                         type: "list",
                         content: [
                             {
@@ -5055,61 +5054,61 @@ export const content = {
             },
             {
                 id: "content-opinion-environmental-issues",
-                name: "Environmental Issues",
+                name: "القضايا البيئية",
                 articles: [
                     {
                         class: "columns-3-balanced",
-                        header: "Global Warming",
+                        header: "الاحتباس الحرارى",
                         type: "articles-list",
                         content: [
                             {
-                                title: "Dis parturient montes nascetur ridiculus mus mauris vitae.",
+                                title: "عجّل أراض الواقعة عدد في, طوكيو الأراضي التخطيط الا إذ. قبل ان ليرك",
                                 content: "Justo donec enim diam vulputate ut pharetra sit amet aliquam. Curabitur vitae nunc sed velit dignissim sodales. Varius vel pharetra vel turpis nunc eget lorem. Sed viverra ipsum nunc aliquet bibendum. Ultrices in iaculis nunc sed augue.",
                             },
                             {
-                                title: "Vitae turpis massa sed elementum tempus egestas sed sed risus.",
+                                title: "الحياة القبيحة للحياة ولكن عنصر الوقت الأرنب ولكن ابتسم.",
                                 content: "Nascetur ridiculus mus mauris vitae ultricies leo integer. Hendrerit dolor magna eget est lorem ipsum dolor sit amet. Ultrices gravida dictum fusce ut placerat orci nulla pellentesque. Gravida arcu ac tortor dignissim convallis aenean. Urna duis convallis convallis tellus id interdum.",
                             },
                             {
-                                title: "Rutrum tellus pellentesque eu tincidunt tortor. Volutpat sed cras ornare arcu.",
+                                title: "منطقة مكياج التغذية مطوري كرة القدم درجة الحرارة.إلغاء ولكن غد كرة القدم قوس.",
                                 content: "estibulum mattis ullamcorper velit sed ullamcorper morbi tincidunt. Urna porttitor rhoncus dolor purus. Nisl nunc mi ipsum faucibus vitae aliquet nec ullamcorper. Ultrices in iaculis nunc sed augue lacus. Nunc pulvinar sapien et ligula ullamcorper.",
                             },
                         ],
                     },
                     {
                         class: "columns-3-balanced",
-                        header: "Recycling",
+                        header: "إعادة التدوير",
                         type: "articles-list",
                         content: [
                             {
-                                title: "Tellus id interdum velit laoreet id donec ultrices tincidunt arcu.",
+                                title: "الأرض معرف البروتين معرف الكحول.",
                                 content: "Eget est lorem ipsum dolor sit amet. Faucibus scelerisque eleifend donec pretium vulputate sapien. Quam adipiscing vitae proin sagittis. Quisque id diam vel quam elementum pulvinar etiam non. Laoreet non curabitur gravida arcu ac tortor dignissim convallis aenean.",
                             },
                             {
-                                title: "Scelerisque viverra mauris in aliquam sem fringilla ut.",
+                                title: "كرتون الشوكولاتة موريس في بعض النظام البيئي للسلطة.",
                                 content: "Amet mauris commodo quis imperdiet. Eu consequat ac felis donec et odio pellentesque. Hendrerit gravida rutrum quisque non tellus orci ac. Amet cursus sit amet dictum.",
                             },
                             {
-                                title: "Vulputate eu scelerisque felis imperdiet. Non quam lacus suspendisse faucibus interdum posuere.",
+                                title: "تمويل القطط الشوكولاتة الشوكولاتة الجذابة.ليس أكثر من رقعة تدليك الحلق في بعض الأحيان.",
                                 content: "Luctus venenatis lectus magna fringilla urna porttitor. Hac habitasse platea dictumst vestibulum rhoncus. Orci a scelerisque purus semper eget duis at tellus. Risus nec feugiat in fermentum posuere urna nec tincidunt praesent.",
                             },
                         ],
                     },
                     {
                         class: "columns-3-balanced",
-                        header: "New researches",
+                        header: "أبحاث جديدة",
                         type: "articles-list",
                         content: [
                             {
-                                title: "Non quam lacus suspendisse faucibus.",
+                                title: "ليس أكثر من قطعة من الحلق التدليك.",
                                 content: "Nisi quis eleifend quam adipiscing vitae proin sagittis nisl rhoncus. Odio euismod lacinia at quis. Molestie a iaculis at erat. Id cursus metus aliquam eleifend mi in nulla posuere sollicitudin. Donec ac odio tempor orci dapibus.",
                             },
                             {
-                                title: "Sit amet consectetur adipiscing elit. Lorem sed risus ultricies tristique nulla aliquet.",
+                                title: "الكثير من مطور المرحلة الجامعية.لوريم ولكن ابتسامة الموجات فوق الصوتية حزينة لا مسح.",
                                 content: "Neque aliquam vestibulum morbi blandit cursus risus at. Habitant morbi tristique senectus et netus et. Quis blandit turpis cursus in. Adipiscing vitae proin sagittis nisl rhoncus mattis rhoncus urna. Vel risus commodo viverra maecenas. Tortor dignissim convallis aenean et tortor at.",
                             },
                             {
-                                title: "Ullamcorper sit amet risus nullam eget.",
+                                title: "تم خلاف الأسيوي أسر, ضرب ووصف علاقة استبدال عل, وت",
                                 content: "urpis nunc eget lorem dolor sed viverra ipsum nunc aliquet. Mollis aliquam ut porttitor leo a diam. Posuere morbi leo urna molestie. Suscipit tellus mauris a diam maecenas sed. Ultrices dui sapien eget mi proin sed libero enim sed.",
                             },
                         ],
@@ -5118,17 +5117,17 @@ export const content = {
             },
             {
                 id: "content-opinion-underscored",
-                name: "Underscored",
+                name: "يؤكد",
                 articles: [
                     {
                         class: "columns-2-balanced",
-                        header: "This First",
+                        header: "هذا أولا",
                         type: "grid",
                         content: [
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -5141,7 +5140,7 @@ export const content = {
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -5155,13 +5154,13 @@ export const content = {
                     },
                     {
                         class: "columns-2-balanced",
-                        header: "This Second",
+                        header: "هذا الثاني",
                         type: "grid",
                         content: [
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -5174,7 +5173,7 @@ export const content = {
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -5190,17 +5189,17 @@ export const content = {
             },
             {
                 id: "content-opinon-what-matters-most",
-                name: "What matters most",
+                name: "أكثر مايهم",
                 articles: [
                     {
                         class: "columns-wrap",
-                        header: "Discussion",
+                        header: "مناقشة",
                         type: "excerpt",
                         content: [
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -5209,7 +5208,7 @@ export const content = {
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -5218,7 +5217,7 @@ export const content = {
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -5228,13 +5227,13 @@ export const content = {
                     },
                     {
                         class: "columns-wrap",
-                        header: "Is it worth it?",
+                        header: "هل تستحق ذلك؟",
                         type: "excerpt",
                         content: [
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -5243,7 +5242,7 @@ export const content = {
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -5252,7 +5251,7 @@ export const content = {
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -5262,13 +5261,13 @@ export const content = {
                     },
                     {
                         class: "columns-wrap",
-                        header: "Just do it",
+                        header: "افعل ذلك",
                         type: "excerpt",
                         content: [
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -5277,7 +5276,7 @@ export const content = {
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -5286,7 +5285,7 @@ export const content = {
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -5298,17 +5297,17 @@ export const content = {
             },
             {
                 id: "content-opinion-hot-topics",
-                name: "Hot Topics",
+                name: "مواضيع مثيرة",
                 articles: [
                     {
                         class: "columns-2-balanced",
-                        header: "This First",
+                        header: "هذا أولا",
                         type: "grid",
                         content: [
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -5321,7 +5320,7 @@ export const content = {
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -5335,13 +5334,13 @@ export const content = {
                     },
                     {
                         class: "columns-2-balanced",
-                        header: "This Second",
+                        header: "هذا الثاني",
                         type: "grid",
                         content: [
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -5354,7 +5353,7 @@ export const content = {
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -5370,7 +5369,7 @@ export const content = {
             },
             {
                 id: "content-opinion-paid-content",
-                name: "Paid Content",
+                name: "المحتوى المدفوع",
                 articles: [
                     {
                         class: "columns-4-balanced",
@@ -5379,11 +5378,11 @@ export const content = {
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
-                                title: "Nulla facilisi nullam vehicula ipsum. Sit amet tellus cras adipiscing enim eu turpis egestas pretium. Diam phasellus vestibulum lorem sed risus ultricies.",
+                                title: "لا فيوليسي نولام مركبة نفسها.الكثير من المرح غدًا في المرحلة الجامعية الأولى لسعر التنفيذ القبيح لكرة القدم.قطر التصنيعالضحك",
                             },
                         ],
                     },
@@ -5394,11 +5393,11 @@ export const content = {
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
-                                title: "Dictum fusce ut placerat orci nulla. Quis ipsum suspendisse ultrices gravida dictum fusce ut placerat.",
+                                title: "سريري سريري سريري سريري.أي شخص له يشدد على كرة السلة الحامل الإكلينيكي للاستثمار.",
                             },
                         ],
                     },
@@ -5409,11 +5408,11 @@ export const content = {
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
-                                title: "Sed cras ornare arcu dui vivamus. Eget nunc lobortis mattis aliquam faucibus purus in. Nulla facilisi nullam vehicula ipsum a. Sed faucibus turpis in eu mi bibendum.",
+                                title: "ومع ذلك ، غد كرة القدم.وظيفية الآ الكثير من الحلق في.لا مركبات.لكن حلق قبيح على كرة القدم ، مشروب بلدي.",
                             },
                         ],
                     },
@@ -5424,11 +5423,11 @@ export const content = {
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
-                                title: "Mauris nunc congue nisi vitae suscipit tellus. Auctor augue mauris augue neque gravida in. Phasellus vestibulum lorem sed risus ultricies.",
+                                title: "موريس الآن الواجب المنزلي ما لم تكن المهنة.مؤلف الدعاية موريس أوغو أو حامل.",
                             },
                         ],
                     },
@@ -5437,28 +5436,28 @@ export const content = {
         ],
     },
     health: {
-        name: "Health",
+        name: "صحة",
         url: "/health",
         priority: 2,
         sections: [
             {
                 id: "content-health-trending",
-                name: "Trending",
+                name: "الشائع",
                 articles: [
                     {
                         class: "columns-3-balanced",
-                        header: "Mindfulness",
+                        header: "تركيز كامل للذهن",
                         url: "#",
                         image: {
                             src: "placeholder_light.jpg",
-                            alt: "Placeholder",
+                            alt: "عنصر نائب",
                             width: "1280",
                             height: "720",
                         },
                         meta: {
-                            captions: "Photo taken by someone.",
+                            captions: "الصورة التي التقطها شخص ما.",
                         },
-                        title: "Consectetur lorem donec massa sapien faucibus et.",
+                        title: "مينيابوليس لوريم حتى كتلة سابين الحلق.",
                         type: "list",
                         content: [
                             {
@@ -5477,18 +5476,18 @@ export const content = {
                     },
                     {
                         class: "columns-3-balanced",
-                        header: "Latest research",
+                        header: "أحدث الأبحاث",
                         url: "#",
                         image: {
                             src: "placeholder_light.jpg",
-                            alt: "Placeholder",
+                            alt: "عنصر نائب",
                             width: "1280",
                             height: "720",
                         },
                         meta: {
-                            captions: "Photo taken by someone.",
+                            captions: "الصورة التي التقطها شخص ما.",
                         },
-                        title: "Sed velit dignissim sodales ut eu sem integer vitae.",
+                        title: "ومع ذلك ، فهو يريد أعضاء كرة القدم مثل حياة سلطة كرة القدم.",
                         type: "list",
                         content: [
                             {
@@ -5507,18 +5506,18 @@ export const content = {
                     },
                     {
                         class: "columns-3-balanced",
-                        header: "Healthy Senior",
+                        header: "صحية كبار",
                         url: "#",
                         image: {
                             src: "placeholder_light.jpg",
-                            alt: "Placeholder",
+                            alt: "عنصر نائب",
                             width: "1280",
                             height: "720",
                         },
                         meta: {
-                            captions: "Photo taken by someone.",
+                            captions: "الصورة التي التقطها شخص ما.",
                         },
-                        title: "Scelerisque in dictum non consectetur a.",
+                        title: "لا يتم تعزيز الشوكولاتة من قبل.",
                         type: "list",
                         content: [
                             {
@@ -5539,21 +5538,21 @@ export const content = {
             },
             {
                 id: "content-health-latest-facts",
-                name: "Latest Facts",
+                name: "أحدث الحقائق",
                 articles: [
                     {
                         class: "columns-3-balanced",
-                        header: "More Life, But Better",
+                        header: "المزيد من الحياة ، ولكن أفضل",
                         image: {
                             src: "placeholder_light.jpg",
-                            alt: "Placeholder",
+                            alt: "عنصر نائب",
                             width: "1280",
                             height: "720",
                         },
                         meta: {
-                            captions: "Photo taken by someone.",
+                            captions: "الصورة التي التقطها شخص ما.",
                         },
-                        title: "Sed tempus urna et pharetra pharetra massa massa ultricies mi.",
+                        title: "ولكن الوقت وعاء والارتجال الكتلة كتلة الكتل.",
                         type: "list",
                         content: [
                             {
@@ -5569,34 +5568,34 @@ export const content = {
                     },
                     {
                         class: "columns-3-balanced",
-                        header: "In case you missed it",
+                        header: "في حال فوته على نفسك",
                         image: {
                             src: "placeholder_light.jpg",
-                            alt: "Placeholder",
+                            alt: "عنصر نائب",
                             width: "1280",
                             height: "720",
                         },
                         meta: {
-                            captions: "Photo taken by someone.",
+                            captions: "الصورة التي التقطها شخص ما.",
                         },
-                        title: "Egestas pretium aenean pharetra magna ac.",
+                        title: "أرنب سعر جعبة كبيرة.",
                         type: "text",
                         content:
                             "Lectus proin nibh nisl condimentum id venenatis a condimentum vitae. Tincidunt praesent semper feugiat nibh sed pulvinar proin.\n\nQuis ipsum suspendisse ultrices gravida dictum fusce. Id donec ultrices tincidunt arcu non. Pellentesque habitant morbi tristique senectus et netus et malesuada fames.",
                     },
                     {
                         class: "columns-3-balanced",
-                        header: "Space and science",
+                        header: "الفضاء والعلوم",
                         image: {
                             src: "placeholder_light.jpg",
-                            alt: "Placeholder",
+                            alt: "عنصر نائب",
                             width: "1280",
                             height: "720",
                         },
                         meta: {
-                            captions: "Photo taken by someone.",
+                            captions: "الصورة التي التقطها شخص ما.",
                         },
-                        title: "Vitae ultricies leo integer malesuada nunc vel risus.",
+                        title: "قد, و شعار وبريطانيا حدى. فصل ما لفشل جديداً, قد أمام ",
                         type: "list",
                         display: "bullets",
                         content: [
@@ -5622,59 +5621,59 @@ export const content = {
             },
             {
                 id: "content-health-medical-breakthroughs",
-                name: "Medical Breakthroughs",
+                name: "الاختراقات الطبية",
                 articles: [
                     {
                         class: "columns-3-wide",
-                        header: "Surgical Inventions",
+                        header: "الاختراعات الجراحية",
                         url: "#",
                         image: {
                             src: "placeholder_light.jpg",
-                            alt: "Placeholder",
+                            alt: "عنصر نائب",
                             width: "1280",
                             height: "720",
                         },
                         meta: {
-                            captions: "Photo taken by someone.",
+                            captions: "الصورة التي التقطها شخص ما.",
                             tag: "breaking",
                         },
-                        title: "Nisi est sit amet facilisis magna etiam tempor. Cursus eget nunc scelerisque viverra mauris in aliquam sem fringilla.",
+                        title: "هو الكثير من الوقت لفترة طويلة جدا.بالطبع بحاجة الآن إلى كرتون الشوكولاتة موريس في البيئة المنحدرة.",
                         type: "text",
                         content:
                             "Ut eu sem integer vitae justo eget. Ut aliquam purus sit amet luctus. Sit amet mauris commodo quis imperdiet massa tincidunt. Tellus rutrum tellus pellentesque eu tincidunt tortor aliquam nulla facilisi. Turpis nunc eget lorem dolor sed. Ultrices in iaculis nunc sed augue lacus. Quam elementum pulvinar etiam non. Urna cursus eget nunc scelerisque. Nisl purus in mollis nunc sed.",
                     },
                     {
                         class: "columns-3-narrow",
-                        header: "Medicare",
+                        header: "الرعاية الطبية",
                         url: "#",
                         image: {
                             src: "placeholder_light.jpg",
-                            alt: "Placeholder",
+                            alt: "عنصر نائب",
                             width: "1280",
                             height: "720",
                         },
                         meta: {
-                            captions: "Photo taken by someone.",
+                            captions: "الصورة التي التقطها شخص ما.",
                         },
-                        title: "Cras semper auctor neque vitae. Vel turpis nunc eget lorem dolor sed viverra ipsum nunc.",
+                        title: "غدا دائما هوثتور أو الحياة.أو قبيح الآن بحاجة إلى ألم لوريم ولكن اسحب نفسك الآن.",
                         type: "text",
                         content:
                             "Lacus sed viverra tellus in hac habitasse. Sapien faucibus et molestie ac feugiat sed lectus. Pretium aenean pharetra magna ac. Volutpat odio facilisis mauris sit amet massa vitae tortor condimentum. Pellentesque massa placerat duis ultricies lacus sed turpis tincidunt id.\n\nParturient montes nascetur ridiculus mus mauris. Ultrices eros in cursus turpis. Bibendum at varius vel pharetra vel turpis. Luctus venenatis lectus magna fringilla urna porttitor rhoncus dolor.",
                     },
                     {
                         class: "columns-3-narrow",
-                        header: "Medication",
+                        header: "دواء",
                         url: "#",
                         image: {
                             src: "placeholder_light.jpg",
-                            alt: "Placeholder",
+                            alt: "عنصر نائب",
                             width: "1280",
                             height: "720",
                         },
                         meta: {
-                            captions: "Photo taken by someone.",
+                            captions: "الصورة التي التقطها شخص ما.",
                         },
-                        title: "Ipsum dolor sit amet consectetur adipiscing elit. Velit scelerisque in dictum non consectetur a erat nam.",
+                        title: "الج المطور الجامعي.إنه يرغب في عدم تعزيز الشوكولاتة فيها.",
                         type: "text",
                         content:
                             "Mattis molestie a iaculis at erat pellentesque adipiscing. Sed augue lacus viverra vitae congue. Volutpat consequat mauris nunc congue nisi vitae suscipit tellus. Lacus laoreet non curabitur gravida arcu. Nisl nisi scelerisque eu ultrices vitae auctor.\n\nInteger vitae justo eget magna fermentum iaculis eu non. Sollicitudin ac orci phasellus egestas. Ligula ullamcorper malesuada proin libero nunc consequat interdum.",
@@ -5683,7 +5682,7 @@ export const content = {
             },
             {
                 id: "content-health-latest-videos",
-                name: "Latest Videos",
+                name: "أحدث مقاطع الفيديو",
                 articles: [
                     {
                         class: "columns-1",
@@ -5692,7 +5691,7 @@ export const content = {
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -5703,7 +5702,7 @@ export const content = {
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -5714,7 +5713,7 @@ export const content = {
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -5725,7 +5724,7 @@ export const content = {
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -5739,7 +5738,7 @@ export const content = {
             },
             {
                 id: "content-health-educational",
-                name: "Educational",
+                name: "تعليمية",
                 articles: [
                     {
                         class: "columns-1",
@@ -5749,7 +5748,7 @@ export const content = {
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -5762,7 +5761,7 @@ export const content = {
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -5775,7 +5774,7 @@ export const content = {
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -5788,7 +5787,7 @@ export const content = {
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -5801,7 +5800,7 @@ export const content = {
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -5817,17 +5816,17 @@ export const content = {
             },
             {
                 id: "content-health-fitness",
-                name: "Fitness",
+                name: "لياقة بدنية",
                 articles: [
                     {
                         class: "columns-wrap",
-                        header: "Burn your calories",
+                        header: "حرق السعرات الحرارية الخاصة بك",
                         type: "excerpt",
                         content: [
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -5836,7 +5835,7 @@ export const content = {
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -5845,7 +5844,7 @@ export const content = {
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -5855,13 +5854,13 @@ export const content = {
                     },
                     {
                         class: "columns-wrap",
-                        header: "Gym favorites",
+                        header: "مفضلات الصالة الرياضية",
                         type: "excerpt",
                         content: [
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -5870,7 +5869,7 @@ export const content = {
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -5879,7 +5878,7 @@ export const content = {
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -5889,13 +5888,13 @@ export const content = {
                     },
                     {
                         class: "columns-wrap",
-                        header: "Pilates",
+                        header: "بيلاتيس",
                         type: "excerpt",
                         content: [
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -5904,7 +5903,7 @@ export const content = {
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -5913,7 +5912,7 @@ export const content = {
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -5925,61 +5924,61 @@ export const content = {
             },
             {
                 id: "content-health-guides",
-                name: "Guides",
+                name: "خطوط إرشاد",
                 articles: [
                     {
                         class: "columns-3-balanced",
-                        header: "Health after 50",
+                        header: "الصحة بعد 50",
                         type: "articles-list",
                         content: [
                             {
-                                title: "Ac ut consequat semper viverra nam libero justo.",
+                                title: "وكما أن الوصفة تسحب دائمًا للعلاج المجاني.",
                                 content: "A lacus vestibulum sed arcu non odio euismod lacinia at. Viverra mauris in aliquam sem fringilla ut morbi tincidunt augue. Enim nec dui nunc mattis enim ut tellus. Congue eu consequat ac felis donec et odio. Vitae sapien pellentesque habitant morbi tristique senectus.",
                             },
                             {
-                                title: "Sit amet porttitor eget dolor morbi non arcu risus quis.",
+                                title: "تتطلب شركة طيران الجزر أمراضًا ذكية أو ضحك القوس.",
                                 content: "Gravida in fermentum et sollicitudin. Diam sollicitudin tempor id eu nisl. Proin libero nunc consequat interdum varius sit amet. Nunc pulvinar sapien et ligula ullamcorper malesuada proin libero. Lacinia quis vel eros donec ac.",
                             },
                             {
-                                title: "Faucibus nisl tincidunt eget nullam non nisi.",
+                                title: "ذلك الحرة لمحاكم الأهداف تم. ديسمبر الخاصّة الإثنان أس",
                                 content: "Diam ut venenatis tellus in metus. Luctus accumsan tortor posuere ac. Eget aliquet nibh praesent tristique magna. Diam donec adipiscing tristique risus nec feugiat in fermentum posuere. Dolor morbi non arcu risus quis varius quam quisque.",
                             },
                         ],
                     },
                     {
                         class: "columns-3-balanced",
-                        header: "Healthy Heart",
+                        header: "قلب صحي",
                         type: "articles-list",
                         content: [
                             {
-                                title: "Gravida cum sociis natoque penatibus et magnis dis parturient montes.",
+                                title: "حامل مع شركائه ويسحب الأشعة ودفع كبير للجبال.",
                                 content: "Nulla porttitor massa id neque aliquam vestibulum morbi. Nullam non nisi est sit amet facilisis. Vitae turpis massa sed elementum tempus. Varius duis at consectetur lorem. Consequat semper viverra nam libero justo laoreet sit.",
                             },
                             {
-                                title: "Non nisi est sit amet facilisis magna etiam tempor orci.",
+                                title: "ليس الكثير من الوقت فقط للجزر ، أيضًا ، الكثير من الوقت.",
                                 content: "At augue eget arcu dictum varius duis at. Arcu felis bibendum ut tristique et egestas. Elementum tempus egestas sed sed risus pretium quam vulputate. Cursus euismod quis viverra nibh cras pulvinar. Praesent tristique magna sit amet purus gravida quis.",
                             },
                             {
-                                title: "Sit amet justo donec enim diam vulputate ut pharetra.",
+                                title: "الكثير من العلاج حتى القطر الجذاب للارتجاع.",
                                 content: "Nulla at volutpat diam ut venenatis tellus. Pulvinar mattis nunc sed blandit libero volutpat. Sit amet justo donec enim diam vulputate. Condimentum id venenatis a condimentum vitae sapien pellentesque habitant.",
                             },
                         ],
                     },
                     {
                         class: "columns-3-balanced",
-                        header: "Healthy Digestive",
+                        header: "الجهاز الهضمي الصحي",
                         type: "articles-list",
                         content: [
                             {
-                                title: "Metus aliquam eleifend mi in nulla posuere sollicitudin.",
+                                title: "يخشى بعض المراهقين ، يا عزيزتي في أي رعاية.",
                                 content: "Sodales ut etiam sit amet nisl purus in. Lorem ipsum dolor sit amet consectetur. Tincidunt ornare massa eget egestas purus viverra accumsan in. Orci eu lobortis elementum nibh tellus molestie nunc non. Ut faucibus pulvinar elementum integer enim neque.",
                             },
                             {
-                                title: "Placerat duis ultricies lacus sed. Donec enim diam vulputate ut.",
+                                title: "استثمر تجمع الموجات فوق الصوتية للواجبات المنزلية ولكن.حتى لحوم البقر القطر.",
                                 content: "Condimentum id venenatis a condimentum vitae sapien. Eu ultrices vitae auctor eu augue ut lectus. Fermentum iaculis eu non diam phasellus. Urna nunc id cursus metus aliquam eleifend mi. Venenatis cras sed felis eget velit aliquet sagittis.",
                             },
                             {
-                                title: "Rhoncus dolor purus non enim praesent elementum facilisis.",
+                                title: "نطاق الألم ليس عنصرًا حاليًا من مضادات الأكسدة.",
                                 content: "Nunc consequat interdum varius sit. Non diam phasellus vestibulum lorem sed risus ultricies. Feugiat nibh sed pulvinar proin gravida hendrerit lectus a. Eget egestas purus viverra accumsan in nisl nisi scelerisque.",
                             },
                         ],
@@ -5988,17 +5987,17 @@ export const content = {
             },
             {
                 id: "content-health-underscored",
-                name: "Underscored",
+                name: "يؤكد",
                 articles: [
                     {
                         class: "columns-2-balanced",
-                        header: "This First",
+                        header: "هذا أولا",
                         type: "grid",
                         content: [
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -6011,7 +6010,7 @@ export const content = {
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -6025,13 +6024,13 @@ export const content = {
                     },
                     {
                         class: "columns-2-balanced",
-                        header: "This Second",
+                        header: "هذا الثاني",
                         type: "grid",
                         content: [
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -6044,7 +6043,7 @@ export const content = {
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -6060,17 +6059,17 @@ export const content = {
             },
             {
                 id: "content-health-what-to-eat",
-                name: "What to eat",
+                name: "ما الذي تريد أن تأكله",
                 articles: [
                     {
                         class: "columns-wrap",
-                        header: "Low carbs",
+                        header: "الكربوهيدرات منخفضة",
                         type: "excerpt",
                         content: [
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -6079,7 +6078,7 @@ export const content = {
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -6088,7 +6087,7 @@ export const content = {
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -6098,13 +6097,13 @@ export const content = {
                     },
                     {
                         class: "columns-wrap",
-                        header: "Vegetarian",
+                        header: "نباتي",
                         type: "excerpt",
                         content: [
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -6113,7 +6112,7 @@ export const content = {
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -6122,7 +6121,7 @@ export const content = {
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -6132,13 +6131,13 @@ export const content = {
                     },
                     {
                         class: "columns-wrap",
-                        header: "Breakfast",
+                        header: "إفطار",
                         type: "excerpt",
                         content: [
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -6147,7 +6146,7 @@ export const content = {
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -6156,7 +6155,7 @@ export const content = {
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -6168,17 +6167,17 @@ export const content = {
             },
             {
                 id: "content-health-hot-topics",
-                name: "Hot Topics",
+                name: "مواضيع مثيرة",
                 articles: [
                     {
                         class: "columns-2-balanced",
-                        header: "This First",
+                        header: "هذا أولا",
                         type: "grid",
                         content: [
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -6191,7 +6190,7 @@ export const content = {
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -6205,13 +6204,13 @@ export const content = {
                     },
                     {
                         class: "columns-2-balanced",
-                        header: "This Second",
+                        header: "هذا الثاني",
                         type: "grid",
                         content: [
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -6224,7 +6223,7 @@ export const content = {
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
@@ -6240,7 +6239,7 @@ export const content = {
             },
             {
                 id: "content-health-paid-content",
-                name: "Paid Content",
+                name: "المحتوى المدفوع",
                 articles: [
                     {
                         class: "columns-4-balanced",
@@ -6249,11 +6248,11 @@ export const content = {
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
-                                title: "Eu sem integer vitae justo eget magna fermentum iaculis. Aenean pharetra magna ac placerat vestibulum lectus. Amet commodo nulla facilisi nullam.",
+                                title: "سلطة كرة القدم حياة مجرد عملية الاحماء العظيمة.جعبة كبيرة واستثمر تصنيع تخرج.الراحة الإلزامية لا تتابع الذروة.",
                             },
                         ],
                     },
@@ -6264,11 +6263,11 @@ export const content = {
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
-                                title: "Nullam vehicula ipsum a arcu cursus vitae congue. Enim ut tellus elementum sagittis vitae et leo duis. Nulla malesuada pellentesque elit eget.",
+                                title: "مركبات في زيارة من دورة الحياة المدرسية.بالنسبة إلى أسهم عنصر الحياة في المنطقة والواجب المنزلي الأسد.لا احتياجات مطور التغذية ماليسوادا.",
                             },
                         ],
                     },
@@ -6279,11 +6278,11 @@ export const content = {
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
-                                title: "Est velit egestas dui id ornare arcu odio. Urna nunc id cursus metus. Pellentesque adipiscing commodo elit at imperdiet dui accumsan sit. At ultrices mi tempus imperdiet nulla malesuada pellentesque elit.",
+                                title: "إنها أتمنى أن ترغب في إزالة القوس الكراهية.جرة هي الآن الخوف.مطور الراحة الجامعي في في تمويل هو.في كرة السلة ، وقتي تمويل أي مطور التغذية.",
                             },
                         ],
                     },
@@ -6294,11 +6293,11 @@ export const content = {
                             {
                                 image: {
                                     src: "placeholder_light.jpg",
-                                    alt: "Placeholder",
+                                    alt: "عنصر نائب",
                                     width: "1280",
                                     height: "720",
                                 },
-                                title: "Erat imperdiet sed euismod nisi porta. Nullam ac tortor vitae purus faucibus ornare. Feugiat nisl pretium fusce id. Massa enim nec dui nunc mattis enim ut tellus elementum.",
+                                title: "كان التمويل ولكن الأداء ولكن البوابة.نولام ودرجة حرارة الحلق الفلفل الحار سعر المعرف السريري.الكتلة ليست واقعية الآن لعنصر المنطقة.",
                             },
                         ],
                     },
