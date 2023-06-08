@@ -1,4 +1,4 @@
-export const social =  {
+export const social = {
     facebook: {
         label: "Facebook",
         href: "#",
@@ -16,7 +16,7 @@ export const social =  {
     }
 };
 
-export const legal =  {
+export const legal = {
     terms: {
         label: "شروط الاستخدام",
         href: "#",

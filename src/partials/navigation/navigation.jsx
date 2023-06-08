@@ -32,7 +32,7 @@ export default function Navigation() {
                             buttonStyles["secondary-button"],
                             navStyles["nav-button"]
                         )} onClick={logIn}>
-                        {login.label}
+                            {login.label}
                         </button>
                     </div>
                 </div>
