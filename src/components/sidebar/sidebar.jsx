@@ -39,7 +39,7 @@ export default function Sidebar({ onClose }) {
                 {
                     navItems.map(key => <details className={styles["sidebar-group"]} id={`sidebar-${content[key].name}-details`} key={`sidebar-${content[key].name}-details`}>
                          <summary>{content[key].name}</summary>
-                         <ul className="sidebar-list">
+                         <ul className={styles["sidebar-list"]}>
                             {
                                 content[key].sections.map(
                                     section => <li className={styles["sidebar-list-item"]} key={`sidebar-section${section.id}`}>
