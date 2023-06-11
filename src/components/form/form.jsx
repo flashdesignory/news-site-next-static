@@ -1,6 +1,7 @@
 import classNames from "classnames";
 
 import Input from "../input/input";
+import { login } from "@/data/form";
 
 import formStyles from "news-site-css/dist/form.module.css";
 import buttonStyles from "news-site-css/dist/button.module.css";
@@ -21,17 +22,17 @@ export default function Form({ onCancel, onSubmit}) {
                 <form id="form" onSubmit={handleSubmit}>
                     <Input
                         id="username"
-                        placeholder="Enter Username"
-                        label="Username"
-                        type="text"
+                        placeholder={login.items.username.placeholder}
+                        label={login.items.username.label}
+                        type={login.items.username.type}
                         containerClass={formStyles["form-item"]}
                         onChange={handleChange}
                     />
                     <Input
                         id="password"
-                        placeholder="Enter Password"
-                        label="Password"
-                        type="text"
+                        placeholder={login.items.password.placeholder}
+                        label={login.items.password.label}
+                        type={login.items.password.type}
                         containerClass={formStyles["form-item"]}
                         onChange={handleChange}
                     />
@@ -41,9 +42,9 @@ export default function Form({ onCancel, onSubmit}) {
                     )}>
                         <Input
                             id="submit"
-                            placeholder="Submit"
-                            label="Submit"
-                            type="submit"
+                            placeholder={login.submit.placeholder}
+                            label={login.submit.label}
+                            type={login.submit.type}
                             containerClass={formStyles["form-actions-item"]}
                             onChange={handleSubmit}
                         />
