@@ -16,5 +16,8 @@ export const login = {
         placeholder: "Submit",
         label: "Submit",
         type: "submit"
+    },
+    cancel: {
+        label: "Cancel"
     }
 }

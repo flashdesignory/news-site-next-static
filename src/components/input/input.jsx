@@ -13,7 +13,7 @@ export default function Input({id = "input", placeholder="Enter Something", labe
             containerClass
         )}>
             <label className={classNames( styles.label, "visually-hidden")} htmlFor={id}>{label}</label>
-            <input className={classNames( styles.input, styles["input-type-text"])} type={type} autoComplete="off" id={id} placeholder={placeholder} onChange={handleChange}/>
+            <input className={classNames( styles.input, styles["input-type-text"])} type={type} autoComplete="off" id={id} placeholder={type !== "submit" ? placeholder : undefined} value={type === "submit" ? placeholder : undefined} onChange={handleChange}/>
         </div>
     )
 }

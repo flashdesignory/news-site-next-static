@@ -57,7 +57,7 @@ export default function Form({ onCancel, onSubmit}) {
                                 formStyles["form-actions-item"]
                             )}
                             onClick={onCancel}
-                        >Cancel</button>
+                        >{login.cancel.label}</button>
                     </div>
                 </form>
             </div>
