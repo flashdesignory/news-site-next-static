@@ -1,6 +1,12 @@
 # The Daily Broadcast
 
-preview: https://flashdesignory.github.io/news-site-next-static/
+[![pages-build-deployment](https://github.com/flashdesignory/news-site-next-static/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/flashdesignory/news-site-next-static/actions/workflows/pages/pages-build-deployment)
+
+## Preview
+
+https://flashdesignory.github.io/news-site-next-static/
+
+## Description
 
 > **_NOTE:_**  This is not a typical use-case for Next.js and we encourage developers to follow the [official documentation](https://vercel.com/docs) for recommended usage of the framework. 
 
