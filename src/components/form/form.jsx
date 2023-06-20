@@ -1,12 +1,15 @@
 import classNames from "classnames";
 
 import Input from "../input/input";
-import { login } from "@/data/form";
+import { useDataContext } from "@/context/data-context";
 
 import formStyles from "news-site-css/dist/form.module.css";
 import buttonStyles from "news-site-css/dist/button.module.css";
 
 export default function Form({ onCancel, onSubmit}) {
+    const data = useDataContext();
+    const { forms } = data;
+
     function handleSubmit(e) {
         onSubmit(e);
         e.preventDefault();
@@ -22,17 +25,17 @@ export default function Form({ onCancel, onSubmit}) {
                 <form id="form" onSubmit={handleSubmit}>
                     <Input
                         id="username"
-                        placeholder={login.items.username.placeholder}
-                        label={login.items.username.label}
-                        type={login.items.username.type}
+                        placeholder={forms.login.items.username.placeholder}
+                        label={forms.login.items.username.label}
+                        type={forms.login.items.username.type}
                         containerClass={formStyles["form-item"]}
                         onChange={handleChange}
                     />
                     <Input
                         id="password"
-                        placeholder={login.items.password.placeholder}
-                        label={login.items.password.label}
-                        type={login.items.password.type}
+                        placeholder={forms.login.items.password.placeholder}
+                        label={forms.login.items.password.label}
+                        type={forms.login.items.password.type}
                         containerClass={formStyles["form-item"]}
                         onChange={handleChange}
                     />
@@ -42,9 +45,9 @@ export default function Form({ onCancel, onSubmit}) {
                     )}>
                         <Input
                             id="submit"
-                            placeholder={login.submit.placeholder}
-                            label={login.submit.label}
-                            type={login.submit.type}
+                            placeholder={forms.login.submit.placeholder}
+                            label={forms.login.submit.label}
+                            type={forms.login.submit.type}
                             containerClass={formStyles["form-actions-item"]}
                             onChange={handleSubmit}
                         />
@@ -57,7 +60,7 @@ export default function Form({ onCancel, onSubmit}) {
                                 formStyles["form-actions-item"]
                             )}
                             onClick={onCancel}
-                        >{login.cancel.label}</button>
+                        >{forms.login.cancel.label}</button>
                     </div>
                 </form>
             </div>

@@ -1,13 +1,14 @@
 import classNames from "classnames";
-import { NavLink } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 
-import { sitemap } from "@/data/sidebar";
-import { content } from "@/data/content";
+import { useDataContext } from "@/context/data-context";
 
 import styles from "news-site-css/dist/sidebar.module.css";
 
 export default function Sidebar({ onClose }) {
+    const data = useDataContext();
+    const { content, sitemap } = data;
+
     const keys = Object.keys(content);
     const navItems = keys.reduce(
         (result, key) => {

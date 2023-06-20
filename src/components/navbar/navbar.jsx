@@ -2,16 +2,19 @@ import { useEffect, useState } from "react";
 import { useLocation } from "react-router-dom";
 import classNames from "classnames";
 
+import { useDataContext } from "@/context/data-context";
+
 import NavList from "../navlist/navlist";
 import LogoIcon from "@/assets/logo-icon";
 import SocialIcons from "@/partials/icons/social-icons";
-
-import { content } from "@/data/content";
 
 import navbarStyles from "news-site-css/dist/navbar.module.css";
 import navStyles from "news-site-css/dist/nav.module.css";
 
 export default function Navbar({ callback }) {
+    const data = useDataContext();
+    const { content } = data;
+
     const location = useLocation();
     // look up label from content
     const activePath = content[location.pathname.split("/")[1]]?.name || "";

@@ -4,13 +4,16 @@ import Dialog from "@/components/dialog/dialog";
 import SettingsIcons from "../icons/settings-icons";
 import SocialIcons from "../icons/social-icons";
 import Sitemap from "@/components/sitemap/sitemap";
-import { legal } from "@/data/links";
-import { footer } from "@/data/footer";
+
+import { useDataContext } from "@/context/data-context";
 
 import styles from "news-site-css/dist/footer.module.css";
 
 export default function Footer() {
     const [showPortal, setShowPortal] = useState(false);
+
+    const data = useDataContext();
+    const { footer, links } = data;
 
     function openPortal() {
         setShowPortal(true);
@@ -32,8 +35,8 @@ export default function Footer() {
                     <div className={styles["footer-column-center"]}>
                         <div className={styles["footer-links"]}>
                             <ul className={styles["footer-links-list"]}>
-                                {Object.keys(legal).map((key) => {
-                                    const item = legal[key];
+                                {Object.keys(links.legal).map((key) => {
+                                    const item = links.legal[key];
                                     return (
                                         <li className={styles["footer-links-item"]} key={`footer-links-item-${key}`}>
                                             <a href={item.href} id={`footer-link-${key}`} className={styles["footer-link"]} >

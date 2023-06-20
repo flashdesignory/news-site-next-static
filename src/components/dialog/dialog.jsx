@@ -2,12 +2,15 @@ import { useState, useEffect } from "react";
 import classNames from "classnames";
 
 import Toggle from "../toggle/toggle";
-import { settings } from "@/data/dialog";
+import { useDataContext } from "@/context/data-context";
 
 import styles from "news-site-css/dist/dialog.module.css";
 
 export default function Dialog({ onClose }) {
     const [isChecked, setIsChecked] = useState(false);
+
+    const data = useDataContext();
+    const { settings } = data;
 
     useEffect(() => {
         setIsChecked(document.body.classList.contains("reduced-motion"));

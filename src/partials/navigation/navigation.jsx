@@ -6,7 +6,7 @@ import Sidebar from "@/components/sidebar/sidebar";
 import Modal from "@/components/modal/modal";
 import Navbar from "@/components/navbar/navbar";
 
-import { login } from "@/data/buttons";
+import { useDataContext } from "@/context/data-context";
 
 import navStyles from "news-site-css/dist/nav.module.css";
 import buttonStyles from "news-site-css/dist/button.module.css";
@@ -14,6 +14,9 @@ import buttonStyles from "news-site-css/dist/button.module.css";
 export default function Navigation() {
     const [showSidebar, setShowSidebar] = useState(false);
     const [showLogin, setShowLogin] = useState(false);
+
+    const data = useDataContext();
+    const { buttons } = data;
 
     function openSidebar() {
         setShowSidebar(true);
@@ -44,7 +47,7 @@ export default function Navigation() {
                             buttonStyles["secondary-button"],
                             navStyles["nav-button"]
                         )} onClick={openLogin}>
-                        {login.label}
+                        {buttons.login.label}
                         </button>
                     </div>
                 </div>

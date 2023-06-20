@@ -1,10 +1,13 @@
-import { content } from "@/data/content";
+import { useDataContext } from "@/context/data-context";
 import Dropdown from "../dropdown/dropdown";
 import NavListItem from "./navlist-item";
 
 import styles from "news-site-css/dist/navbar.module.css";
 
 export default function NavList({ callback, id }) {
+    const data = useDataContext();
+    const { content } = data;
+
     const navItems = [];
     const dropdownItems = [];
 

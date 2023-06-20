@@ -1,12 +1,15 @@
 import classNames from "classnames";
-
-import { content } from "@/data/content";
 import { NavLink } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
+
+import { useDataContext } from "@/context/data-context";
 
 import styles from "news-site-css/dist/sitemap.module.css";
 
 export default function Sitemap() {
+    const data = useDataContext();
+    const { content } = data;
+
     const keys = Object.keys(content);
     const navItems = keys.reduce(
         (result, key) => {

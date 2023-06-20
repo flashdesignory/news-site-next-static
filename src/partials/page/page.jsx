@@ -5,10 +5,13 @@ import Layout from "@/partials/layout/layout";
 import Section from "../section/section";
 import Toast from "@/components/toast/toast";
 
-import { content } from "@/data/content";
+import { useDataContext } from "@/context/data-context";
 
 export default function Page({ id }) {
     const [showPortal, setShowPortal] = useState(false);
+
+    const data = useDataContext();
+    const { content } = data;
 
     useEffect(() => {
         setShowPortal(content[id].notification);
