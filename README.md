@@ -6,6 +6,12 @@
 
 https://flashdesignory.github.io/news-site-next-static/
 
+Japanese:
+https://flashdesignory.github.io/news-site-next-static/index.html?lang=jp
+
+Arabic:
+https://flashdesignory.github.io/news-site-next-static/index.html?lang=ar&dir=rtl
+
 ## Description
 
 > **_NOTE:_**  This is not a typical use-case for Next.js and we encourage developers to follow the [official documentation](https://vercel.com/docs) for recommended usage of the framework. 
