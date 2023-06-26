@@ -1,3 +1,3 @@
 export const sitemap = {
-    header: "خريطة"
-}
+    header: "خريطة",
+};

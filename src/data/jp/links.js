@@ -1,46 +1,46 @@
-export const social =  {
+export const social = {
     facebook: {
         label: "Facebook",
         href: "#",
-        target: "external"
+        target: "external",
     },
     instagram: {
         label: "Instagram",
         href: "#",
-        target: "external"
+        target: "external",
     },
     twitter: {
         label: "Twitter",
         href: "#",
-        target: "external"
-    }
+        target: "external",
+    },
 };
 
-export const legal =  {
+export const legal = {
     terms: {
         label: "利用規約",
         href: "#",
-        target: "external"
+        target: "external",
     },
     privacy: {
         label: "プライバシーポリシー",
         href: "#",
-        target: "external"
+        target: "external",
     },
     sell: {
         label: "私の個人情報を販売したり共有したりしないでください",
         href: "#",
-        target: "external"
+        target: "external",
     },
     choices: {
         label: "広告の選択",
         href: "#",
-        target: "external"
-    }
+        target: "external",
+    },
 };
 
 export const a11y = {
     skip: {
-        label: "コンテンツにスキップします"
-    }
-}
+        label: "コンテンツにスキップします",
+    },
+};

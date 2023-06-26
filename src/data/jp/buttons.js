@@ -1,11 +1,11 @@
 export const login = {
     label: "ログイン",
     href: "#",
-    target: "internal"
+    target: "internal",
 };
 
 export const more = {
     label: "もっと",
     href: "#",
-    target: "internal"
+    target: "internal",
 };

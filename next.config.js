@@ -5,10 +5,10 @@ const nextConfig = {
     output: "export",
     distDir: "docs",
     assetPrefix: "./",
-    basePath: development ? "" : '/news-site-next-static',
+    basePath: development ? "" : "/news-site-next-static",
     images: {
         unoptimized: true,
-    }
+    },
 };
 
 module.exports = nextConfig;
