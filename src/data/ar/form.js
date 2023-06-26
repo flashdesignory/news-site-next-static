@@ -4,20 +4,20 @@ export const login = {
         username: {
             placeholder: "ادخل اسم المستخدم",
             label: "اسم المستخدم",
-            type: "text"
+            type: "text",
         },
         password: {
             placeholder: "أدخل كلمة المرور",
             label: "كلمة المرور",
             type: "password",
-        }
+        },
     },
     submit: {
         placeholder: "يُقدِّم",
         label: "يُقدِّم",
-        type: "submit"
+        type: "submit",
     },
     cancel: {
-        label: "يلغي"
-    }
-}
+        label: "يلغي",
+    },
+};

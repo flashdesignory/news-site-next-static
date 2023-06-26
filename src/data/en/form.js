@@ -4,20 +4,20 @@ export const login = {
         username: {
             placeholder: "Enter Username",
             label: "Username",
-            type: "text"
+            type: "text",
         },
         password: {
             placeholder: "Enter Password",
             label: "Password",
             type: "password",
-        }
+        },
     },
     submit: {
         placeholder: "Submit",
         label: "Submit",
-        type: "submit"
+        type: "submit",
     },
     cancel: {
-        label: "Cancel"
-    }
-}
+        label: "Cancel",
+    },
+};

@@ -4,20 +4,20 @@ export const login = {
         username: {
             placeholder: "ユーザーネームを入力してください",
             label: "ユーザー名",
-            type: "text"
+            type: "text",
         },
         password: {
             placeholder: "パスワードを入力する",
             label: "パスワード",
             type: "password",
-        }
+        },
     },
     submit: {
         placeholder: "送信",
         label: "送信",
-        type: "submit"
+        type: "submit",
     },
     cancel: {
-        label: "キャンセル"
-    }
-}
+        label: "キャンセル",
+    },
+};

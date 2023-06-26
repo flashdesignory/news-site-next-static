@@ -1,3 +1,3 @@
 export const sitemap = {
-    header: "サイトマップ"
-}
+    header: "サイトマップ",
+};
