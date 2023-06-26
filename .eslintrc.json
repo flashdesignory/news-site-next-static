@@ -1,5 +1,10 @@
 {
   "extends": "plugin:@next/next/recommended",
+  "env": {
+    "browser": true,
+    "node": true,
+    "es2022": true
+},
   "rules": {
     "array-bracket-spacing": [2, "never"],
     "block-spacing": [2, "always"],
