@@ -1,9 +1,12 @@
 {
-    "extends": "next",
+    "extends": ["eslint:recommended", "plugin:@typescript-eslint/base", "plugin:@next/next/recommended"],
     "env": {
         "browser": true,
         "node": true,
         "es2022": true
+    },
+    "parserOptions": {
+        "sourceType": "module"
     },
     "rules": {
         "array-bracket-spacing": [2, "never"],
