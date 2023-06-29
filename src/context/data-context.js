@@ -28,20 +28,44 @@ import * as formsEn from "@/data/en/form";
 import * as formsJp from "@/data/jp/form";
 import * as formsAr from "@/data/ar/form";
 
-const contentImport = { en: contentEn, jp: contentJp, ar: contentAr };
-const settingsImport = { en: settingsEn, jp: settingsJp, ar: settingsAr };
-const footerImport = { en: footerEn, jp: footerJp, ar: footerAr };
-const sitemapImport = { en: sitemapEn, jp: sitemapJp, ar: sitemapAr };
-const buttonsImport = { en: buttonsEn, jp: buttonsJp, ar: buttonsAr };
-const linksImport = { en: linksEn, jp: linksJp, ar: linksAr };
-const formsInput = { en: formsEn, jp: formsJp, ar: formsAr };
+const strings = {
+    en: {
+        content: contentEn,
+        settings: settingsEn,
+        footer: footerEn,
+        sitemap: sitemapEn,
+        buttons: buttonsEn,
+        links: linksEn,
+        forms: formsEn,
+    },
+    jp: {
+        content: contentJp,
+        settings: settingsJp,
+        footer: footerJp,
+        sitemap: sitemapJp,
+        buttons: buttonsJp,
+        links: linksJp,
+        forms: formsJp,
+    },
+    ar: {
+        content: contentAr,
+        settings: settingsAr,
+        footer: footerAr,
+        sitemap: sitemapAr,
+        buttons: buttonsAr,
+        links: linksAr,
+        forms: formsAr,
+    },
+};
 
 const DataContext = createContext(null);
 
 export const DataContextProvider = ({ children }) => {
+    const defaultLanguage = "en";
     const urlParams = new URLSearchParams(window.location.search);
-    const lang = urlParams.get("lang") ?? "en";
     const dir = urlParams.get("dir") ?? "ltr";
+    const langFromUrl = urlParams.get("lang");
+    const lang = langFromUrl && langFromUrl in strings ? langFromUrl : defaultLanguage;
 
     document.documentElement.setAttribute("dir", dir);
     document.documentElement.setAttribute("lang", lang);
@@ -49,13 +73,7 @@ export const DataContextProvider = ({ children }) => {
     const value = {
         lang,
         dir,
-        content: contentImport[lang],
-        settings: settingsImport[lang],
-        buttons: buttonsImport[lang],
-        links: linksImport[lang],
-        footer: footerImport[lang],
-        sitemap: sitemapImport[lang],
-        forms: formsInput[lang],
+        ...strings[lang],
     };
 
     return <DataContext.Provider value={value}>{children}</DataContext.Provider>;

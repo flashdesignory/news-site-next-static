@@ -8,7 +8,7 @@
         "start": "next start",
         "lint": "next lint",
         "serve": "http-server ./docs -p 7002 -c-1 --cors -o",
-        "lint:fix": "eslint . --fix",
+        "lint:fix": "DEBUG=eslint:cli-engine eslint \"**/*.{js,mjs,jsx,ts,tsx}\" --fix",
         "pretty:check": "prettier --check ./",
         "pretty:fix": "prettier --write ./",
         "format": "npm run pretty:fix ; npm run lint:fix"

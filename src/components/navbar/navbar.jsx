@@ -12,8 +12,7 @@ import navbarStyles from "news-site-css/dist/navbar.module.css";
 import navStyles from "news-site-css/dist/nav.module.css";
 
 export default function Navbar({ callback }) {
-    const data = useDataContext();
-    const { content } = data;
+    const { content } = useDataContext();
 
     const location = useLocation();
     // look up label from content

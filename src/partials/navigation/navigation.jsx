@@ -14,9 +14,7 @@ import buttonStyles from "news-site-css/dist/button.module.css";
 export default function Navigation() {
     const [showSidebar, setShowSidebar] = useState(false);
     const [showLogin, setShowLogin] = useState(false);
-
-    const data = useDataContext();
-    const { buttons } = data;
+    const { buttons } = useDataContext();
 
     function openSidebar() {
         setShowSidebar(true);

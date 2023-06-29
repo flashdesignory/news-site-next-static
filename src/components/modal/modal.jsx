@@ -6,8 +6,7 @@ import { useDataContext } from "@/context/data-context";
 import styles from "news-site-css/dist/modal.module.css";
 
 export default function Modal({ onClose }) {
-    const data = useDataContext();
-    const { forms } = data;
+    const { forms } = useDataContext();
 
     function handleSubmit(e) {
         const { elements } = e.target;

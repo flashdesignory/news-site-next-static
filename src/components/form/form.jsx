@@ -7,8 +7,7 @@ import formStyles from "news-site-css/dist/form.module.css";
 import buttonStyles from "news-site-css/dist/button.module.css";
 
 export default function Form({ onCancel, onSubmit }) {
-    const data = useDataContext();
-    const { forms } = data;
+    const { forms } = useDataContext();
 
     function handleSubmit(e) {
         onSubmit(e);

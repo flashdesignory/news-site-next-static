@@ -8,9 +8,7 @@ import styles from "news-site-css/dist/dialog.module.css";
 
 export default function Dialog({ onClose }) {
     const [isChecked, setIsChecked] = useState(false);
-
-    const data = useDataContext();
-    const { settings } = data;
+    const { settings } = useDataContext();
 
     useEffect(() => {
         setIsChecked(document.body.classList.contains("reduced-motion"));
@@ -19,8 +17,10 @@ export default function Dialog({ onClose }) {
     function handleChange(e) {
         setIsChecked(e.target.checked);
 
-        if (e.target.checked) document.body.classList.add("reduced-motion");
-        else document.body.classList.remove("reduced-motion");
+        if (e.target.checked)
+            document.body.classList.add("reduced-motion");
+        else
+            document.body.classList.remove("reduced-motion");
     }
 
     return (
