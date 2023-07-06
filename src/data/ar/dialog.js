@@ -4,5 +4,8 @@ export const settings = {
         motion: {
             label: "انخفاض الحركة",
         },
+        contrast: {
+            label: "وضع التباين العاليs",
+        },
     },
 };
