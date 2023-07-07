@@ -10,6 +10,10 @@ import { footer as footerEn } from "@/data/en/footer";
 import { footer as footerJp } from "@/data/jp/footer";
 import { footer as footerAr } from "@/data/ar/footer";
 
+import { sitemap as sitemapEn } from "@/data/en/sidebar";
+import { sitemap as sitemapJp } from "@/data/jp/sidebar";
+import { sitemap as sitemapAr } from "@/data/ar/sidebar";
+
 import * as buttonsEn from "@/data/en/buttons";
 import * as buttonsJp from "@/data/jp/buttons";
 import * as buttonsAr from "@/data/ar/buttons";
@@ -18,26 +22,36 @@ import * as linksEn from "@/data/en/links";
 import * as linksJp from "@/data/jp/links";
 import * as linksAr from "@/data/ar/links";
 
+import * as formsEn from "@/data/en/form";
+import * as formsJp from "@/data/jp/form";
+import * as formsAr from "@/data/ar/form";
+
 export const dataSource = {
     en: {
         content: contentEn,
         settings: settingsEn,
         footer: footerEn,
+        sitemap: sitemapEn,
         buttons: buttonsEn,
         links: linksEn,
+        forms: formsEn,
     },
     jp: {
         content: contentJp,
         settings: settingsJp,
         footer: footerJp,
+        sitemap: sitemapJp,
         buttons: buttonsJp,
         links: linksJp,
+        forms: formsJp,
     },
     ar: {
         content: contentAr,
         settings: settingsAr,
         footer: footerAr,
+        sitemap: sitemapAr,
         buttons: buttonsAr,
         links: linksAr,
+        forms: formsAr,
     },
 };
