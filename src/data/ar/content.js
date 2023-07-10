@@ -26,6 +26,7 @@ export const content = {
                 name: "أخبار عاجلة",
                 articles: [
                     {
+                        id: "8a6ed5ec-89f3-42ad-b948-189d36f278c9",
                         class: "columns-3-narrow",
                         header: "غير خاضعة للرقابة",
                         url: "#",
@@ -44,6 +45,7 @@ export const content = {
                             "الرجاء أعضاء كرة القدم كقوة كرة قدم.لكن الوقت هو جرة وجع.مجموعة غير من الفلفل الحار.عنصر الحياة الآن ولكن أعضاء كرة القدم في الهواء الطلق.في أي رعاية لسهم سريري.آخر ما تريد دعاية مطوري كرة القدم البيئية السلطة في بعض الأحيان.الاستهداف الآن ، موز الحياة الحلق للغاية أو .الآن مسح الحياة في الحلق.\n\nبشكل السفن ما يتم. جدول الإمداد أن جُل, هو دون اتفاقية باستحداث الدولارات. فقد في وشعار الأمريكي. اكتوبر بتطويق ليرتفع الى قد, غير بالرغم أفريقيا إستيلاء في. وحرمان باستخدام و لها, أن يعبأ بمباركة ولم, ان ومضى الجوي تحرّك حول.",
                     },
                     {
+                        id: "d204d10c-879e-4991-802c-25020077e0de",
                         class: "columns-3-wide",
                         header: "المزيد من القصص العليا",
                         url: "#",
@@ -66,6 +68,7 @@ export const content = {
                             "لان وتنصيب والفلبين التبرعات إذ. المواد وهولندا، إذ كلّ, دار السيطرة والكساد لم. عدد لم اللا الثالث استعملت, ذات من ويتّفق معاملة. قائمة معارضة قبل ما. قد الجو وهولندا، فقد. أخذ إذ كانتا وبالرغم, يبق هو مرجع ليركز ويكيبيديا،. جُل الفترة الأرواح ثم, بشكل وصغار غير بل, قام عل وباءت المسرح الجنوبي.\n\nتعد وجهان ميناء غينيا مع, و تجهيز وقدّموا فقد. المسرح الأرواح إذ ضرب, و تلك تسمّى وقامت الأهداف. أسر ثم وسمّيت وتتحمّل الانجليزية. بل قدما حالية مكن, الآلاف المتحدة مع به،. فكانت يعادل أن بلا, تكبّد لتقليعة بريطانيا-فرنسا كان قد.",
                     },
                     {
+                        id: "e02d07e1-32e3-4ad1-b57c-b945f89d12d3",
                         class: "columns-3-narrow",
                         header: "الجريمة والعدالة",
                         url: "#",
@@ -90,6 +93,7 @@ export const content = {
                 name: "أحدث الأخبار",
                 articles: [
                     {
+                        id: "7af9e63d-d803-477b-ba8f-539f5d7ed1fe",
                         class: "columns-3-balanced",
                         header: "يحدث الآن",
                         type: "articles-list",
@@ -112,6 +116,7 @@ export const content = {
                         ],
                     },
                     {
+                        id: "cb7942ac-5ac8-40d1-90fd-7853a0a10d16",
                         class: "columns-3-balanced",
                         header: "جدير بالملاحظة",
                         image: {
@@ -141,6 +146,7 @@ export const content = {
                         ],
                     },
                     {
+                        id: "cd53f511-0251-4fb0-ae85-9ad228551dd6",
                         class: "columns-3-balanced",
                         header: "حول العالم",
                         image: {
@@ -176,6 +182,7 @@ export const content = {
                 name: "أحدث الوسائط",
                 articles: [
                     {
+                        id: "b419e5f0-1707-4c0e-85b3-48f26a70f91b",
                         class: "columns-1",
                         type: "grid",
                         content: [
@@ -244,6 +251,7 @@ export const content = {
                 name: "يسلط الضوء",
                 articles: [
                     {
+                        id: "1519cdfe-bb32-4f0a-aad1-2f4bb87096a4",
                         class: "columns-wrap",
                         header: "النقاط البارزة المحلية",
                         type: "excerpt",
@@ -278,6 +286,7 @@ export const content = {
                         ],
                     },
                     {
+                        id: "0b9b6f8c-0dde-4c2f-82dd-b777fa84881d",
                         class: "columns-wrap",
                         header: "النقاط البارزة العالمية",
                         type: "excerpt",
@@ -312,6 +321,7 @@ export const content = {
                         ],
                     },
                     {
+                        id: "8eed7659-370e-4a45-8977-b21eb88ab793",
                         class: "columns-wrap",
                         header: "أبرز الأحداث المحلية",
                         type: "excerpt",
@@ -352,6 +362,7 @@ export const content = {
                 name: "أهم الأخبار",
                 articles: [
                     {
+                        id: "4e01d65b-b4f0-4b43-8d28-2fb8f918071c",
                         class: "columns-1",
                         type: "grid",
                         display: "grid-wrap",
@@ -445,6 +456,7 @@ export const content = {
                 name: "دولي",
                 articles: [
                     {
+                        id: "c5deda28-5da7-4641-80dd-e9859088c95d",
                         class: "columns-3-balanced",
                         header: "أوروبا",
                         type: "articles-list",
@@ -467,6 +479,7 @@ export const content = {
                         ],
                     },
                     {
+                        id: "387033b0-e832-48b3-a3fe-f104075cf93a",
                         class: "columns-3-balanced",
                         header: "أمريكا الجنوبية",
                         type: "articles-list",
@@ -488,6 +501,7 @@ export const content = {
                         ],
                     },
                     {
+                        id: "06fa8c40-6678-483b-bbb5-a8f73822d1e1",
                         class: "columns-3-balanced",
                         header: "آسيا",
                         type: "articles-list",
@@ -515,6 +529,7 @@ export const content = {
                 name: "متميز",
                 articles: [
                     {
+                        id: "f0704a5e-cf35-4c2b-afc1-c07325577554",
                         class: "columns-3-balanced",
                         header: "واشنطن",
                         image: {
@@ -557,6 +572,7 @@ export const content = {
                         ],
                     },
                     {
+                        id: "9f57970b-05f9-45c2-9e3c-ab0f66ce47f3",
                         class: "columns-3-balanced",
                         header: "نيويورك",
                         image: {
@@ -599,6 +615,7 @@ export const content = {
                         ],
                     },
                     {
+                        id: "bda30bf1-8032-4bfa-b17d-07571a7251f7",
                         class: "columns-3-balanced",
                         header: "الملائكة",
                         image: {
@@ -647,6 +664,7 @@ export const content = {
                 name: "يؤكد",
                 articles: [
                     {
+                        id: "affd2923-97de-4410-9258-bce3e4a19b87",
                         class: "columns-2-balanced",
                         header: "هذا أولا",
                         type: "grid",
@@ -686,6 +704,7 @@ export const content = {
                         ],
                     },
                     {
+                        id: "a196957d-d9fa-400a-a94c-dca3f6815700",
                         class: "columns-2-balanced",
                         header: "هذا الثاني",
                         type: "grid",
@@ -731,6 +750,7 @@ export const content = {
                 name: "يحدث الآن",
                 articles: [
                     {
+                        id: "f07e6f59-5962-4410-b1a1-493770fa85c6",
                         class: "columns-wrap",
                         header: "سياسي",
                         type: "excerpt",
@@ -765,6 +785,7 @@ export const content = {
                         ],
                     },
                     {
+                        id: "3c3b206d-1b03-4fcc-9469-25b2caa64622",
                         class: "columns-wrap",
                         header: "صحة",
                         type: "excerpt",
@@ -799,6 +820,7 @@ export const content = {
                         ],
                     },
                     {
+                        id: "19a7a320-69b7-4ac6-b2b1-17206ccc8e67",
                         class: "columns-wrap",
                         header: "عمل",
                         type: "excerpt",
@@ -839,6 +861,7 @@ export const content = {
                 name: "مواضيع مثيرة",
                 articles: [
                     {
+                        id: "514e6188-22a4-4d01-ac19-342df74680e7",
                         class: "columns-2-balanced",
                         header: "هذا أولا",
                         type: "grid",
@@ -878,6 +901,7 @@ export const content = {
                         ],
                     },
                     {
+                        id: "df35d241-7b4e-41af-b4a8-aa5ac86a2625",
                         class: "columns-2-balanced",
                         header: "هذا الثاني",
                         type: "grid",
@@ -923,6 +947,7 @@ export const content = {
                 name: "المحتوى المدفوع",
                 articles: [
                     {
+                        id: "694bbfce-f1c9-4e10-95bc-a89023d5e1ea",
                         class: "columns-4-balanced",
                         type: "preview",
                         content: [
@@ -947,6 +972,7 @@ export const content = {
                         ],
                     },
                     {
+                        id: "6e110ab5-5d43-411b-a64e-3dae38960a60",
                         class: "columns-4-balanced",
                         type: "preview",
                         content: [
@@ -971,6 +997,7 @@ export const content = {
                         ],
                     },
                     {
+                        id: "e72adfa5-f82e-42b3-a0c6-c43f0c3f9393",
                         class: "columns-4-balanced",
                         type: "preview",
                         content: [
@@ -995,6 +1022,7 @@ export const content = {
                         ],
                     },
                     {
+                        id: "96bc6b53-c533-4970-adb7-8dae30da76cc",
                         class: "columns-4-balanced",
                         type: "preview",
                         content: [
@@ -1036,6 +1064,7 @@ export const content = {
                 name: "اخبار العالم",
                 articles: [
                     {
+                        id: "31b24534-29f6-469f-8ce3-ff774997ef8a",
                         class: "columns-3-wide",
                         header: "يحدث اليوم",
                         url: "#",
@@ -1058,6 +1087,7 @@ export const content = {
                             "من غير حاول والفلبين اليابان،, فعل احداث اتفاقية في. في وصل وبعض عقبت وجهان, قائمة السيء ولكسمبورغ ومن أي, هاربر غرّة، هذه إذ. عل كلا الشمال وفنلندا, نفس كل لعملة التّحول ومحاولة, أوسع الجنوب الخاطفة دون هو. نفس مليون نهاية استعملت إذ, من الجنوبي وهولندا، أخر. جهة قد بالجانب بمحاولة ولاتّساع, أسر تم بوابة النفط وبحلول. فعل وبدأت اوروبا إذ. حقول وبعد وفي ٣٠, للجزر الأبرياء و شيء. دفّة العدّ الضروري دار أم, عل التي مقاومة الجنوبي بال. بـ ولم منتصف بالرّغم, عن أفاق الشرق، بريطانيا-فرنسا بال. مع نفس الأحمر الصعداء, بحث يقوم لهذه بـ.",
                     },
                     {
+                        id: "06f7b876-6120-4273-8850-f60f817940f0",
                         class: "columns-3-narrow",
                         header: "الشائع",
                         url: "#",
@@ -1076,6 +1106,7 @@ export const content = {
                             "هذا ليس تصنيعًا معينًا لكرة القدم يركض ضحكًا في كرة السلة.بطولة وثيقة الهوية الوحيدة لايف الكحول تشرب الشراب كدبابات.فقط حتى الضعف القطر.تدليك كرة السلة حامل للغاية سريري للاستثمار.فالي تيلوس معرف البروتين معرف.\n\nلدحر السيء وهولندا، أم ولم, أما وإيطالي ألمانيا بالسيطرة بـ. ما رئيس الواقعة باستحداث حيث, أن الله قتيل، حول. عل الوراء الجنود أما, تعد قد اللازمة الأولية, أم تعديل والمانيا الإيطالية انه. تم لكل تعديل السيطرة ايطاليا،. لدحر والنفيس بريطانيا مع وتم, أوسع مليون أضف ٣٠, من وحرمان المشتّتون وقد.",
                     },
                     {
+                        id: "e9f3877f-a2a6-41fb-898b-9acb0fdedc19",
                         class: "columns-3-narrow",
                         header: "طقس",
                         url: "#",
@@ -1110,6 +1141,7 @@ export const content = {
                 name: "في جميع أنحاء البلاد",
                 articles: [
                     {
+                        id: "4e19c383-aff6-45de-b874-008c58a9667f",
                         class: "columns-3-balanced",
                         header: "أحدث",
                         image: {
@@ -1139,6 +1171,7 @@ export const content = {
                         ],
                     },
                     {
+                        id: "53c3567d-6073-41e8-87ca-f76a282c38f9",
                         class: "columns-3-balanced",
                         header: "عمل",
                         image: {
@@ -1165,6 +1198,7 @@ export const content = {
                         ],
                     },
                     {
+                        id: "79344d21-3a1f-4531-87b7-971d0a01e959",
                         class: "columns-3-balanced",
                         header: "سياسة",
                         image: {
@@ -1200,6 +1234,7 @@ export const content = {
                 name: "جمع الشمل",
                 articles: [
                     {
+                        id: "660d5f2a-0977-423b-a585-dbd0f58695e4",
                         class: "columns-wrap",
                         header: "واشنطن",
                         type: "excerpt",
@@ -1234,6 +1269,7 @@ export const content = {
                         ],
                     },
                     {
+                        id: "c88e0e0d-e323-4d4e-a0fb-b72c3fda9df8",
                         class: "columns-wrap",
                         header: "الساحل الشرقي",
                         type: "excerpt",
@@ -1268,6 +1304,7 @@ export const content = {
                         ],
                     },
                     {
+                        id: "a2267128-dd86-4a98-8903-0a887d49104e",
                         class: "columns-wrap",
                         header: "الساحل الغربي",
                         type: "excerpt",
@@ -1308,6 +1345,7 @@ export const content = {
                 name: "الجريمة والعدالة",
                 articles: [
                     {
+                        id: "bc92acd8-0cbb-42e6-88dc-7589e92eb218",
                         class: "columns-3-balanced",
                         header: "المحكمة العليا",
                         type: "articles-list",
@@ -1330,6 +1368,7 @@ export const content = {
                         ],
                     },
                     {
+                        id: "190711e5-6bc8-4b26-920a-b6edd74a0847",
                         class: "columns-3-balanced",
                         header: "قانون محلي",
                         type: "articles-list",
@@ -1352,6 +1391,7 @@ export const content = {
                         ],
                     },
                     {
+                        id: "0233b0b6-69f1-4c51-81cd-b849e435f2c1",
                         class: "columns-3-balanced",
                         header: "رأي",
                         type: "articles-list",
@@ -1380,6 +1420,7 @@ export const content = {
                 name: "حول الولايات المتحدة",
                 articles: [
                     {
+                        id: "90e08554-f9b4-4606-8e36-55de40b39f9f",
                         class: "columns-3-balanced",
                         header: "أحدث",
                         image: {
@@ -1409,6 +1450,7 @@ export const content = {
                         ],
                     },
                     {
+                        id: "9c6014cf-a577-4611-a2ce-97f2b4afc322",
                         class: "columns-3-balanced",
                         header: "عمل",
                         image: {
@@ -1435,6 +1477,7 @@ export const content = {
                         ],
                     },
                     {
+                        id: "48cabfe4-6408-488f-b942-8d59d35163f7",
                         class: "columns-3-balanced",
                         header: "سياسة",
                         image: {
@@ -1470,6 +1513,7 @@ export const content = {
                 name: "أحدث الوسائط",
                 articles: [
                     {
+                        id: "92371ddb-b2cf-43e2-8590-bda1440c7025",
                         class: "columns-1",
                         type: "grid",
                         content: [
@@ -1538,6 +1582,7 @@ export const content = {
                 name: "عمل",
                 articles: [
                     {
+                        id: "8e2a8c79-f1dc-4e6c-8542-04684ae08bce",
                         class: "columns-3-balanced",
                         header: "محلي",
                         type: "articles-list",
@@ -1558,6 +1603,7 @@ export const content = {
                         ],
                     },
                     {
+                        id: "5acb5684-4b99-44ff-9668-2e5daec9133c",
                         class: "columns-3-balanced",
                         header: "عالمي",
                         type: "articles-list",
@@ -1578,6 +1624,7 @@ export const content = {
                         ],
                     },
                     {
+                        id: "fd9fce73-e286-450f-8fcf-7b988b968f3b",
                         class: "columns-3-balanced",
                         header: "ربعي",
                         type: "articles-list",
@@ -1605,6 +1652,7 @@ export const content = {
                 name: "يؤكد",
                 articles: [
                     {
+                        id: "f7640582-e9b6-4d47-b396-95515aa0a840",
                         class: "columns-2-balanced",
                         header: "هذا أولا",
                         type: "grid",
@@ -1644,6 +1692,7 @@ export const content = {
                         ],
                     },
                     {
+                        id: "3f4c33ce-8628-46d1-b416-37b0fc218c74",
                         class: "columns-2-balanced",
                         header: "هذا الثاني",
                         type: "grid",
@@ -1689,6 +1738,7 @@ export const content = {
                 name: "الدولة حسب الدولة",
                 articles: [
                     {
+                        id: "88c59d52-03e2-47cc-82a0-f0d9df4a88db",
                         class: "columns-wrap",
                         header: "كاليفورنيا",
                         type: "excerpt",
@@ -1723,6 +1773,7 @@ export const content = {
                         ],
                     },
                     {
+                        id: "f28c0060-72db-4588-8b38-9f1b2a01a3ac",
                         class: "columns-wrap",
                         header: "نيويورك",
                         type: "excerpt",
@@ -1757,6 +1808,7 @@ export const content = {
                         ],
                     },
                     {
+                        id: "bc567ef4-d017-4679-8d7b-c822dd49a3dc",
                         class: "columns-wrap",
                         header: "واشنطن",
                         type: "excerpt",
@@ -1797,6 +1849,7 @@ export const content = {
                 name: "مواضيع مثيرة",
                 articles: [
                     {
+                        id: "4a2d747f-a853-4452-82bf-504b5f79a7fe",
                         class: "columns-2-balanced",
                         header: "هذا أولا",
                         type: "grid",
@@ -1836,6 +1889,7 @@ export const content = {
                         ],
                     },
                     {
+                        id: "c897ed90-26b7-4f9d-9c2c-7eb37270a317",
                         class: "columns-2-balanced",
                         header: "هذا الثاني",
                         type: "grid",
@@ -1881,6 +1935,7 @@ export const content = {
                 name: "المحتوى المدفوع",
                 articles: [
                     {
+                        id: "3acc4e4e-2720-4d9a-aa3e-ec820f6b4f00",
                         class: "columns-4-balanced",
                         type: "preview",
                         content: [
@@ -1896,6 +1951,7 @@ export const content = {
                         ],
                     },
                     {
+                        id: "ca777be8-b675-4dc0-817f-972a72129394",
                         class: "columns-4-balanced",
                         type: "preview",
                         content: [
@@ -1911,6 +1967,7 @@ export const content = {
                         ],
                     },
                     {
+                        id: "cb0c2767-4955-4cc6-ae13-5c44a958b36f",
                         class: "columns-4-balanced",
                         type: "preview",
                         content: [
@@ -1926,6 +1983,7 @@ export const content = {
                         ],
                     },
                     {
+                        id: "efe39446-2154-4279-9d1d-66d27db034ac",
                         class: "columns-4-balanced",
                         type: "preview",
                         content: [
@@ -1954,6 +2012,7 @@ export const content = {
                 name: "الاتجاهات العالمية",
                 articles: [
                     {
+                        id: "4da73fa5-c64a-43d8-873f-af7024fbae8c",
                         class: "columns-3-balanced",
                         header: "أفريقيا",
                         url: "#",
@@ -1972,6 +2031,7 @@ export const content = {
                             "مدن و تحرير بمباركة الباهضة, الأول اعتداء أخر لم, تلك و الثقيل الحكومة استرجاع. هو العدّ اليابان لان, ٣٠ وقامت مكثّفة مكن, مدن بلاده الآخر الشرقية ٣٠. غير للمجهود المجتمع مع, وشعار ايطاليا، تم كلّ. قد الحيلولة العمليات وصل. سابق والحزب الدّفاع انه و. جهة بـ وترك والحزب تزامناً.\n\n أفريقيا, شاسعة إعمار به، ما. ولم كرسي وقوعها، من. فصل واستمر التنازلي لم, أم مكن تاريخ تطوير الساحل. أساسي بمحاولة دار هو, لها الأول لإعادة ما.\n\n٣٠ ومطالبة والفلبين جهة, أراض معارضة عرض ان. حكومة إحتار تم ضرب, عل جمعت وعلى أضف, حدى في نهاية الأرضية. الدّفاع العالمية الا أي, بـ طوكيو الساحة حدى. بحق ما اليابانية الإيطالية الأوروبية،, بـ فبعد ترتيب دول. بالحرب بالمطالبة ولم أن.",
                     },
                     {
+                        id: "44d8807b-f06e-480f-8410-c5573127b527",
                         class: "columns-3-balanced",
                         header: "الصين",
                         url: "#",
@@ -1990,6 +2050,7 @@ export const content = {
                             "تحت لفشل المتّبعة و, دول بأيدي بتخصيص مليارات عل. كل فمرّ شاسعة لعملة أخر, حول مع أوسع الشتاء،, حتى مشارف لمحاكم الشتوية إذ. كل الى جيما النزاع الكونجرس. ما اللا العالم فقد, يبق بـ سقطت أوزار بالولايات. وقوعها، التغييرات عن بحث. عن ميناء واشتدّت جهة, قبل يذكر التنازلي أي.\n\nجعل تم تونس ماذا مسؤولية, جُل ٣٠ بتخصيص وأكثرها والديون, ان بلاده وحلفاؤها وصل. أم بحث الواقعة باستخدام, كان ما فرنسا بالرّد لبلجيكا،, اتفاق وبولندا بالولايات أي حدى. دار القادة وتنامت عن. جُل طوكيو الثانية و, انه السفن العالم، عن. شمال مليون ثم كان, كل مما موالية ألمانيا الأهداف.",
                     },
                     {
+                        id: "56478e74-f501-45a5-b9db-5a41b049f32b",
                         class: "columns-3-balanced",
                         header: "روسيا",
                         url: "#",
@@ -2026,6 +2087,7 @@ export const content = {
                 name: "حول العالم",
                 articles: [
                     {
+                        id: "22156cfb-5b44-4c70-adcc-8c560bb88bba",
                         class: "columns-3-balanced",
                         header: "أوروبا",
                         image: {
@@ -2043,6 +2105,7 @@ export const content = {
                             "مع ولم بقسوة الخطّة. أم أمام الشرقية والنرويج نفس, بتطويق الأبرياء التغييرات في حدى, الطرفين بالمطالبة دار عل. بها ومضى وتنامت مليارات بل. إذ ولم الإطلاق مليارات وحلفاؤها, بخطوط بزمام لها ٣٠.\n\nأي لعملة إستعمل العالم، مما, وباءت الضغوط وبولندا ٣٠ تلك. حول هناك سياسة إذ, إيطاليا تزامناً الانجليزية ٣٠ ولم. قادة فاتّبع الثالث، ان هذه. إذ ووصف بزمام بين, ومن ثم ودول لهذه الموسوعة. الطريق للحكومة الأعمال يكن في, تحت قد الذود انتصارهم. لها واستمر الإطلاق استطاعوا ان. ووصف يتمكن الثالث، كل أسر.",
                     },
                     {
+                        id: "0e6692ed-3268-4442-a52d-16c37c16c5e2",
                         class: "columns-3-balanced",
                         header: "الشرق الأوسط",
                         image: {
@@ -2060,6 +2123,7 @@ export const content = {
                             "جعل إحتار الباهضة الواقعة ان, مدن في ودول الساحل الإثنان. بعض بينما مشروط الساحلية ان, عل اتفاقية التاريخ، هذا, قامت يتمكن بالتوقيع أي عرض. حكومة وعُرفت لم وصل. أسر بل نتيجة والحزب.\n\nخطّة وتنامت حين أم, تمهيد وايرلندا قد أخر. لفشل بداية بل بحق, أم وتم أكثر تشيكوسلوفاكيا. كان لم كانت المبرمة. قد أما نقطة مساعدة ابتدعها, تحت قد أخرى ارتكبها, انتباه والفلبين الاندونيسية لمّ عل. ان اللا وبالرغم الاندونيسية أخذ, بين عن لهذه بالفشل.",
                     },
                     {
+                        id: "c9cd0674-b0de-4f53-9015-a97b57cf91d6",
                         class: "columns-3-balanced",
                         header: "آسيا",
                         image: {
@@ -2095,6 +2159,7 @@ export const content = {
                 name: "أحدث الوسائط",
                 articles: [
                     {
+                        id: "2c78e953-89f7-4a41-a852-6937b647674a",
                         class: "columns-1",
                         type: "grid",
                         content: [
@@ -2163,6 +2228,7 @@ export const content = {
                 name: "اليوم",
                 articles: [
                     {
+                        id: "b4f53c23-c475-4359-9b73-84b5f193695e",
                         class: "columns-3-wide",
                         header: "الاضطرابات",
                         url: "#",
@@ -2198,6 +2264,7 @@ export const content = {
                         ],
                     },
                     {
+                        id: "8e24c654-824d-4b80-add0-e6a69926e2e1",
                         class: "columns-3-narrow",
                         header: "يحدث الآن",
                         url: "#",
@@ -2233,6 +2300,7 @@ export const content = {
                         ],
                     },
                     {
+                        id: "b838d62e-fc9b-4c7f-808b-dfe42ba8207b",
                         class: "columns-3-narrow",
                         header: "جدير بالملاحظة",
                         url: "#",
@@ -2274,6 +2342,7 @@ export const content = {
                 name: "متميز",
                 articles: [
                     {
+                        id: "333174c6-e4f4-4376-b0ff-38d31161b9db",
                         class: "columns-3-balanced",
                         header: "الاتحاد الأوروبي",
                         image: {
@@ -2300,6 +2369,7 @@ export const content = {
                         ],
                     },
                     {
+                        id: "28fd8202-0588-42a2-bb92-54c534521b23",
                         class: "columns-3-balanced",
                         header: "بريطانيا",
                         image: {
@@ -2316,6 +2386,7 @@ export const content = {
                         content: "في قتيل، ابتدعها دنو. ضرب شمال للسيطرة استراليا، أم. قادة بقسوة الهادي مع عدم. إذ تطوير علاقة أساسي هذه. عليها الأوروبية الإقتصادية تم انه, بحق أم وسوء أمدها بريطانيا،.",
                     },
                     {
+                        id: "bcb67523-c31c-44ae-b9a1-a2b3b0cc5793",
                         class: "columns-3-balanced",
                         header: "أمريكا اللاتينية",
                         image: {
@@ -2364,6 +2435,7 @@ export const content = {
                 name: "دولي",
                 articles: [
                     {
+                        id: "bcdb2555-6ea9-48cc-b99e-7c496e95b54a",
                         class: "columns-wrap",
                         header: "الأمم المتحدة",
                         type: "excerpt",
@@ -2398,6 +2470,7 @@ export const content = {
                         ],
                     },
                     {
+                        id: "db9bc4e6-b7d8-4cbd-b9a6-17bc5c50b8b1",
                         class: "columns-wrap",
                         header: "الاتحاد الأوروبي",
                         type: "excerpt",
@@ -2432,6 +2505,7 @@ export const content = {
                         ],
                     },
                     {
+                        id: "a4208fe3-e9b4-46f6-af7e-ff04522ccc9c",
                         class: "columns-wrap",
                         header: "أزمة عالمية",
                         type: "excerpt",
@@ -2472,6 +2546,7 @@ export const content = {
                 name: "التأثير العالمي",
                 articles: [
                     {
+                        id: "48ae1b0c-4f0c-47f8-ab31-4ec18aaaf24c",
                         class: "columns-3-balanced",
                         header: "طقس",
                         image: {
@@ -2501,6 +2576,7 @@ export const content = {
                         ],
                     },
                     {
+                        id: "71a55a05-6c7a-432e-8d8f-dc55746911e6",
                         class: "columns-3-balanced",
                         header: "عمل",
                         image: {
@@ -2530,6 +2606,7 @@ export const content = {
                         ],
                     },
                     {
+                        id: "f44f022b-f57e-4d6d-84bc-904dfad9686a",
                         class: "columns-3-balanced",
                         header: "سياسة",
                         image: {
@@ -2565,6 +2642,7 @@ export const content = {
                 name: "يؤكد",
                 articles: [
                     {
+                        id: "060bbae5-655f-4ed6-ae0f-8afdb2056ecf",
                         class: "columns-2-balanced",
                         header: "هذا أولا",
                         type: "grid",
@@ -2604,6 +2682,7 @@ export const content = {
                         ],
                     },
                     {
+                        id: "b4ef9c47-027a-4870-8413-b83366e1ce21",
                         class: "columns-2-balanced",
                         header: "هذا الثاني",
                         type: "grid",
@@ -2649,6 +2728,7 @@ export const content = {
                 name: "قضايا عالمية",
                 articles: [
                     {
+                        id: "f189aeb3-f002-4cf4-929e-1957c1e049a9",
                         class: "columns-wrap",
                         header: "ارتفاع الجريمة",
                         type: "excerpt",
@@ -2683,6 +2763,7 @@ export const content = {
                         ],
                     },
                     {
+                        id: "ddf4293b-3356-4ec4-b349-75d29690623e",
                         class: "columns-wrap",
                         header: "المخاوف الصحية",
                         type: "excerpt",
@@ -2717,6 +2798,7 @@ export const content = {
                         ],
                     },
                     {
+                        id: "9b501227-b127-49b2-80d6-33945e5ea16c",
                         class: "columns-wrap",
                         header: "اقتصاد",
                         type: "excerpt",
@@ -2757,6 +2839,7 @@ export const content = {
                 name: "مواضيع مثيرة",
                 articles: [
                     {
+                        id: "2ecc66a8-422a-4ec1-8523-b2b3b6bd95d1",
                         class: "columns-2-balanced",
                         header: "هذا أولا",
                         type: "grid",
@@ -2796,6 +2879,7 @@ export const content = {
                         ],
                     },
                     {
+                        id: "e97c9e59-bce0-408e-8151-644b4c51fa24",
                         class: "columns-2-balanced",
                         header: "هذا الثاني",
                         type: "grid",
@@ -2841,6 +2925,7 @@ export const content = {
                 name: "المحتوى المدفوع",
                 articles: [
                     {
+                        id: "6f02bb8e-b794-403e-8417-6efaf23f7d4f",
                         class: "columns-4-balanced",
                         type: "preview",
                         content: [
@@ -2856,6 +2941,7 @@ export const content = {
                         ],
                     },
                     {
+                        id: "c1ab91c2-8a27-4b86-b862-f2cb98d99636",
                         class: "columns-4-balanced",
                         type: "preview",
                         content: [
@@ -2871,6 +2957,7 @@ export const content = {
                         ],
                     },
                     {
+                        id: "ea11fca8-afd0-4aab-b106-047aab8ca678",
                         class: "columns-4-balanced",
                         type: "preview",
                         content: [
@@ -2886,6 +2973,7 @@ export const content = {
                         ],
                     },
                     {
+                        id: "44a282f4-379a-41bd-bccb-5d7a16aa8d98",
                         class: "columns-4-balanced",
                         type: "preview",
                         content: [
@@ -2914,6 +3002,7 @@ export const content = {
                 name: "ماهي المشكلة الحقيقية",
                 articles: [
                     {
+                        id: "5fed924d-8356-4d2e-bf06-ba58866f4cd0",
                         class: "columns-1",
                         type: "grid",
                         display: "grid-wrap",
@@ -3007,6 +3096,7 @@ export const content = {
                 name: "اليوم",
                 articles: [
                     {
+                        id: "88787560-ed1b-43d5-a57c-bac38c8af902",
                         class: "columns-3-wide",
                         header: "أخبار الحملة",
                         url: "#",
@@ -3041,6 +3131,7 @@ export const content = {
                         ],
                     },
                     {
+                        id: "8eeaee25-a813-430f-9f1e-00ac72d6e0f9",
                         class: "columns-3-narrow",
                         header: "انتخابات",
                         url: "#",
@@ -3067,6 +3158,7 @@ export const content = {
                         ],
                     },
                     {
+                        id: "f56f95e8-6db3-4fb3-9797-be9e6e8713d1",
                         class: "columns-3-narrow",
                         header: "حكومة محلية",
                         url: "#",
@@ -3103,6 +3195,7 @@ export const content = {
                 name: "العناوين الرئيسية",
                 articles: [
                     {
+                        id: "a497dc76-3124-4e34-a562-393b3ed0a2d0",
                         class: "columns-3-balanced",
                         header: "تحليل",
                         image: {
@@ -3132,6 +3225,7 @@ export const content = {
                         ],
                     },
                     {
+                        id: "3b2ff2f5-1aa4-471d-afe4-4134e7239b3a",
                         class: "columns-3-balanced",
                         header: "الحقائق أولا",
                         image: {
@@ -3161,6 +3255,7 @@ export const content = {
                         ],
                     },
                     {
+                        id: "d3f0d391-b7ad-4421-a6d2-7d004a21d6d9",
                         class: "columns-3-balanced",
                         header: "المزيد من أخبار السياسة",
                         image: {
@@ -3184,6 +3279,7 @@ export const content = {
                 name: "أحدث الوسائط",
                 articles: [
                     {
+                        id: "db2737cd-27a6-479d-a387-ad8009ede603",
                         class: "columns-1",
                         type: "grid",
                         content: [
@@ -3252,6 +3348,7 @@ export const content = {
                 name: "انتخاب",
                 articles: [
                     {
+                        id: "29de4b05-b033-4382-9b05-cd4ad886f497",
                         class: "columns-wrap",
                         header: "الديمقراطيين",
                         type: "excerpt",
@@ -3286,6 +3383,7 @@ export const content = {
                         ],
                     },
                     {
+                        id: "54a12e98-d00c-455d-b806-98594181ce1e",
                         class: "columns-wrap",
                         header: "الجمهوريون",
                         type: "excerpt",
@@ -3320,6 +3418,7 @@ export const content = {
                         ],
                     },
                     {
+                        id: "8ad5e658-cfe7-42d1-8e28-764010c5b34f",
                         class: "columns-wrap",
                         header: "الليبراليين",
                         type: "excerpt",
@@ -3360,6 +3459,7 @@ export const content = {
                 name: "المزيد من الأخبار السياسية",
                 articles: [
                     {
+                        id: "ba31d7b5-0a2b-421d-880b-83cbf0503a45",
                         class: "columns-3-wide",
                         header: "المزيد من الأخبار",
                         url: "#",
@@ -3413,6 +3513,7 @@ export const content = {
                         ],
                     },
                     {
+                        id: "1900eb3e-e44a-481b-abe7-d82aafb5a4ed",
                         class: "columns-3-narrow",
                         url: "#",
                         type: "preview",
@@ -3447,6 +3548,7 @@ export const content = {
                         ],
                     },
                     {
+                        id: "212ae8c8-9689-4c4c-b75c-6af97924c561",
                         class: "columns-3-narrow",
                         url: "#",
                         type: "preview",
@@ -3487,6 +3589,7 @@ export const content = {
                 name: "يؤكد",
                 articles: [
                     {
+                        id: "78fb02c4-4a19-4c24-a504-fb029810730e",
                         class: "columns-2-balanced",
                         header: "هذا أولا",
                         type: "grid",
@@ -3526,6 +3629,7 @@ export const content = {
                         ],
                     },
                     {
+                        id: "c215acac-4b82-4696-a5d7-a33f322c45f3",
                         class: "columns-2-balanced",
                         header: "هذا الثاني",
                         type: "grid",
@@ -3571,6 +3675,7 @@ export const content = {
                 name: "الشائع",
                 articles: [
                     {
+                        id: "40fc21b9-2db4-47e2-96ef-2d95e79a9df3",
                         class: "columns-wrap",
                         header: "تشريعات جديدة",
                         type: "excerpt",
@@ -3605,6 +3710,7 @@ export const content = {
                         ],
                     },
                     {
+                        id: "9f10b36d-0666-479c-a234-a7ab95f9737d",
                         class: "columns-wrap",
                         header: "أحدث استطلاعات الرأي",
                         type: "excerpt",
@@ -3639,6 +3745,7 @@ export const content = {
                         ],
                     },
                     {
+                        id: "d86ca00e-4e84-48ac-8c95-118d7c9a2e44",
                         class: "columns-wrap",
                         header: "من يكتسب الأصوات",
                         type: "excerpt",
@@ -3679,6 +3786,7 @@ export const content = {
                 name: "حول العالم",
                 articles: [
                     {
+                        id: "d7923d94-7cd8-418a-865e-2b90faf6f830",
                         class: "columns-3-balanced",
                         header: "بريطانيا",
                         image: {
@@ -3708,6 +3816,7 @@ export const content = {
                         ],
                     },
                     {
+                        id: "f87a7154-8143-4c09-8afe-96f965e00089",
                         class: "columns-3-balanced",
                         header: "إيطاليا",
                         image: {
@@ -3737,6 +3846,7 @@ export const content = {
                         ],
                     },
                     {
+                        id: "14d07dfb-3587-4411-b4ce-33ba171152f4",
                         class: "columns-3-balanced",
                         header: "بولندا",
                         image: {
@@ -3772,6 +3882,7 @@ export const content = {
                 name: "مواضيع مثيرة",
                 articles: [
                     {
+                        id: "df191197-ddb0-4c59-978c-560e60e62e0a",
                         class: "columns-2-balanced",
                         header: "هذا أولا",
                         type: "grid",
@@ -3811,6 +3922,7 @@ export const content = {
                         ],
                     },
                     {
+                        id: "2ba63655-af94-4da2-a4da-e7464aa070e8",
                         class: "columns-2-balanced",
                         header: "هذا الثاني",
                         type: "grid",
@@ -3856,6 +3968,7 @@ export const content = {
                 name: "المحتوى المدفوع",
                 articles: [
                     {
+                        id: "a97faeaa-1309-44ec-a9a8-dda2db1ad5f3",
                         class: "columns-4-balanced",
                         type: "preview",
                         content: [
@@ -3871,6 +3984,7 @@ export const content = {
                         ],
                     },
                     {
+                        id: "52472e25-5e61-4bef-9aca-ac86f936d811",
                         class: "columns-4-balanced",
                         type: "preview",
                         content: [
@@ -3886,6 +4000,7 @@ export const content = {
                         ],
                     },
                     {
+                        id: "a16c0da8-7dea-4cb3-af0e-0c0123bf20d3",
                         class: "columns-4-balanced",
                         type: "preview",
                         content: [
@@ -3901,6 +4016,7 @@ export const content = {
                         ],
                     },
                     {
+                        id: "3e7d37b7-af0e-4f69-a0fd-8d0f64d2e0ba",
                         class: "columns-4-balanced",
                         type: "preview",
                         content: [
@@ -3929,6 +4045,7 @@ export const content = {
                 name: "آخر الصيحات",
                 articles: [
                     {
+                        id: "addec243-95e5-4aae-8261-c6b82b928293",
                         class: "columns-3-wide",
                         header: "الاستثمار",
                         url: "#",
@@ -3951,6 +4068,7 @@ export const content = {
                             "جُل بتطويق التنازلي تم, مشروط الأخذ باستخدام لمّ بل. الدمج وزارة العاصمة أسر بل, ٣٠ أواخر عملية يتم. مما مدينة انذار الأوربيين مع, حول تم ٠٨٠٤ وقوعها، الثالث،. تحت تم الأحمر باستخدام واندونيسيا،, مكن في الدمج الجنوب ديسمبر. بوابة وانهاء ثم بلا.",
                     },
                     {
+                        id: "4d5bbeee-9e05-4f95-b6bf-af41b145e4e3",
                         class: "columns-3-narrow",
                         header: "وسائط",
                         url: "#",
@@ -3969,6 +4087,7 @@ export const content = {
                             "فكان اليها مع الا. أخذ إذ انتهت وباستثناء. لم وزارة موالية كان. دار من أثره، مدينة وبغطاء, ٣٠ أخذ قادة استراليا،. يقوم المتّبعة في جُل, عدم مسرح كُلفة عن.\n\nانه غرّة، التخطيط في, لم جديدة الحكم الأهداف كما. أن تعديل عملية بحث, قد العصبة الثانية دار, رجوعهم الجديدة، الى ان. وبعض وإعلان عسكرياً قد لان, به، كل الأسيوي الساحلية. تم جُل بشكل أطراف. إذ مكّن بالرغم فقد, قد أصقاع الصين الآلاف بال.",
                     },
                     {
+                        id: "a788ad50-9e3a-461e-be18-828fbce1dbd9",
                         class: "columns-3-narrow",
                         header: "أفكار",
                         url: "#",
@@ -3993,6 +4112,7 @@ export const content = {
                 name: "مراقبة السوق",
                 articles: [
                     {
+                        id: "ed902471-e96d-462b-bc88-01c7e22d5fa0",
                         class: "columns-3-balanced",
                         header: "الشائع",
                         image: {
@@ -4010,6 +4130,7 @@ export const content = {
                             "الدمج الخاصّة أفريقيا حول أي, التبرعات العالمية يكن ما. الحدود أفريقيا وأكثرها غير ٣٠, المضي الصين أي غير. تسمّى مشارف كل وفي, الا الحرة بالمطالبة تم. جزيرتي لتقليعة ثم تعد, يتم من حاملات الضروري. صفحة لعدم أوزار كل الا, لها ثم اليابان استطاعوا.",
                     },
                     {
+                        id: "31a8663a-d035-4b62-adeb-195a1c60e831",
                         class: "columns-3-balanced",
                         header: "تقنية",
                         image: {
@@ -4027,6 +4148,7 @@ export const content = {
                             "بـ أواخر ويتّفق مسؤولية ذات, وجزر الإتحاد ما عرض. مشارف الأثناء، كما بـ, ما وتم أواخر شموليةً والفلبين. هذه ضمنها بلديهما الجنرال عن, وقد ثم جورج معزّزة الاندونيسية, معزّزة استرجاع و جُل. هو الشتوية عسكرياً يبق, مارد بالتوقيع و أسر. شدّت أثره، ذلك ٣٠, ما تلك سقطت مكثّفة للأراضي.",
                     },
                     {
+                        id: "bf9491d2-ffcc-4ed3-a3a4-2cfda792f06b",
                         class: "columns-3-balanced",
                         header: "نجاح",
                         image: {
@@ -4050,6 +4172,7 @@ export const content = {
                 name: "الاقتصاد اليوم",
                 articles: [
                     {
+                        id: "95d5859b-44d0-452b-adba-52af428c9b8e",
                         class: "columns-wrap",
                         header: "التأثير العالمي",
                         type: "excerpt",
@@ -4084,6 +4207,7 @@ export const content = {
                         ],
                     },
                     {
+                        id: "f89eb533-713d-4ece-9998-c29672199357",
                         class: "columns-wrap",
                         header: "الآفاق",
                         type: "excerpt",
@@ -4118,6 +4242,7 @@ export const content = {
                         ],
                     },
                     {
+                        id: "eb628ced-8e49-4cc7-a4b6-2531bc5f7b30",
                         class: "columns-wrap",
                         header: "الحرية المالية",
                         type: "excerpt",
@@ -4158,6 +4283,7 @@ export const content = {
                 name: "يجب أن يقرأ",
                 articles: [
                     {
+                        id: "b77172cc-4e49-40ca-9235-eb2f5f865804",
                         class: "columns-1",
                         type: "grid",
                         display: "grid-wrap",
@@ -4235,6 +4361,7 @@ export const content = {
                 name: "تعليمية",
                 articles: [
                     {
+                        id: "4187d9c9-e176-4b0a-8bee-03f4f3be418a",
                         class: "columns-3-balanced",
                         header: "الأعمال 101",
                         image: {
@@ -4252,6 +4379,7 @@ export const content = {
                             "فمرّ وأزيز مساعدة يبق بل. الحكم الجنوب حتى في, بقسوة والقرى بمحاولة بحث ثم, ٣٠ مسارح فقامت الشتوية إيو. الا غرّة، يتسنّى اليابان في, و بداية وإعلان التكاليف لان. المدن لإعادة أما تم, لمّ قامت المنتصر الواقعة عن.\n\nمدن دفّة هاربر اعلان و. يكن تحرّك الإنذار، أن. ووصف المواد الواقعة ضرب إذ. لمّ مع تعديل تحرّكت وبولندا, نفس قد وحتّى مساعدة الأراضي. حصدت وصغار بريطانيا، الى أن, حكومة أساسي واستمرت ما وفي.",
                     },
                     {
+                        id: "c519abd4-bb39-4b35-b3fb-130713f8f27b",
                         class: "columns-3-balanced",
                         header: "بدء",
                         image: {
@@ -4269,6 +4397,7 @@ export const content = {
                             "إذ فهرست الدّفاع التغييرات عدد, مع المدن والديون الجديدة، مدن. قام أم أمّا عسكرياً. جنوب الصفحات مع أما. مواقعها الإحتفاظ التبرعات هذه تم, شرسة الأمم بالإنزال أخذ و.\n\nثم تحرّك بالإنزال يكن, عل حول غضون الأمريكي. ان هذه ليرتفع الأثناء،. عل أضف أمام بولندا، استمرار. مكن ثم يعادل اتفاقية, لان تمهيد الجنوبي والروسية من. بال أمام بخطوط الأعمال بـ, قبل مايو والفرنسي ان. ومن من الغالي والديون الإيطالية, ماذا تكاليف البشريةً عل لكل. أي تصرّف قائمة وعُرفت أضف, أن ولم أخرى ابتدعها.",
                     },
                     {
+                        id: "a7b41785-e2d9-4afa-a161-5edcffce77a8",
                         class: "columns-3-balanced",
                         header: "تحقيق الربح",
                         image: {
@@ -4292,6 +4421,7 @@ export const content = {
                 name: "يؤكد",
                 articles: [
                     {
+                        id: "4e229873-04c6-410a-a433-18178fa4aad5",
                         class: "columns-2-balanced",
                         header: "هذا أولا",
                         type: "grid",
@@ -4331,6 +4461,7 @@ export const content = {
                         ],
                     },
                     {
+                        id: "1760d2cf-9530-4c27-9943-ec0525b5dd4f",
                         class: "columns-2-balanced",
                         header: "هذا الثاني",
                         type: "grid",
@@ -4376,6 +4507,7 @@ export const content = {
                 name: "استثمار 101",
                 articles: [
                     {
+                        id: "d3b35a69-8fa6-49b6-a86f-a451e15430f0",
                         class: "columns-3-balanced",
                         header: "إدارة أصولك",
                         type: "articles-list",
@@ -4397,6 +4529,7 @@ export const content = {
                         ],
                     },
                     {
+                        id: "27a697e9-74a9-459c-9cd2-d479d65ac2f7",
                         class: "columns-3-balanced",
                         header: "ماذا تريد ان تشاهد",
                         type: "articles-list",
@@ -4418,6 +4551,7 @@ export const content = {
                         ],
                     },
                     {
+                        id: "cff3dc12-6773-4f70-a22d-ff1bc100c818",
                         class: "columns-3-balanced",
                         header: "هل كنت تعلم؟",
                         type: "articles-list",
@@ -4446,6 +4580,7 @@ export const content = {
                 name: "سوق الأوراق المالية",
                 articles: [
                     {
+                        id: "49e01dcc-39fd-482d-b0c1-31918f791041",
                         class: "columns-wrap",
                         header: "الداو جونز",
                         type: "excerpt",
@@ -4480,6 +4615,7 @@ export const content = {
                         ],
                     },
                     {
+                        id: "084674ba-b34b-4841-8674-e29bfd3633fa",
                         class: "columns-wrap",
                         header: "s&p500",
                         type: "excerpt",
@@ -4514,6 +4650,7 @@ export const content = {
                         ],
                     },
                     {
+                        id: "d287a7b5-305f-4e6f-81c7-3a6f1e833a5a",
                         class: "columns-wrap",
                         header: "تجارة يومية",
                         type: "excerpt",
@@ -4554,6 +4691,7 @@ export const content = {
                 name: "تأثير",
                 articles: [
                     {
+                        id: "f87f6f06-2480-48b1-abf0-17c97fa92d27",
                         class: "columns-3-balanced",
                         header: "أزمة النفط",
                         type: "articles-list",
@@ -4575,6 +4713,7 @@ export const content = {
                         ],
                     },
                     {
+                        id: "8d0c8045-a260-47ec-9f28-1098d994da86",
                         class: "columns-3-balanced",
                         header: "أسواق التكنولوجيا",
                         type: "articles-list",
@@ -4597,6 +4736,7 @@ export const content = {
                         ],
                     },
                     {
+                        id: "9144e1b3-46b1-4c71-b26d-6f4cf74e7444",
                         class: "columns-3-balanced",
                         header: "انخفاض الأسواق",
                         type: "articles-list",
@@ -4624,6 +4764,7 @@ export const content = {
                 name: "مواضيع مثيرة",
                 articles: [
                     {
+                        id: "1e60235c-0198-4448-9267-f3f86542d7dc",
                         class: "columns-2-balanced",
                         header: "هذا أولا",
                         type: "grid",
@@ -4663,6 +4804,7 @@ export const content = {
                         ],
                     },
                     {
+                        id: "46e89da3-b39c-43a7-9178-efeeb91e973d",
                         class: "columns-2-balanced",
                         header: "هذا الثاني",
                         type: "grid",
@@ -4708,6 +4850,7 @@ export const content = {
                 name: "المحتوى المدفوع",
                 articles: [
                     {
+                        id: "d6c99f00-e45b-4da3-abb8-2a0a3bd27cc7",
                         class: "columns-4-balanced",
                         type: "preview",
                         content: [
@@ -4732,6 +4875,7 @@ export const content = {
                         ],
                     },
                     {
+                        id: "2b905eee-c666-4704-9658-1e0757b02253",
                         class: "columns-4-balanced",
                         type: "preview",
                         content: [
@@ -4756,6 +4900,7 @@ export const content = {
                         ],
                     },
                     {
+                        id: "1acc8fc3-74bb-46b0-8d67-bee9bfb7667a",
                         class: "columns-4-balanced",
                         type: "preview",
                         content: [
@@ -4780,6 +4925,7 @@ export const content = {
                         ],
                     },
                     {
+                        id: "a005c941-9e4b-4219-88df-d6a553b3c237",
                         class: "columns-4-balanced",
                         type: "preview",
                         content: [
@@ -4817,6 +4963,7 @@ export const content = {
                 name: "نظرة أعمق",
                 articles: [
                     {
+                        id: "7c4b6a7e-1f91-4e43-b099-a72aea0fa6c7",
                         class: "columns-3-wide",
                         header: "أحدث الحقائق",
                         url: "#",
@@ -4837,6 +4984,7 @@ export const content = {
                         content: "ومن كل يعبأ الصفحات التخطيط. يتم ان أطراف إنطلاق. بل أسر مقاطعة الأثناء،, جعل أي منتصف المنتصر. ذات إذ بالجانب واعتلاء اليابانية, يتعلّق ا قُدُماً تم وتم. هُزم جزيرتي الإمتعاض الى مع.",
                     },
                     {
+                        id: "0d292bbd-e6da-499b-8008-652d51e3b26d",
                         class: "columns-3-narrow",
                         header: "قمة أذهاننا",
                         url: "#",
@@ -4855,6 +5003,7 @@ export const content = {
                             "لكون إعلان حيث في, ثم لها واتّجه ماليزيا،. الخاصّة الفرنسية في بين. وقام لفرنسا ما لها, ولم كل وسفن تعداد الآخر. قبضتهم ليتسنّى مع وتم, مع وقام ارتكبها غير. بل العالم إستيلاء والمعدات حدى, بل فرنسا التبرعات ولكسمبورغ شيء. إيو كل استبدال تشيكوسلوفاكيا.\n\nما يتبقّ مقاومة معاملة وقد, عجّل أمّا الثانية هذه قد, لم أوزار وتتحمّل كما. مايو بريطانيا، ان مما, حيث من أوسع الأمور. هو يكن ونتج لعملة. بل مكثّفة بالرغم الانجليزية مما. بعد كانت البشريةً كل, شعار استعملت ايطاليا، وصل و. هو مايو أصقاع بلا.",
                     },
                     {
+                        id: "75c1fa44-8c39-48a0-9db7-b30c0ffc6606",
                         class: "columns-3-narrow",
                         header: "تقرير المحرر",
                         url: "#",
@@ -4879,6 +5028,7 @@ export const content = {
                 name: "أعلى القضايا",
                 articles: [
                     {
+                        id: "68c63699-7843-4f2c-8893-3cd0043ce6c7",
                         class: "columns-3-balanced",
                         header: "أفكار",
                         image: {
@@ -4908,6 +5058,7 @@ export const content = {
                         ],
                     },
                     {
+                        id: "f293245c-cbdc-4538-8ca8-0181ba5709a0",
                         class: "columns-3-balanced",
                         header: "التعليق الاجتماعي",
                         image: {
@@ -4937,6 +5088,7 @@ export const content = {
                         ],
                     },
                     {
+                        id: "0f38830e-3f1d-43ee-9f24-dc3f1422e9d7",
                         class: "columns-3-balanced",
                         header: "مشاريع خاصة",
                         image: {
@@ -4960,6 +5112,7 @@ export const content = {
                 name: "الشائع",
                 articles: [
                     {
+                        id: "7ca7daac-f4d0-4a57-a396-b8bb485796b4",
                         class: "columns-wrap",
                         header: "حول العالم",
                         type: "excerpt",
@@ -4994,6 +5147,7 @@ export const content = {
                         ],
                     },
                     {
+                        id: "89639a03-5c46-45c1-ad54-ba8548521eea",
                         class: "columns-wrap",
                         header: "يدعم",
                         type: "excerpt",
@@ -5028,6 +5182,7 @@ export const content = {
                         ],
                     },
                     {
+                        id: "b4c36ecf-7d2f-4715-842c-a1fe99c0475e",
                         class: "columns-wrap",
                         header: "تعرف أكثر",
                         type: "excerpt",
@@ -5068,6 +5223,7 @@ export const content = {
                 name: "فكر في الأمر",
                 articles: [
                     {
+                        id: "a1034d17-1add-49f8-b258-27de86bea9e4",
                         class: "columns-3-balanced",
                         header: "الصحة النفسية",
                         image: {
@@ -5102,6 +5258,7 @@ export const content = {
                         ],
                     },
                     {
+                        id: "c344dac6-35bf-44af-9c55-ae5ca7ab7f41",
                         class: "columns-3-balanced",
                         header: "حياة أفضل",
                         image: {
@@ -5136,6 +5293,7 @@ export const content = {
                         ],
                     },
                     {
+                        id: "a1724b6d-085c-4467-b413-e3332a4a4af6",
                         class: "columns-3-balanced",
                         header: "الاختيار الصحيح",
                         image: {
@@ -5176,6 +5334,7 @@ export const content = {
                 name: "أحدث الوسائط",
                 articles: [
                     {
+                        id: "c3ed8428-cf45-4f9d-86d1-391bd9e9ad80",
                         class: "columns-1",
                         type: "grid",
                         content: [
@@ -5244,6 +5403,7 @@ export const content = {
                 name: "في حال فوته على نفسك",
                 articles: [
                     {
+                        id: "9ecce31e-6d76-44c4-a518-b881b6877724",
                         class: "columns-3-balanced",
                         header: "الأفكار النقدية",
                         image: {
@@ -5273,6 +5433,7 @@ export const content = {
                         ],
                     },
                     {
+                        id: "f80bc40c-0c9c-4567-8b79-fd29ef77659b",
                         class: "columns-3-balanced",
                         header: "التفكير النقدي",
                         image: {
@@ -5302,6 +5463,7 @@ export const content = {
                         ],
                     },
                     {
+                        id: "1bb6984e-a18f-47b7-9bbb-6888b74b58da",
                         class: "columns-3-balanced",
                         header: "الإجراءات الحرجة",
                         image: {
@@ -5337,6 +5499,7 @@ export const content = {
                 name: "القضايا البيئية",
                 articles: [
                     {
+                        id: "d55b5489-7ed3-4215-9e45-ef5ae8072210",
                         class: "columns-3-balanced",
                         header: "الاحتباس الحرارى",
                         type: "articles-list",
@@ -5358,6 +5521,7 @@ export const content = {
                         ],
                     },
                     {
+                        id: "dcb3d636-542f-49ea-aaa0-e829fc87ab3d",
                         class: "columns-3-balanced",
                         header: "إعادة التدوير",
                         type: "articles-list",
@@ -5379,6 +5543,7 @@ export const content = {
                         ],
                     },
                     {
+                        id: "500a214a-8186-49bf-96f0-38e42014460b",
                         class: "columns-3-balanced",
                         header: "أبحاث جديدة",
                         type: "articles-list",
@@ -5407,6 +5572,7 @@ export const content = {
                 name: "يؤكد",
                 articles: [
                     {
+                        id: "8096212a-bfab-494b-b4d9-a04c2bd80b17",
                         class: "columns-2-balanced",
                         header: "هذا أولا",
                         type: "grid",
@@ -5446,6 +5612,7 @@ export const content = {
                         ],
                     },
                     {
+                        id: "8945566e-82d2-419c-8ec5-750294e2aaf4",
                         class: "columns-2-balanced",
                         header: "هذا الثاني",
                         type: "grid",
@@ -5491,6 +5658,7 @@ export const content = {
                 name: "أكثر مايهم",
                 articles: [
                     {
+                        id: "2fe9dc69-e459-46d6-8b9b-8bce7c60f694",
                         class: "columns-wrap",
                         header: "مناقشة",
                         type: "excerpt",
@@ -5525,6 +5693,7 @@ export const content = {
                         ],
                     },
                     {
+                        id: "fa068dc1-0a5c-459a-9e38-7fb8cd9d5fa5",
                         class: "columns-wrap",
                         header: "هل تستحق ذلك؟",
                         type: "excerpt",
@@ -5559,6 +5728,7 @@ export const content = {
                         ],
                     },
                     {
+                        id: "31082ef2-8a41-4ea5-9c40-3d87ff73ad5f",
                         class: "columns-wrap",
                         header: "افعل ذلك",
                         type: "excerpt",
@@ -5599,6 +5769,7 @@ export const content = {
                 name: "مواضيع مثيرة",
                 articles: [
                     {
+                        id: "20b1f11f-8da5-4614-82b9-80c15aed568c",
                         class: "columns-2-balanced",
                         header: "هذا أولا",
                         type: "grid",
@@ -5638,6 +5809,7 @@ export const content = {
                         ],
                     },
                     {
+                        id: "662f09bf-45ab-445f-a096-cede68c5dab8",
                         class: "columns-2-balanced",
                         header: "هذا الثاني",
                         type: "grid",
@@ -5683,6 +5855,7 @@ export const content = {
                 name: "المحتوى المدفوع",
                 articles: [
                     {
+                        id: "c7f1b2e8-3e7e-4cea-b8fd-97da6aaa217a",
                         class: "columns-4-balanced",
                         type: "preview",
                         content: [
@@ -5698,6 +5871,7 @@ export const content = {
                         ],
                     },
                     {
+                        id: "f047187b-7651-45f5-8e13-362d82b59e91",
                         class: "columns-4-balanced",
                         type: "preview",
                         content: [
@@ -5713,6 +5887,7 @@ export const content = {
                         ],
                     },
                     {
+                        id: "fc748387-cfdb-4659-bf00-14984869c3f4",
                         class: "columns-4-balanced",
                         type: "preview",
                         content: [
@@ -5728,6 +5903,7 @@ export const content = {
                         ],
                     },
                     {
+                        id: "ad88b542-6ac0-4525-b6be-581cb2b67762",
                         class: "columns-4-balanced",
                         type: "preview",
                         content: [
@@ -5756,6 +5932,7 @@ export const content = {
                 name: "الشائع",
                 articles: [
                     {
+                        id: "b5d84dfb-d80f-4ba1-ab4e-c33e255b3157",
                         class: "columns-3-balanced",
                         header: "تركيز كامل للذهن",
                         url: "#",
@@ -5786,6 +5963,7 @@ export const content = {
                         ],
                     },
                     {
+                        id: "a1822776-68b2-4d24-95e2-917756de0c12",
                         class: "columns-3-balanced",
                         header: "أحدث الأبحاث",
                         url: "#",
@@ -5816,6 +5994,7 @@ export const content = {
                         ],
                     },
                     {
+                        id: "0a522480-9f37-43e3-bbf2-c5398450a921",
                         class: "columns-3-balanced",
                         header: "صحية كبار",
                         url: "#",
@@ -5852,6 +6031,7 @@ export const content = {
                 name: "أحدث الحقائق",
                 articles: [
                     {
+                        id: "db2abfd6-b4d4-4237-850a-7f34de938739",
                         class: "columns-3-balanced",
                         header: "المزيد من الحياة ، ولكن أفضل",
                         image: {
@@ -5878,6 +6058,7 @@ export const content = {
                         ],
                     },
                     {
+                        id: "8cfeff8c-94cb-4eca-b5e2-b4214b761705",
                         class: "columns-3-balanced",
                         header: "في حال فوته على نفسك",
                         image: {
@@ -5895,6 +6076,7 @@ export const content = {
                             "عُقر الجديدة، الأوروبيّون في فقد, لم سقوط أوزار بتحدّي دار. بحق و استبدال وفنلندا, قِبل أخرى الوزراء عن وفي. في وباءت بالرغم ويكيبيديا دون, من لها أطراف إتفاقية. إذ جهة الشرق، بالولايات. عل عدد اوروبا لليابان, قبل أحكم السبب الأولى و. ثم فصل للحكومة الإتفاقية الاندونيسية, في حيث قامت تشكيل وحلفاؤها.\n\nحين حالية الحكم وانهاء و, ان فبعد الغالي وقد, عل حول وكسبت للأراضي. لمّ حقول والكوري استعملت ثم, ثم ذلك اللا بوابة الأرضية, شرسة جسيمة تصرّف تعد ثم. يتم إذ الآلاف شموليةً, مع فقد وبعض كردة الأثنان. لهذه غريمه بال لم. مما في الشّعبين ويكيبيديا. وقام سليمان، البولندي بل أخر.",
                     },
                     {
+                        id: "ae3f3c45-b7fe-4729-8374-f3ba8d11eeff",
                         class: "columns-3-balanced",
                         header: "الفضاء والعلوم",
                         image: {
@@ -5935,6 +6117,7 @@ export const content = {
                 name: "الاختراقات الطبية",
                 articles: [
                     {
+                        id: "2afaf4ee-4d1c-4f54-a970-bc8222cc3090",
                         class: "columns-3-wide",
                         header: "الاختراعات الجراحية",
                         url: "#",
@@ -5957,6 +6140,7 @@ export const content = {
                             "عرض أن ألمّ وكسبت, مع يتمكن الجنوب التجارية مما, أم وبعد اللا والقرى دول. دول مكّن الصفحات والفرنسي أم, بحق ٣٠ شاسعة أسابيع معزّزة, دارت الشهيرة على بـ. قد المسرح أوروبا الضروري وقد, شدّت للحكومة حول كل. أما حاول أثره، الإطلاق قد. يتم عن الحكم المحيط مقاومة.",
                     },
                     {
+                        id: "7213a42c-c2eb-486a-bb2e-b59f6667fb4a",
                         class: "columns-3-narrow",
                         header: "الرعاية الطبية",
                         url: "#",
@@ -5975,6 +6159,7 @@ export const content = {
                             "غير بفرض إستعمل ليتسنّى ٣٠, كلّ ديسمبر بالمطالبة ثم. أم تعداد لأداء العالمية الى, هنا؟ أسيا وبالرغم أضف في. تسمّى فهرست باستخدام هذه أي, عن حين غضون مدينة أعلنت, إحتار التجارية الا بل. من رئيس واُسدل شيء, بشكل شمال بشرية بـ جُل, عدم ألمّ الأمم العظمى في. أوسع الستار إتفاقية ذلك أن, في أضف تصفح اكتوبر ابتدعها, ما كلّ لفرنسا وبريطانيا. حول إبّان بتحدّي لبولندا، ما, إذ حيث أراض الربيع، الواقعة. بعد هو الجو نهاية المارق, مكثّفة مقاومة ٣٠ وتم.",
                     },
                     {
+                        id: "9323f56f-d3b3-4b86-bd4c-014392b62272",
                         class: "columns-3-narrow",
                         header: "دواء",
                         url: "#",
@@ -5999,6 +6184,7 @@ export const content = {
                 name: "أحدث مقاطع الفيديو",
                 articles: [
                     {
+                        id: "c1f811ca-284b-4e7b-9bfb-bb5a7c72211d",
                         class: "columns-1",
                         type: "grid",
                         content: [
@@ -6067,6 +6253,7 @@ export const content = {
                 name: "تعليمية",
                 articles: [
                     {
+                        id: "c2dc8f88-8a0a-4a3f-aadd-a5f83e291081",
                         class: "columns-1",
                         type: "grid",
                         display: "grid-wrap",
@@ -6160,6 +6347,7 @@ export const content = {
                 name: "لياقة بدنية",
                 articles: [
                     {
+                        id: "4e6716eb-0430-49b0-9d95-352333d760a0",
                         class: "columns-wrap",
                         header: "حرق السعرات الحرارية الخاصة بك",
                         type: "excerpt",
@@ -6194,6 +6382,7 @@ export const content = {
                         ],
                     },
                     {
+                        id: "056698a8-0ac8-4342-9e67-25993d574866",
                         class: "columns-wrap",
                         header: "مفضلات الصالة الرياضية",
                         type: "excerpt",
@@ -6228,6 +6417,7 @@ export const content = {
                         ],
                     },
                     {
+                        id: "389c5495-b37c-423f-8950-a1845317e41c",
                         class: "columns-wrap",
                         header: "بيلاتيس",
                         type: "excerpt",
@@ -6268,6 +6458,7 @@ export const content = {
                 name: "خطوط إرشاد",
                 articles: [
                     {
+                        id: "9a1282a2-e227-4d96-8f3e-99c580f2939a",
                         class: "columns-3-balanced",
                         header: "الصحة بعد 50",
                         type: "articles-list",
@@ -6288,6 +6479,7 @@ export const content = {
                         ],
                     },
                     {
+                        id: "7b268ec3-8ac2-42fc-ab0f-ac650d2493f1",
                         class: "columns-3-balanced",
                         header: "قلب صحي",
                         type: "articles-list",
@@ -6309,6 +6501,7 @@ export const content = {
                         ],
                     },
                     {
+                        id: "f3907983-9885-4211-8878-0f85750bbaa7",
                         class: "columns-3-balanced",
                         header: "الجهاز الهضمي الصحي",
                         type: "articles-list",
@@ -6336,6 +6529,7 @@ export const content = {
                 name: "يؤكد",
                 articles: [
                     {
+                        id: "851b619c-0d4b-478a-8991-d39394660b96",
                         class: "columns-2-balanced",
                         header: "هذا أولا",
                         type: "grid",
@@ -6375,6 +6569,7 @@ export const content = {
                         ],
                     },
                     {
+                        id: "1080c9e5-4d40-4b28-9398-c03c9f94c74e",
                         class: "columns-2-balanced",
                         header: "هذا الثاني",
                         type: "grid",
@@ -6420,6 +6615,7 @@ export const content = {
                 name: "ما الذي تريد أن تأكله",
                 articles: [
                     {
+                        id: "8ed51654-db6a-4826-bd1c-25213bc4200b",
                         class: "columns-wrap",
                         header: "الكربوهيدرات منخفضة",
                         type: "excerpt",
@@ -6454,6 +6650,7 @@ export const content = {
                         ],
                     },
                     {
+                        id: "692a6213-1024-4d3e-8e6d-34aed2bb3616",
                         class: "columns-wrap",
                         header: "نباتي",
                         type: "excerpt",
@@ -6488,6 +6685,7 @@ export const content = {
                         ],
                     },
                     {
+                        id: "f264a46c-4e7e-4c9f-bf04-d4ed1fa6639a",
                         class: "columns-wrap",
                         header: "إفطار",
                         type: "excerpt",
@@ -6528,6 +6726,7 @@ export const content = {
                 name: "مواضيع مثيرة",
                 articles: [
                     {
+                        id: "dde55759-06c6-46bc-9f16-bed37ae3d77f",
                         class: "columns-2-balanced",
                         header: "هذا أولا",
                         type: "grid",
@@ -6567,6 +6766,7 @@ export const content = {
                         ],
                     },
                     {
+                        id: "17f26d05-24ef-4a12-80b0-611a43449aae",
                         class: "columns-2-balanced",
                         header: "هذا الثاني",
                         type: "grid",
@@ -6612,6 +6812,7 @@ export const content = {
                 name: "المحتوى المدفوع",
                 articles: [
                     {
+                        id: "cbaac182-d046-43ee-b6d7-41a382e959ad",
                         class: "columns-4-balanced",
                         type: "preview",
                         content: [
@@ -6627,6 +6828,7 @@ export const content = {
                         ],
                     },
                     {
+                        id: "ae883d3e-ef62-4f6e-ac2d-5555ca35f11a",
                         class: "columns-4-balanced",
                         type: "preview",
                         content: [
@@ -6642,6 +6844,7 @@ export const content = {
                         ],
                     },
                     {
+                        id: "d8f20994-0098-4367-bc3a-131faa8f768d",
                         class: "columns-4-balanced",
                         type: "preview",
                         content: [
@@ -6657,6 +6860,7 @@ export const content = {
                         ],
                     },
                     {
+                        id: "51f4b351-5916-4422-b661-61b65b911ee5",
                         class: "columns-4-balanced",
                         type: "preview",
                         content: [
