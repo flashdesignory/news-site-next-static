@@ -3,6 +3,7 @@ import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import Page from "@/partials/page/page";
 import Head from "next/head";
 import { DataContextProvider } from "@/context/data-context";
+import Script from "next/script";
 
 export default function App() {
     return (
@@ -26,6 +27,7 @@ export default function App() {
                     </Routes>
                 </Router>
             </DataContextProvider>
+            <Script src="./speedo.js" />
         </>
     );
 }
