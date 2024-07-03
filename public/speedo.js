@@ -8,7 +8,7 @@ window.onmessage = async (event) => {
 
     const { name } = event.data;
 
-    const testFunction = new Function(`return ${ event.data.fn}`)();
+    const testFunction = new Function(`return ${event.data.fn}`)();
     if (testFunction) {
         requestAnimationFrame(() => {
             performance.mark(`${name}-start`);
