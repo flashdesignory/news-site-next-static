@@ -1,8 +1,8 @@
 import classNames from "classnames";
 
-import { useLocalStorage } from "@/hooks/use-local-storage";
 import Toggle from "../toggle/toggle";
 import { useDataContext } from "@/context/data-context";
+import { useLocalStorage } from "@/hooks/use-local-storage";
 
 import styles from "news-site-css/dist/dialog.module.css";
 

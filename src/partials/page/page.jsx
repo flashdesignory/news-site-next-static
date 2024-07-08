@@ -6,7 +6,6 @@ import Section from "../section/section";
 import Toast from "@/components/toast/toast";
 
 import { useDataContext } from "@/context/data-context";
-
 import { useLocalStorage } from "@/hooks/use-local-storage";
 
 export default function Page({ id }) {
