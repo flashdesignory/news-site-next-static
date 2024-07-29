@@ -1,5 +1,7 @@
 # The Daily Broadcast
 
+This repository is no longer maintained. Please visite [benchmark-workloads](https://github.com/GoogleChromeLabs/benchmark-workloads) for the most up-to-date version.
+
 [![pages-build-deployment](https://github.com/flashdesignory/news-site-next-static/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/flashdesignory/news-site-next-static/actions/workflows/pages/pages-build-deployment)
 
 ## Preview
